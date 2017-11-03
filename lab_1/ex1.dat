@@ -1,0 +1,115 @@
+param nbutik := 4;
+param ngross := 3;
+param nbrygg := 2;
+param nmatr := 2;
+param nfpack := 2;
+param nlager := 3;
+
+param tomkost := 2;
+param fullkost := 3;
+param lagkost := 1;
+param bristkost := 99999999;
+param matrkop := 1;
+param maxlager := 4;
+
+param : behov :=
+1 100
+2 100
+3 100
+4 100;
+param : netto :=
+1 1
+2 2
+3 1
+4 2;
+
+param : gkaptom :=
+1 500
+2 500
+3 500;
+param : gkapfull :=
+1 500
+2 500
+3 500;
+
+param : bkaptom :=
+1 500
+2 500;
+param : bkapfull :=
+1 500
+2 500;
+
+param : lkaptom :=
+1 700
+2 700
+3 700;
+
+param : fkostG :=
+1 100
+2 100
+3 100;
+param : fkostB :=
+1 30
+2 10;
+
+param : fkostL :=
+1 300
+2 100
+3 200;
+
+param faktR := 0.7;
+param faktM := 0.9;
+param faktF := 1.5;
+
+param distBuG : 1  2  3 :=
+            1  10 13 22
+            2  13 13 26
+            3  20 23 29
+            4  17 23 12;
+
+param distBuB : 1  2 :=
+            1  20 43
+            2  33 53
+            3  40 23
+            4  17 23;
+
+param : distGR :=
+1 12
+2 22
+3 14;
+
+param : distBR :=
+1 23
+2 15;
+
+param distTB :  1  2  :=
+            1  20 33
+            2  33 26;
+
+param distGB :  1  2 :=
+            1  20 22
+            2  33 26
+            3  40 29;
+
+param : distRM :=
+1 23
+2 18;
+
+param distMT :  1  2 :=
+           1   20 43
+           2   33 53;
+
+param distBuL : 1  2  3  :=
+           1  10 13 22
+           2  13 13 26
+           3  20 23 29
+           4  17 23 12;
+
+param : distLR :=
+1 23
+2 15
+3 16;
+
+
+end;
+T
