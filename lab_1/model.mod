@@ -1,3 +1,7 @@
+/*
+Made by Adnan Avdagic, Carl-Martin Johansson and Joel Runesson
+*/
+
 param nbutik;
 param ngross;
 param nbrygg;
