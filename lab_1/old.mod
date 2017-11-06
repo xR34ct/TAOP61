@@ -69,26 +69,22 @@ param cost_L{i in BUTIK, l in LAGER} :=
 param nytt_matr{i in BUTIK} :=
     behov[i] / (faktM * faktF) - pant[i] * faktR;
 
-param tot_nytt_matr :=
-    totalbehov / (faktM * faktF) - tot_pant * faktR;
-
 #Kostnaden att skicka en enhet från Returpack till en butik via bryggerier & grossister
 param cost_BGBu{i in BUTIK, m in MATR, n in FPACK, k in BRYGG, j in GROSS} :=
-    fullkost * (distRM[m]/(faktM * faktF) + distMT[m,n] / faktF + distTB[n,k] + distGB[j,k] + distBuG[i,j]);
+    fullkost * ((distRM[m]/(faktM * faktF) + distMT[m,n] / faktF) + distTB[n,k] + distGB[j,k] + distBuG[i,j]);
 
 #Kostnaden att skicka en enhet från Returpack till en butik via bryggerier
 param cost_BBu{i in BUTIK, m in MATR, n in FPACK, k in BRYGG} :=
-    fullkost * (distRM[m]/(faktM * faktF) + distMT[m,n] / faktF + distTB[n,k] + distBuB[i,k]);
+    fullkost * ((distRM[m]/(faktM * faktF) -
+    nytt_matr[i]) + distMT[m,n] / faktF + distTB[n,k] + distBuB[i,k]);
 
-#Kostnaden att skicka ett material från materialtillverkaren till en butik via bryggerier & grossister
 param cost_nytt_matr_BGBu{i in BUTIK, m in MATR, n in FPACK, k in BRYGG, j in GROSS} :=
-    fullkost * (distMT[m,n] / faktF + distTB[n,k] + distGB[j,k] + distBuG[i,j]) + matrkop;
+    fullkost * (distMT[m,n] / faktF + distTB[n,k] + distGB[j,k] + distBuG[i,j]);
 
-#Kostnaden att skicka ett material från materialtillverkaren till en butik via bryggerier
 param cost_nytt_matr_BBu{i in BUTIK, m in MATR, n in FPACK, k in BRYGG} :=
-    fullkost * (distMT[m,n] / faktF + distTB[n,k] + distBuB[i,k]) + matrkop;
+    fullkost * (distMT[m,n] / faktF + distTB[n,k] + distBuB[i,k]);
 
-param omv_RB := faktM * faktF;
+param omv_RB := faktR * faktM * faktF;
 
 var nburk_G{i in BUTIK,j in GROSS} >= 0;
 var nburk_B{i in BUTIK,k in BRYGG} >= 0;
@@ -115,38 +111,36 @@ sum{i in BUTIK, l in LAGER}
     (fkostL[l] * 10 * bin_L[l] + cost_L[i,l] * nburk_L[i,l])
     +
 sum{i in BUTIK, m in MATR, n in FPACK, k in BRYGG, j in GROSS}
-    (cost_BGBu[i,m,n,k,j] * nburk_BGBu[i,m,n,k,j] + cost_nytt_matr_BGBu[i,m,n,k,j] * nnytt_matr_BGBu[i,m,n,k,j]) * omv_RB
+    (cost_BGBu[i,m,n,k,j] * (nburk_BGBu[i,m,n,k,j] * omv_RB))
     +
 sum{i in BUTIK, m in MATR, n in FPACK, k in BRYGG}
-    (cost_BBu[i,m,n,k] * nburk_BBu[i,m,n,k] + cost_nytt_matr_BBu[i,m,n,k] * nnytt_matr_BBu[i,m,n,k]) * omv_RB;
-#    +
-#sum{i in BUTIK, m in MATR, n in FPACK, k in BRYGG, j in GROSS}
-#    (cost_nytt_matr_BGBu[i,m,n,k,j] * nnytt_matr_BGBu[i,m,n,k,j] * faktM * faktF)
-#    +
-#sum{i in BUTIK, m in MATR, n in FPACK, k in BRYGG}
-#    (cost_nytt_matr_BBu[i,m,n,k] * nnytt_matr_BBu[i,m,n,k] * faktM * faktF);
+    (cost_BBu[i,m,n,k] * (nburk_BBu[i,m,n,k] * omv_RB))
+    +
+sum{i in BUTIK, m in MATR, n in FPACK, k in BRYGG, j in GROSS}
+    (cost_nytt_matr_BGBu[i,m,n,k,j] * nnytt_matr_BGBu[i,m,n,k,j] * faktM * faktF)
+    +
+sum{i in BUTIK, m in MATR, n in FPACK, k in BRYGG}
+    (cost_nytt_matr_BBu[i,m,n,k] * nnytt_matr_BBu[i,m,n,k] * faktM * faktF);
 
 s.t. pant_tot{i in BUTIK}:
     sum{j in GROSS} nburk_G[i,j] +
     sum{k in BRYGG} nburk_B[i,k] +
     sum{l in LAGER} nburk_L[i,l] = pant[i];
 s.t. sent_G{j in GROSS}:
-    bin_G[j] * gkaptom[j] - sum{i in BUTIK} nburk_G[i,j] >= 0;
+    bin_G[j] * gkaptom[j] - sum{i in BUTIK} nburk_G[i,j] <= 0;
 s.t. sent_B{k in BRYGG}:
     bin_B[k] * bkaptom[k] - sum{i in BUTIK} nburk_B[i,k] >= 0;
 s.t. sent_L{l in LAGER}:
     bin_L[l] * lkaptom[l] - sum{i in BUTIK} nburk_L[i,l] >= 0;
-s.t. sent_R{i in BUTIK}:
-    sum{/*i in BUTIK,*/m in MATR,n in FPACK, k in BRYGG, j in GROSS} nburk_BGBu[i,m,n,k,j] +
-    sum{/*i in BUTIK,*/m in MATR,n in FPACK, k in BRYGG} nburk_BBu[i,m,n,k] = faktR * /*tot_pant;*/pant[i];
-#s.t. tot_behov:
-#    omv_RB * (sum{i in BUTIK,m in MATR,n in FPACK,k in BRYGG,j in GROSS} (nburk_BGBu[i,m,n,k,j] + nnytt_matr_BGBu[i,m,n,k,j]) + sum{i in BUTIK,m in MATR,n in FPACK,k in BRYGG} (nburk_BBu[i,m,n,k] + nnytt_matr_BBu[i,m,n,k])) <= totalbehov;
+s.t. sent_R:
+    (sum{i in BUTIK,m in MATR,n in FPACK, k in BRYGG, j in GROSS} nburk_BGBu[i,m,n,k,j] +
+    sum{i in BUTIK,m in MATR,n in FPACK, k in BRYGG} nburk_BBu[i,m,n,k]) = faktR * tot_pant;
 s.t. behov_Bu{i in BUTIK}:
-     omv_RB * (sum{m in MATR,n in FPACK,k in BRYGG,j in GROSS} (nburk_BGBu[i,m,n,k,j] + nnytt_matr_BGBu[i,m,n,k,j]) + sum{m in MATR,n in FPACK,k in BRYGG} (nburk_BBu[i,m,n,k] + nnytt_matr_BBu[i,m,n,k])) <= behov[i];
+    behov[i] - (sum{m in MATR,n in FPACK,k in BRYGG,j in GROSS} (nburk_BGBu[i,m,n,k,j] + nnytt_matr_BGBu[i,m,n,k,j]) + sum{m in MATR,n in FPACK,k in BRYGG} (nburk_BBu[i,m,n,k] + nnytt_matr_BBu[i,m,n,k])) >= 0;
 s.t. tot_lager:
     sum{l in LAGER} bin_L[l] <= maxlager;
 s.t. bought_matr{i in BUTIK}:
-    sum{/*i in BUTIK,*/m in MATR,n in FPACK,k in BRYGG,j in GROSS} nnytt_matr_BGBu[i,m,n,k,j] + sum{/*i in BUTIK,*/m in MATR,n in FPACK,k in BRYGG} nnytt_matr_BBu[i,m,n,k] = /*tot_nytt_matr;*/nytt_matr[i];
+    nytt_matr[i] - (sum{m in MATR,n in FPACK,k in BRYGG,j in GROSS} nnytt_matr_BGBu[i,m,n,k,j] + sum{m in MATR,n in FPACK,k in BRYGG} nnytt_matr_BBu[i,m,n,k]) >= 0;
 
 #Fixa s.t. behov_Bu och s.t. bought_matr
 
