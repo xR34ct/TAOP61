@@ -84,14 +84,6 @@ param cost_BGBu{i in BUTIK, m in MATR, n in FPACK, k in BRYGG, j in GROSS} :=
 param cost_BBu{i in BUTIK, m in MATR, n in FPACK, k in BRYGG} :=
     fullkost * (distRM[m]/(faktM * faktF) + distMT[m,n] / faktF + distTB[n,k] + distBuB[i,k]);
 
-#Kostnaden att skicka ett material från materialtillverkaren till en butik via bryggerier & grossister
-param cost_nytt_matr_BGBu{i in BUTIK, m in MATR, n in FPACK, k in BRYGG, j in GROSS} :=
-    fullkost * (distMT[m,n] / faktF + distTB[n,k] + distGB[j,k] + distBuG[i,j]) + matrkop;
-
-#Kostnaden att skicka ett material från materialtillverkaren till en butik via bryggerier
-param cost_nytt_matr_BBu{i in BUTIK, m in MATR, n in FPACK, k in BRYGG} :=
-    fullkost * (distMT[m,n] / faktF + distTB[n,k] + distBuB[i,k]) + matrkop;
-
 param omv_RB := faktM * faktF;
 
 var nburk_GR{i in BUTIK,j in GROSS} >= 0;
@@ -125,18 +117,12 @@ sum{i in BUTIK, l in LAGER}
 
 #Rörliga kostnader efter Returpack
     fullkost * (
-sum{m in MATR}
-    (distRM[m] * nburk_RM[m]) +
-sum{m in MATR, n in FPACK}
-    (distMT[m,n] * nburk_MT[m,n]) +
-sum{n in FPACK, k in BRYGG}
-    (distTB[n,k] * nburk_TB[n,k]) +
-sum{j in GROSS, k in BRYGG}
-    (distGB[j,k] * nburk_BG[k,j]) +
-sum{i in BUTIK, j in GROSS}
-    (distBuG[i,j] * nburk_GBu[j,i]) +
-sum{i in BUTIK, k in BRYGG}
-    (distBuB[i,k] * nburk_BBu[k,i])) +
+sum{m in MATR} (distRM[m] * nburk_RM[m]) +
+sum{m in MATR, n in FPACK} (distMT[m,n] * nburk_MT[m,n]) +
+sum{n in FPACK, k in BRYGG} (distTB[n,k] * nburk_TB[n,k]) +
+sum{j in GROSS, k in BRYGG} (distGB[j,k] * nburk_BG[k,j]) +
+sum{i in BUTIK, j in GROSS} (distBuG[i,j] * nburk_GBu[j,i]) +
+sum{i in BUTIK, k in BRYGG} (distBuB[i,k] * nburk_BBu[k,i])) +
 
 
 #Fasta kostnader till Raturpack
@@ -164,9 +150,9 @@ s.t. sent_LR{l in LAGER}:
 
 
 s.t. tot_lager:
-    sum{l in LAGER} bin_L[l] - maxlager <= 0;
+    0 <=sum{l in LAGER} bin_L[l] <= maxlager;
 s.t. bought_matr:
-    sum{m in MATR} nnytt_matr[m] - tot_nytt_matr >= 0;
+    /*0 <=*/ sum{m in MATR} nnytt_matr[m]  = tot_nytt_matr;
 
 
 s.t. sent_RM:
@@ -199,8 +185,11 @@ display nburk_BG;
 display nburk_GBu;
 display nburk_BBu;
 display nnytt_matr;
+#display 
 
-#kolal varför förp[2] skickar när den ej får något
+display cost;
+
+#Fixa cost
 
 
 printf "%d butiker, %d grossister, %d bryggerier, %d lager.\n",nbutik,ngross,nbrygg,nlager;
