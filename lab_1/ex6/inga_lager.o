@@ -1,0 +1,96 @@
+GLPSOL: GLPK LP/MIP Solver, v4.52
+Parameter(s) specified in the command line:
+ -m inga_lager.mod -d ex6/ex6.dat -o ex6/inga_lager.txt
+Reading model section from inga_lager.mod...
+215 lines were read
+Reading data section from ex6/ex6.dat...
+3290 lines were read
+Generating cost...
+Generating pant_tot...
+Generating sent_GR...
+Generating sent_BR...
+Generating sent_LR...
+Generating tot_lager...
+Generating bought_matr...
+Generating sent_RM...
+Generating sent_MT...
+Generating sent_TB...
+Generating sent_BG...
+Generating sent_GBu...
+Generating sent_BBu...
+Generating from_B...
+Generating from_G...
+Generating sent_to_BUTIK...
+Generating variable_costs...
+Generating fixed_costs...
+Generating material_costs...
+Model has been successfully generated
+GLPK Integer Optimizer, v4.52
+260 rows, 4108 columns, 13926 non-zeros
+25 integer variables, all of which are binary
+Preprocessing...
+246 rows, 3105 columns, 7815 non-zeros
+25 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  9.000e-01  max|aij| =  5.830e+02  ratio =  6.478e+02
+GM: min|aij| =  6.687e-01  max|aij| =  1.495e+00  ratio =  2.236e+00
+EQ: min|aij| =  4.472e-01  max|aij| =  1.000e+00  ratio =  2.236e+00
+2N: min|aij| =  5.000e-01  max|aij| =  1.500e+00  ratio =  3.000e+00
+Constructing initial basis...
+Size of triangular part is 245
+Solving LP relaxation...
+GLPK Simplex Optimizer, v4.52
+246 rows, 3105 columns, 7815 non-zeros
+      0: obj =   1.754609160e+06  infeas =  2.166e+04 (1)
+*   211: obj =   4.873472528e+06  infeas =  1.030e-13 (0)
+*   500: obj =   2.848405307e+06  infeas =  7.105e-15 (0)
+*   804: obj =   2.424740501e+06  infeas =  0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
++   804: mip =     not found yet >=              -inf        (1; 0)
++   837: >>>>>   2.424744449e+06 >=   2.424744449e+06 < 0.1% (3; 0)
++   837: mip =   2.424744449e+06 >=     tree is empty   0.0% (0; 5)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 6.4 Mb (6752183 bytes)
+Display statement at line 199
+bin_GR[1].val = 1
+bin_GR[2].val = 1
+bin_GR[3].val = 1
+bin_GR[4].val = 1
+bin_GR[5].val = 1
+bin_GR[6].val = 1
+bin_GR[7].val = 1
+bin_GR[8].val = 1
+bin_GR[9].val = 1
+bin_GR[10].val = 1
+Display statement at line 200
+bin_BR[1].val = 0
+bin_BR[2].val = 1
+bin_BR[3].val = 1
+bin_BR[4].val = 1
+bin_BR[5].val = 1
+Display statement at line 201
+bin_LR[1].val = 0
+bin_LR[2].val = 0
+bin_LR[3].val = 0
+bin_LR[4].val = 0
+bin_LR[5].val = 0
+bin_LR[6].val = 0
+bin_LR[7].val = 0
+bin_LR[8].val = 0
+bin_LR[9].val = 0
+bin_LR[10].val = 0
+Display statement at line 203
+f_cost.val = 116
+Display statement at line 204
+m_cost.val = 401.026666666667
+Display statement at line 205
+v_cost.val = 2424227.42222222
+Display statement at line 206
+cost.val = 2424744.44888889
+100 butiker, 10 grossister, 5 bryggerier, 10 lager.
+3 matr, 3 fpack.
+Totalt behov 6109, spill 281.
+Model has been successfully processed
+Writing MIP solution to `ex6/inga_lager.txt'...

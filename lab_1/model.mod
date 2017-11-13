@@ -103,32 +103,6 @@ var bin_LR{l in LAGER} binary;
 
 
 minimize cost: v_cost + f_cost + m_cost;
-/*
-#Rörliga kostnader till Returpack
-tomkost * (sum{i in BUTIK, j in GROSS}
-    (cost_G[i,j] * nburk_GR[i,j]) +
-sum{i in BUTIK, k in BRYGG}
-    (cost_B[i,k] * nburk_BR[i,k])) +
-lagkost * sum{i in BUTIK, l in LAGER}
-    (cost_L[i,l] * nburk_LR[i,l]) +
-
-#Rörliga kostnader efter Returpack
-    fullkost * (
-sum{m in MATR} (distRM[m] * nburk_RM[m]) +
-sum{m in MATR, n in FPACK} (distMT[m,n] * nburk_MT[m,n]) +
-sum{n in FPACK, k in BRYGG} (distTB[n,k] * nburk_TB[n,k]) +
-sum{j in GROSS, k in BRYGG} (distGB[j,k] * nburk_BG[k,j]) +
-sum{i in BUTIK, j in GROSS} (distBuG[i,j] * nburk_GBu[j,i]) +
-sum{i in BUTIK, k in BRYGG} (distBuB[i,k] * nburk_BBu[k,i])) +
-
-
-#Fasta kostnader till Returpack
-sum{j in GROSS} (fkostG[j] * bin_G[j]) +
-sum{k in BRYGG} (fkostB[k] * bin_B[k]) +
-sum{l in LAGER} (fkostL[l] * 10 * bin_L[l]) +
-
-#Fasta kostnader efter Returpack
-sum{m in MATR} nnytt_matr[m] * matrkop;*/
 
 
 s.t. pant_tot{i in BUTIK}:

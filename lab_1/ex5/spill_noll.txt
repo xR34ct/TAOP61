@@ -1,0 +1,1014 @@
+Problem:    spill_noll
+Rows:       78
+Columns:    454 (12 integer, 12 binary)
+Non-zeros:  1559
+Status:     INTEGER OPTIMAL
+Objective:  cost = 362777.0433 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 cost                   362777                             
+     2 pant_tot[1]                44            44             = 
+     3 pant_tot[2]                85            85             = 
+     4 pant_tot[3]                43            43             = 
+     5 pant_tot[4]                67            67             = 
+     6 pant_tot[5]                30            30             = 
+     7 pant_tot[6]               107           107             = 
+     8 pant_tot[7]                59            59             = 
+     9 pant_tot[8]                90            90             = 
+    10 pant_tot[9]                25            25             = 
+    11 pant_tot[10]               24            24             = 
+    12 pant_tot[11]               48            48             = 
+    13 pant_tot[12]               52            52             = 
+    14 pant_tot[13]               75            75             = 
+    15 pant_tot[14]               16            16             = 
+    16 pant_tot[15]               99            99             = 
+    17 pant_tot[16]              100           100             = 
+    18 pant_tot[17]               27            27             = 
+    19 pant_tot[18]               13            13             = 
+    20 pant_tot[19]               62            62             = 
+    21 pant_tot[20]               37            37             = 
+    22 sent_GR[1]                  0            -0               
+    23 sent_GR[2]                  0            -0               
+    24 sent_GR[3]                  0            -0               
+    25 sent_GR[4]                  0            -0               
+    26 sent_GR[5]                  0            -0               
+    27 sent_BR[1]                  0            -0               
+    28 sent_BR[2]                  0            -0               
+    29 sent_BR[3]                  0            -0               
+    30 sent_LR[1]                590            -0               
+    31 sent_LR[2]                  0            -0               
+    32 sent_LR[3]                224            -0               
+    33 sent_LR[4]                  0            -0               
+    34 tot_lager                   2             0             4 
+    35 bought_matr           40.4433             0        44.937 
+    36 sent_RM                 772.1         772.1             = 
+    37 sent_MT[1]                  0            -0             = 
+    38 sent_MT[2]                  0            -0             = 
+    39 sent_MT[3]                  0            -0             = 
+    40 sent_TB[1]                  0            -0             = 
+    41 sent_TB[2]                  0            -0             = 
+    42 sent_TB[3]                  0            -0             = 
+    43 sent_BG[1]                973            -0               
+    44 sent_BG[2]                 30            -0               
+    45 sent_BG[3]                100            -0               
+    46 sent_GBu[1]                 0            -0               
+    47 sent_GBu[2]                 0            -0               
+    48 sent_GBu[3]                 0            -0               
+    49 sent_GBu[4]                 0            -0               
+    50 sent_GBu[5]                 0            -0               
+    51 sent_BBu[1]                 0            -0               
+    52 sent_BBu[2]                 0            -0               
+    53 sent_BBu[3]                 0            -0               
+    54 from_B                      0            -0             = 
+    55 from_G                      0            -0             = 
+    56 sent_to_BUTIK[1]
+                                  44            44             = 
+    57 sent_to_BUTIK[2]
+                                  85            85             = 
+    58 sent_to_BUTIK[3]
+                                  43            43             = 
+    59 sent_to_BUTIK[4]
+                                  67            67             = 
+    60 sent_to_BUTIK[5]
+                                  30            30             = 
+    61 sent_to_BUTIK[6]
+                                 107           107             = 
+    62 sent_to_BUTIK[7]
+                                  59            59             = 
+    63 sent_to_BUTIK[8]
+                                  90            90             = 
+    64 sent_to_BUTIK[9]
+                                  25            25             = 
+    65 sent_to_BUTIK[10]
+                                  24            24             = 
+    66 sent_to_BUTIK[11]
+                                  48            48             = 
+    67 sent_to_BUTIK[12]
+                                  52            52             = 
+    68 sent_to_BUTIK[13]
+                                  75            75             = 
+    69 sent_to_BUTIK[14]
+                                  16            16             = 
+    70 sent_to_BUTIK[15]
+                                  99            99             = 
+    71 sent_to_BUTIK[16]
+                                 100           100             = 
+    72 sent_to_BUTIK[17]
+                                  27            27             = 
+    73 sent_to_BUTIK[18]
+                                  13            13             = 
+    74 sent_to_BUTIK[19]
+                                  62            62             = 
+    75 sent_to_BUTIK[20]
+                                  37            37             = 
+    76 variable_costs
+                                   0            -0             = 
+    77 fixed_costs                 0            -0             = 
+    78 material_costs
+                                   0            -0             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 nburk_GR[1,1]
+                                   0             0               
+     2 nburk_GR[1,2]
+                                   0             0               
+     3 nburk_GR[1,3]
+                                   0             0               
+     4 nburk_GR[1,4]
+                                   0             0               
+     5 nburk_GR[1,5]
+                                   0             0               
+     6 nburk_GR[2,1]
+                                   0             0               
+     7 nburk_GR[2,2]
+                                   0             0               
+     8 nburk_GR[2,3]
+                                   0             0               
+     9 nburk_GR[2,4]
+                                   0             0               
+    10 nburk_GR[2,5]
+                                   0             0               
+    11 nburk_GR[3,1]
+                                   0             0               
+    12 nburk_GR[3,2]
+                                   0             0               
+    13 nburk_GR[3,3]
+                                   0             0               
+    14 nburk_GR[3,4]
+                                   0             0               
+    15 nburk_GR[3,5]
+                                   0             0               
+    16 nburk_GR[4,1]
+                                   0             0               
+    17 nburk_GR[4,2]
+                                   0             0               
+    18 nburk_GR[4,3]
+                                   0             0               
+    19 nburk_GR[4,4]
+                                   0             0               
+    20 nburk_GR[4,5]
+                                   0             0               
+    21 nburk_GR[5,1]
+                                   0             0               
+    22 nburk_GR[5,2]
+                                   0             0               
+    23 nburk_GR[5,3]
+                                   0             0               
+    24 nburk_GR[5,4]
+                                   0             0               
+    25 nburk_GR[5,5]
+                                   0             0               
+    26 nburk_GR[6,1]
+                                   0             0               
+    27 nburk_GR[6,2]
+                                   0             0               
+    28 nburk_GR[6,3]
+                                   0             0               
+    29 nburk_GR[6,4]
+                                   0             0               
+    30 nburk_GR[6,5]
+                                   0             0               
+    31 nburk_GR[7,1]
+                                   0             0               
+    32 nburk_GR[7,2]
+                                   0             0               
+    33 nburk_GR[7,3]
+                                   0             0               
+    34 nburk_GR[7,4]
+                                   0             0               
+    35 nburk_GR[7,5]
+                                   0             0               
+    36 nburk_GR[8,1]
+                                   0             0               
+    37 nburk_GR[8,2]
+                                   0             0               
+    38 nburk_GR[8,3]
+                                   0             0               
+    39 nburk_GR[8,4]
+                                   0             0               
+    40 nburk_GR[8,5]
+                                   0             0               
+    41 nburk_GR[9,1]
+                                   0             0               
+    42 nburk_GR[9,2]
+                                   0             0               
+    43 nburk_GR[9,3]
+                                   0             0               
+    44 nburk_GR[9,4]
+                                   0             0               
+    45 nburk_GR[9,5]
+                                   0             0               
+    46 nburk_GR[10,1]
+                                   0             0               
+    47 nburk_GR[10,2]
+                                   0             0               
+    48 nburk_GR[10,3]
+                                   0             0               
+    49 nburk_GR[10,4]
+                                   0             0               
+    50 nburk_GR[10,5]
+                                   0             0               
+    51 nburk_GR[11,1]
+                                   0             0               
+    52 nburk_GR[11,2]
+                                   0             0               
+    53 nburk_GR[11,3]
+                                   0             0               
+    54 nburk_GR[11,4]
+                                   0             0               
+    55 nburk_GR[11,5]
+                                   0             0               
+    56 nburk_GR[12,1]
+                                   0             0               
+    57 nburk_GR[12,2]
+                                   0             0               
+    58 nburk_GR[12,3]
+                                   0             0               
+    59 nburk_GR[12,4]
+                                   0             0               
+    60 nburk_GR[12,5]
+                                   0             0               
+    61 nburk_GR[13,1]
+                                   0             0               
+    62 nburk_GR[13,2]
+                                   0             0               
+    63 nburk_GR[13,3]
+                                   0             0               
+    64 nburk_GR[13,4]
+                                   0             0               
+    65 nburk_GR[13,5]
+                                   0             0               
+    66 nburk_GR[14,1]
+                                   0             0               
+    67 nburk_GR[14,2]
+                                   0             0               
+    68 nburk_GR[14,3]
+                                   0             0               
+    69 nburk_GR[14,4]
+                                   0             0               
+    70 nburk_GR[14,5]
+                                   0             0               
+    71 nburk_GR[15,1]
+                                   0             0               
+    72 nburk_GR[15,2]
+                                   0             0               
+    73 nburk_GR[15,3]
+                                   0             0               
+    74 nburk_GR[15,4]
+                                   0             0               
+    75 nburk_GR[15,5]
+                                   0             0               
+    76 nburk_GR[16,1]
+                                   0             0               
+    77 nburk_GR[16,2]
+                                   0             0               
+    78 nburk_GR[16,3]
+                                   0             0               
+    79 nburk_GR[16,4]
+                                   0             0               
+    80 nburk_GR[16,5]
+                                   0             0               
+    81 nburk_GR[17,1]
+                                   0             0               
+    82 nburk_GR[17,2]
+                                   0             0               
+    83 nburk_GR[17,3]
+                                   0             0               
+    84 nburk_GR[17,4]
+                                   0             0               
+    85 nburk_GR[17,5]
+                                   0             0               
+    86 nburk_GR[18,1]
+                                   0             0               
+    87 nburk_GR[18,2]
+                                   0             0               
+    88 nburk_GR[18,3]
+                                   0             0               
+    89 nburk_GR[18,4]
+                                   0             0               
+    90 nburk_GR[18,5]
+                                   0             0               
+    91 nburk_GR[19,1]
+                                   0             0               
+    92 nburk_GR[19,2]
+                                   0             0               
+    93 nburk_GR[19,3]
+                                   0             0               
+    94 nburk_GR[19,4]
+                                   0             0               
+    95 nburk_GR[19,5]
+                                   0             0               
+    96 nburk_GR[20,1]
+                                   0             0               
+    97 nburk_GR[20,2]
+                                   0             0               
+    98 nburk_GR[20,3]
+                                   0             0               
+    99 nburk_GR[20,4]
+                                   0             0               
+   100 nburk_GR[20,5]
+                                   0             0               
+   101 nburk_BR[1,1]
+                                   0             0               
+   102 nburk_BR[1,2]
+                                   0             0               
+   103 nburk_BR[1,3]
+                                   0             0               
+   104 nburk_BR[2,1]
+                                   0             0               
+   105 nburk_BR[2,2]
+                                   0             0               
+   106 nburk_BR[2,3]
+                                   0             0               
+   107 nburk_BR[3,1]
+                                   0             0               
+   108 nburk_BR[3,2]
+                                   0             0               
+   109 nburk_BR[3,3]
+                                   0             0               
+   110 nburk_BR[4,1]
+                                   0             0               
+   111 nburk_BR[4,2]
+                                   0             0               
+   112 nburk_BR[4,3]
+                                   0             0               
+   113 nburk_BR[5,1]
+                                   0             0               
+   114 nburk_BR[5,2]
+                                   0             0               
+   115 nburk_BR[5,3]
+                                   0             0               
+   116 nburk_BR[6,1]
+                                   0             0               
+   117 nburk_BR[6,2]
+                                   0             0               
+   118 nburk_BR[6,3]
+                                   0             0               
+   119 nburk_BR[7,1]
+                                   0             0               
+   120 nburk_BR[7,2]
+                                   0             0               
+   121 nburk_BR[7,3]
+                                   0             0               
+   122 nburk_BR[8,1]
+                                   0             0               
+   123 nburk_BR[8,2]
+                                   0             0               
+   124 nburk_BR[8,3]
+                                   0             0               
+   125 nburk_BR[9,1]
+                                   0             0               
+   126 nburk_BR[9,2]
+                                   0             0               
+   127 nburk_BR[9,3]
+                                   0             0               
+   128 nburk_BR[10,1]
+                                   0             0               
+   129 nburk_BR[10,2]
+                                   0             0               
+   130 nburk_BR[10,3]
+                                   0             0               
+   131 nburk_BR[11,1]
+                                   0             0               
+   132 nburk_BR[11,2]
+                                   0             0               
+   133 nburk_BR[11,3]
+                                   0             0               
+   134 nburk_BR[12,1]
+                                   0             0               
+   135 nburk_BR[12,2]
+                                   0             0               
+   136 nburk_BR[12,3]
+                                   0             0               
+   137 nburk_BR[13,1]
+                                   0             0               
+   138 nburk_BR[13,2]
+                                   0             0               
+   139 nburk_BR[13,3]
+                                   0             0               
+   140 nburk_BR[14,1]
+                                   0             0               
+   141 nburk_BR[14,2]
+                                   0             0               
+   142 nburk_BR[14,3]
+                                   0             0               
+   143 nburk_BR[15,1]
+                                   0             0               
+   144 nburk_BR[15,2]
+                                   0             0               
+   145 nburk_BR[15,3]
+                                   0             0               
+   146 nburk_BR[16,1]
+                                   0             0               
+   147 nburk_BR[16,2]
+                                   0             0               
+   148 nburk_BR[16,3]
+                                   0             0               
+   149 nburk_BR[17,1]
+                                   0             0               
+   150 nburk_BR[17,2]
+                                   0             0               
+   151 nburk_BR[17,3]
+                                   0             0               
+   152 nburk_BR[18,1]
+                                   0             0               
+   153 nburk_BR[18,2]
+                                   0             0               
+   154 nburk_BR[18,3]
+                                   0             0               
+   155 nburk_BR[19,1]
+                                   0             0               
+   156 nburk_BR[19,2]
+                                   0             0               
+   157 nburk_BR[19,3]
+                                   0             0               
+   158 nburk_BR[20,1]
+                                   0             0               
+   159 nburk_BR[20,2]
+                                   0             0               
+   160 nburk_BR[20,3]
+                                   0             0               
+   161 nburk_LR[1,1]
+                                  44             0               
+   162 nburk_LR[1,2]
+                                   0             0               
+   163 nburk_LR[1,3]
+                                   0             0               
+   164 nburk_LR[1,4]
+                                   0             0               
+   165 nburk_LR[2,1]
+                                  85             0               
+   166 nburk_LR[2,2]
+                                   0             0               
+   167 nburk_LR[2,3]
+                                   0             0               
+   168 nburk_LR[2,4]
+                                   0             0               
+   169 nburk_LR[3,1]
+                                  43             0               
+   170 nburk_LR[3,2]
+                                   0             0               
+   171 nburk_LR[3,3]
+                                   0             0               
+   172 nburk_LR[3,4]
+                                   0             0               
+   173 nburk_LR[4,1]
+                                   0             0               
+   174 nburk_LR[4,2]
+                                   0             0               
+   175 nburk_LR[4,3]
+                                  67             0               
+   176 nburk_LR[4,4]
+                                   0             0               
+   177 nburk_LR[5,1]
+                                   0             0               
+   178 nburk_LR[5,2]
+                                   0             0               
+   179 nburk_LR[5,3]
+                                  30             0               
+   180 nburk_LR[5,4]
+                                   0             0               
+   181 nburk_LR[6,1]
+                                   0             0               
+   182 nburk_LR[6,2]
+                                   0             0               
+   183 nburk_LR[6,3]
+                                 107             0               
+   184 nburk_LR[6,4]
+                                   0             0               
+   185 nburk_LR[7,1]
+                                   0             0               
+   186 nburk_LR[7,2]
+                                   0             0               
+   187 nburk_LR[7,3]
+                                  59             0               
+   188 nburk_LR[7,4]
+                                   0             0               
+   189 nburk_LR[8,1]
+                                  90             0               
+   190 nburk_LR[8,2]
+                                   0             0               
+   191 nburk_LR[8,3]
+                                   0             0               
+   192 nburk_LR[8,4]
+                                   0             0               
+   193 nburk_LR[9,1]
+                                   0             0               
+   194 nburk_LR[9,2]
+                                   0             0               
+   195 nburk_LR[9,3]
+                                  25             0               
+   196 nburk_LR[9,4]
+                                   0             0               
+   197 nburk_LR[10,1]
+                                   0             0               
+   198 nburk_LR[10,2]
+                                   0             0               
+   199 nburk_LR[10,3]
+                                  24             0               
+   200 nburk_LR[10,4]
+                                   0             0               
+   201 nburk_LR[11,1]
+                                   0             0               
+   202 nburk_LR[11,2]
+                                   0             0               
+   203 nburk_LR[11,3]
+                                  48             0               
+   204 nburk_LR[11,4]
+                                   0             0               
+   205 nburk_LR[12,1]
+                                   0             0               
+   206 nburk_LR[12,2]
+                                   0             0               
+   207 nburk_LR[12,3]
+                                  52             0               
+   208 nburk_LR[12,4]
+                                   0             0               
+   209 nburk_LR[13,1]
+                                   0             0               
+   210 nburk_LR[13,2]
+                                   0             0               
+   211 nburk_LR[13,3]
+                                  75             0               
+   212 nburk_LR[13,4]
+                                   0             0               
+   213 nburk_LR[14,1]
+                                   0             0               
+   214 nburk_LR[14,2]
+                                   0             0               
+   215 nburk_LR[14,3]
+                                  16             0               
+   216 nburk_LR[14,4]
+                                   0             0               
+   217 nburk_LR[15,1]
+                                  99             0               
+   218 nburk_LR[15,2]
+                                   0             0               
+   219 nburk_LR[15,3]
+                                   0             0               
+   220 nburk_LR[15,4]
+                                   0             0               
+   221 nburk_LR[16,1]
+                                 100             0               
+   222 nburk_LR[16,2]
+                                   0             0               
+   223 nburk_LR[16,3]
+                                   0             0               
+   224 nburk_LR[16,4]
+                                   0             0               
+   225 nburk_LR[17,1]
+                                   0             0               
+   226 nburk_LR[17,2]
+                                   0             0               
+   227 nburk_LR[17,3]
+                                  27             0               
+   228 nburk_LR[17,4]
+                                   0             0               
+   229 nburk_LR[18,1]
+                                   0             0               
+   230 nburk_LR[18,2]
+                                   0             0               
+   231 nburk_LR[18,3]
+                                  13             0               
+   232 nburk_LR[18,4]
+                                   0             0               
+   233 nburk_LR[19,1]
+                                   0             0               
+   234 nburk_LR[19,2]
+                                   0             0               
+   235 nburk_LR[19,3]
+                                  62             0               
+   236 nburk_LR[19,4]
+                                   0             0               
+   237 nburk_LR[20,1]
+                                   0             0               
+   238 nburk_LR[20,2]
+                                   0             0               
+   239 nburk_LR[20,3]
+                                  37             0               
+   240 nburk_LR[20,4]
+                                   0             0               
+   241 nburk_RM[1]             772.1             0               
+   242 nburk_RM[2]                 0             0               
+   243 nburk_RM[3]                 0             0               
+   244 nburk_MT[1,1]
+                                  20             0               
+   245 nburk_MT[1,2]
+                                   0             0               
+   246 nburk_MT[1,3]
+                             715.333             0               
+   247 nburk_MT[2,1]
+                                   0             0               
+   248 nburk_MT[2,2]
+                                   0             0               
+   249 nburk_MT[2,3]
+                                   0             0               
+   250 nburk_MT[3,1]
+                                   0             0               
+   251 nburk_MT[3,2]
+                                   0             0               
+   252 nburk_MT[3,3]
+                                   0             0               
+   253 nburk_TB[1,1]
+                                   0             0               
+   254 nburk_TB[1,2]
+                                  30             0               
+   255 nburk_TB[1,3]
+                                   0             0               
+   256 nburk_TB[2,1]
+                                   0             0               
+   257 nburk_TB[2,2]
+                                   0             0               
+   258 nburk_TB[2,3]
+                                   0             0               
+   259 nburk_TB[3,1]
+                                 973             0               
+   260 nburk_TB[3,2]
+                                   0             0               
+   261 nburk_TB[3,3]
+                                 100             0               
+   262 nburk_BG[1,1]
+                                   0             0               
+   263 nburk_BG[1,2]
+                                   0             0               
+   264 nburk_BG[1,3]
+                                   0             0               
+   265 nburk_BG[1,4]
+                                   0             0               
+   266 nburk_BG[1,5]
+                                   0             0               
+   267 nburk_BG[2,1]
+                                   0             0               
+   268 nburk_BG[2,2]
+                                   0             0               
+   269 nburk_BG[2,3]
+                                   0             0               
+   270 nburk_BG[2,4]
+                                   0             0               
+   271 nburk_BG[2,5]
+                                   0             0               
+   272 nburk_BG[3,1]
+                                   0             0               
+   273 nburk_BG[3,2]
+                                   0             0               
+   274 nburk_BG[3,3]
+                                   0             0               
+   275 nburk_BG[3,4]
+                                   0             0               
+   276 nburk_BG[3,5]
+                                   0             0               
+   277 nburk_GBu[1,1]
+                                   0             0               
+   278 nburk_GBu[1,2]
+                                   0             0               
+   279 nburk_GBu[1,3]
+                                   0             0               
+   280 nburk_GBu[1,4]
+                                   0             0               
+   281 nburk_GBu[1,5]
+                                   0             0               
+   282 nburk_GBu[1,6]
+                                   0             0               
+   283 nburk_GBu[1,7]
+                                   0             0               
+   284 nburk_GBu[1,8]
+                                   0             0               
+   285 nburk_GBu[1,9]
+                                   0             0               
+   286 nburk_GBu[1,10]
+                                   0             0               
+   287 nburk_GBu[1,11]
+                                   0             0               
+   288 nburk_GBu[1,12]
+                                   0             0               
+   289 nburk_GBu[1,13]
+                                   0             0               
+   290 nburk_GBu[1,14]
+                                   0             0               
+   291 nburk_GBu[1,15]
+                                   0             0               
+   292 nburk_GBu[1,16]
+                                   0             0               
+   293 nburk_GBu[1,17]
+                                   0             0               
+   294 nburk_GBu[1,18]
+                                   0             0               
+   295 nburk_GBu[1,19]
+                                   0             0               
+   296 nburk_GBu[1,20]
+                                   0             0               
+   297 nburk_GBu[2,1]
+                                   0             0               
+   298 nburk_GBu[2,2]
+                                   0             0               
+   299 nburk_GBu[2,3]
+                                   0             0               
+   300 nburk_GBu[2,4]
+                                   0             0               
+   301 nburk_GBu[2,5]
+                                   0             0               
+   302 nburk_GBu[2,6]
+                                   0             0               
+   303 nburk_GBu[2,7]
+                                   0             0               
+   304 nburk_GBu[2,8]
+                                   0             0               
+   305 nburk_GBu[2,9]
+                                   0             0               
+   306 nburk_GBu[2,10]
+                                   0             0               
+   307 nburk_GBu[2,11]
+                                   0             0               
+   308 nburk_GBu[2,12]
+                                   0             0               
+   309 nburk_GBu[2,13]
+                                   0             0               
+   310 nburk_GBu[2,14]
+                                   0             0               
+   311 nburk_GBu[2,15]
+                                   0             0               
+   312 nburk_GBu[2,16]
+                                   0             0               
+   313 nburk_GBu[2,17]
+                                   0             0               
+   314 nburk_GBu[2,18]
+                                   0             0               
+   315 nburk_GBu[2,19]
+                                   0             0               
+   316 nburk_GBu[2,20]
+                                   0             0               
+   317 nburk_GBu[3,1]
+                                   0             0               
+   318 nburk_GBu[3,2]
+                                   0             0               
+   319 nburk_GBu[3,3]
+                                   0             0               
+   320 nburk_GBu[3,4]
+                                   0             0               
+   321 nburk_GBu[3,5]
+                                   0             0               
+   322 nburk_GBu[3,6]
+                                   0             0               
+   323 nburk_GBu[3,7]
+                                   0             0               
+   324 nburk_GBu[3,8]
+                                   0             0               
+   325 nburk_GBu[3,9]
+                                   0             0               
+   326 nburk_GBu[3,10]
+                                   0             0               
+   327 nburk_GBu[3,11]
+                                   0             0               
+   328 nburk_GBu[3,12]
+                                   0             0               
+   329 nburk_GBu[3,13]
+                                   0             0               
+   330 nburk_GBu[3,14]
+                                   0             0               
+   331 nburk_GBu[3,15]
+                                   0             0               
+   332 nburk_GBu[3,16]
+                                   0             0               
+   333 nburk_GBu[3,17]
+                                   0             0               
+   334 nburk_GBu[3,18]
+                                   0             0               
+   335 nburk_GBu[3,19]
+                                   0             0               
+   336 nburk_GBu[3,20]
+                                   0             0               
+   337 nburk_GBu[4,1]
+                                   0             0               
+   338 nburk_GBu[4,2]
+                                   0             0               
+   339 nburk_GBu[4,3]
+                                   0             0               
+   340 nburk_GBu[4,4]
+                                   0             0               
+   341 nburk_GBu[4,5]
+                                   0             0               
+   342 nburk_GBu[4,6]
+                                   0             0               
+   343 nburk_GBu[4,7]
+                                   0             0               
+   344 nburk_GBu[4,8]
+                                   0             0               
+   345 nburk_GBu[4,9]
+                                   0             0               
+   346 nburk_GBu[4,10]
+                                   0             0               
+   347 nburk_GBu[4,11]
+                                   0             0               
+   348 nburk_GBu[4,12]
+                                   0             0               
+   349 nburk_GBu[4,13]
+                                   0             0               
+   350 nburk_GBu[4,14]
+                                   0             0               
+   351 nburk_GBu[4,15]
+                                   0             0               
+   352 nburk_GBu[4,16]
+                                   0             0               
+   353 nburk_GBu[4,17]
+                                   0             0               
+   354 nburk_GBu[4,18]
+                                   0             0               
+   355 nburk_GBu[4,19]
+                                   0             0               
+   356 nburk_GBu[4,20]
+                                   0             0               
+   357 nburk_GBu[5,1]
+                                   0             0               
+   358 nburk_GBu[5,2]
+                                   0             0               
+   359 nburk_GBu[5,3]
+                                   0             0               
+   360 nburk_GBu[5,4]
+                                   0             0               
+   361 nburk_GBu[5,5]
+                                   0             0               
+   362 nburk_GBu[5,6]
+                                   0             0               
+   363 nburk_GBu[5,7]
+                                   0             0               
+   364 nburk_GBu[5,8]
+                                   0             0               
+   365 nburk_GBu[5,9]
+                                   0             0               
+   366 nburk_GBu[5,10]
+                                   0             0               
+   367 nburk_GBu[5,11]
+                                   0             0               
+   368 nburk_GBu[5,12]
+                                   0             0               
+   369 nburk_GBu[5,13]
+                                   0             0               
+   370 nburk_GBu[5,14]
+                                   0             0               
+   371 nburk_GBu[5,15]
+                                   0             0               
+   372 nburk_GBu[5,16]
+                                   0             0               
+   373 nburk_GBu[5,17]
+                                   0             0               
+   374 nburk_GBu[5,18]
+                                   0             0               
+   375 nburk_GBu[5,19]
+                                   0             0               
+   376 nburk_GBu[5,20]
+                                   0             0               
+   377 nburk_BBu[1,1]
+                                  44             0               
+   378 nburk_BBu[1,2]
+                                  85             0               
+   379 nburk_BBu[1,3]
+                                  43             0               
+   380 nburk_BBu[1,4]
+                                  67             0               
+   381 nburk_BBu[1,5]
+                                   0             0               
+   382 nburk_BBu[1,6]
+                                 107             0               
+   383 nburk_BBu[1,7]
+                                  59             0               
+   384 nburk_BBu[1,8]
+                                  90             0               
+   385 nburk_BBu[1,9]
+                                  25             0               
+   386 nburk_BBu[1,10]
+                                  24             0               
+   387 nburk_BBu[1,11]
+                                  48             0               
+   388 nburk_BBu[1,12]
+                                  52             0               
+   389 nburk_BBu[1,13]
+                                  75             0               
+   390 nburk_BBu[1,14]
+                                  16             0               
+   391 nburk_BBu[1,15]
+                                  99             0               
+   392 nburk_BBu[1,16]
+                                   0             0               
+   393 nburk_BBu[1,17]
+                                  27             0               
+   394 nburk_BBu[1,18]
+                                  13             0               
+   395 nburk_BBu[1,19]
+                                  62             0               
+   396 nburk_BBu[1,20]
+                                  37             0               
+   397 nburk_BBu[2,1]
+                                   0             0               
+   398 nburk_BBu[2,2]
+                                   0             0               
+   399 nburk_BBu[2,3]
+                                   0             0               
+   400 nburk_BBu[2,4]
+                                   0             0               
+   401 nburk_BBu[2,5]
+                                  30             0               
+   402 nburk_BBu[2,6]
+                                   0             0               
+   403 nburk_BBu[2,7]
+                                   0             0               
+   404 nburk_BBu[2,8]
+                                   0             0               
+   405 nburk_BBu[2,9]
+                                   0             0               
+   406 nburk_BBu[2,10]
+                                   0             0               
+   407 nburk_BBu[2,11]
+                                   0             0               
+   408 nburk_BBu[2,12]
+                                   0             0               
+   409 nburk_BBu[2,13]
+                                   0             0               
+   410 nburk_BBu[2,14]
+                                   0             0               
+   411 nburk_BBu[2,15]
+                                   0             0               
+   412 nburk_BBu[2,16]
+                                   0             0               
+   413 nburk_BBu[2,17]
+                                   0             0               
+   414 nburk_BBu[2,18]
+                                   0             0               
+   415 nburk_BBu[2,19]
+                                   0             0               
+   416 nburk_BBu[2,20]
+                                   0             0               
+   417 nburk_BBu[3,1]
+                                   0             0               
+   418 nburk_BBu[3,2]
+                                   0             0               
+   419 nburk_BBu[3,3]
+                                   0             0               
+   420 nburk_BBu[3,4]
+                                   0             0               
+   421 nburk_BBu[3,5]
+                                   0             0               
+   422 nburk_BBu[3,6]
+                                   0             0               
+   423 nburk_BBu[3,7]
+                                   0             0               
+   424 nburk_BBu[3,8]
+                                   0             0               
+   425 nburk_BBu[3,9]
+                                   0             0               
+   426 nburk_BBu[3,10]
+                                   0             0               
+   427 nburk_BBu[3,11]
+                                   0             0               
+   428 nburk_BBu[3,12]
+                                   0             0               
+   429 nburk_BBu[3,13]
+                                   0             0               
+   430 nburk_BBu[3,14]
+                                   0             0               
+   431 nburk_BBu[3,15]
+                                   0             0               
+   432 nburk_BBu[3,16]
+                                 100             0               
+   433 nburk_BBu[3,17]
+                                   0             0               
+   434 nburk_BBu[3,18]
+                                   0             0               
+   435 nburk_BBu[3,19]
+                                   0             0               
+   436 nburk_BBu[3,20]
+                                   0             0               
+   437 nnytt_matr[1]
+                             40.4433             0               
+   438 nnytt_matr[2]
+                                   0             0               
+   439 nnytt_matr[3]
+                                   0             0               
+   440 v_cost                 348187             0               
+   441 f_cost                  14550             0               
+   442 m_cost                40.4433             0               
+   443 bin_GR[1]    *              0             0             1 
+   444 bin_GR[2]    *              0             0             1 
+   445 bin_GR[3]    *              0             0             1 
+   446 bin_GR[4]    *              0             0             1 
+   447 bin_GR[5]    *              0             0             1 
+   448 bin_BR[1]    *              0             0             1 
+   449 bin_BR[2]    *              0             0             1 
+   450 bin_BR[3]    *              0             0             1 
+   451 bin_LR[1]    *              1             0             1 
+   452 bin_LR[2]    *              0             0             1 
+   453 bin_LR[3]    *              1             0             1 
+   454 bin_LR[4]    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,225 @@
+GLPSOL: GLPK LP/MIP Solver, v4.52
+Parameter(s) specified in the command line:
+ -m spill_noll.mod -d ex10/ex10.dat -o ex10/spill_noll.txt --mipgap 0.01
+Reading model section from spill_noll.mod...
+215 lines were read
+Reading data section from ex10/ex10.dat...
+140890 lines were read
+Generating cost...
+Generating pant_tot...
+Generating sent_GR...
+Generating sent_BR...
+Generating sent_LR...
+Generating tot_lager...
+Generating bought_matr...
+Generating sent_RM...
+Generating sent_MT...
+Generating sent_TB...
+Generating sent_BG...
+Generating sent_GBu...
+Generating sent_BBu...
+Generating from_B...
+Generating from_G...
+Generating sent_to_BUTIK...
+Generating variable_costs...
+Generating fixed_costs...
+Generating material_costs...
+Model has been successfully generated
+GLPK Integer Optimizer, v4.52
+2192 rows, 170334 columns, 546314 non-zeros
+135 integer variables, all of which are binary
+Preprocessing...
+2188 rows, 170331 columns, 375977 non-zeros
+135 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  9.000e-01  max|aij| =  5.440e+04  ratio =  6.044e+04
+GM: min|aij| =  6.687e-01  max|aij| =  1.495e+00  ratio =  2.236e+00
+EQ: min|aij| =  4.472e-01  max|aij| =  1.000e+00  ratio =  2.236e+00
+2N: min|aij| =  4.530e-01  max|aij| =  1.706e+00  ratio =  3.765e+00
+Constructing initial basis...
+Size of triangular part is 2187
+Solving LP relaxation...
+GLPK Simplex Optimizer, v4.52
+2188 rows, 170331 columns, 375977 non-zeros
+      0: obj =   1.520964318e+07  infeas =  2.204e+05 (1)
+    500: obj =   3.720132451e+07  infeas =  4.999e+03 (0)
+   1000: obj =   3.710846427e+07  infeas =  3.505e+03 (0)
+   1500: obj =   3.567998941e+07  infeas =  1.358e+03 (0)
+   2000: obj =   3.505390916e+07  infeas =  2.893e+02 (0)
+   2500: obj =   3.505391384e+07  infeas =  2.701e+02 (0)
+*  2538: obj =   3.500909316e+07  infeas =  8.882e-16 (0)
+*  3000: obj =   3.443435305e+07  infeas =  3.553e-15 (0)
+*  3500: obj =   3.359083842e+07  infeas =  0.000e+00 (0)
+*  4000: obj =   3.292249310e+07  infeas =  0.000e+00 (0)
+*  4500: obj =   2.033087495e+07  infeas =  0.000e+00 (0)
+*  5000: obj =   1.998702602e+07  infeas =  0.000e+00 (0)
+*  5500: obj =   1.880775594e+07  infeas =  3.580e-13 (0)
+*  6000: obj =   1.845976690e+07  infeas =  0.000e+00 (0)
+*  6500: obj =   1.811866044e+07  infeas =  2.794e-13 (0)
+*  7000: obj =   1.802813129e+07  infeas =  3.044e-13 (0)
+*  7500: obj =   1.799576213e+07  infeas =  3.142e-17 (0)
+*  7510: obj =   1.799576002e+07  infeas =  0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
++  7510: mip =     not found yet >=              -inf        (1; 0)
++  8025: mip =     not found yet >=   1.799857536e+07        (14; 0)
++  9086: mip =     not found yet >=   1.799857536e+07        (29; 0)
++ 10436: mip =     not found yet >=   1.799857536e+07        (43; 0)
++ 12069: mip =     not found yet >=   1.799857536e+07        (61; 0)
++ 14562: mip =     not found yet >=   1.799857536e+07        (72; 0)
++ 14867: >>>>>   1.809554297e+07 >=   1.799857536e+07   0.5% (73; 0)
++ 14867: mip =   1.809554297e+07 >=   1.799857536e+07   0.5% (69; 7)
+RELATIVE MIP GAP TOLERANCE REACHED; SEARCH TERMINATED
+Time used:   46.5 secs
+Memory used: 257.9 Mb (270416999 bytes)
+Display statement at line 199
+bin_GR[1].val = 0
+bin_GR[2].val = 0
+bin_GR[3].val = 0
+bin_GR[4].val = 0
+bin_GR[5].val = 0
+bin_GR[6].val = 0
+bin_GR[7].val = 0
+bin_GR[8].val = 0
+bin_GR[9].val = 0
+bin_GR[10].val = 0
+bin_GR[11].val = 0
+bin_GR[12].val = 0
+bin_GR[13].val = 0
+bin_GR[14].val = 0
+bin_GR[15].val = 0
+bin_GR[16].val = 1
+bin_GR[17].val = 0
+bin_GR[18].val = 1
+bin_GR[19].val = 0
+bin_GR[20].val = 0
+bin_GR[21].val = 0
+bin_GR[22].val = 0
+bin_GR[23].val = 0
+bin_GR[24].val = 0
+bin_GR[25].val = 0
+bin_GR[26].val = 0
+bin_GR[27].val = 0
+bin_GR[28].val = 0
+bin_GR[29].val = 0
+bin_GR[30].val = 0
+Display statement at line 200
+bin_BR[1].val = 0
+bin_BR[2].val = 0
+bin_BR[3].val = 0
+bin_BR[4].val = 1
+bin_BR[5].val = 0
+Display statement at line 201
+bin_LR[1].val = 1
+bin_LR[2].val = 0
+bin_LR[3].val = 0
+bin_LR[4].val = 0
+bin_LR[5].val = 0
+bin_LR[6].val = 0
+bin_LR[7].val = 0
+bin_LR[8].val = 0
+bin_LR[9].val = 0
+bin_LR[10].val = 1
+bin_LR[11].val = 0
+bin_LR[12].val = 0
+bin_LR[13].val = 1
+bin_LR[14].val = 0
+bin_LR[15].val = 0
+bin_LR[16].val = 0
+bin_LR[17].val = 0
+bin_LR[18].val = 0
+bin_LR[19].val = 0
+bin_LR[20].val = 1
+bin_LR[21].val = 0
+bin_LR[22].val = 0
+bin_LR[23].val = 0
+bin_LR[24].val = 0
+bin_LR[25].val = 0
+bin_LR[26].val = 0
+bin_LR[27].val = 0
+bin_LR[28].val = 0
+bin_LR[29].val = 0
+bin_LR[30].val = 0
+bin_LR[31].val = 1
+bin_LR[32].val = 0
+bin_LR[33].val = 0
+bin_LR[34].val = 0
+bin_LR[35].val = 0
+bin_LR[36].val = 0
+bin_LR[37].val = 0
+bin_LR[38].val = 0
+bin_LR[39].val = 0
+bin_LR[40].val = 0
+bin_LR[41].val = 0
+bin_LR[42].val = 0
+bin_LR[43].val = 1
+bin_LR[44].val = 0
+bin_LR[45].val = 0
+bin_LR[46].val = 0
+bin_LR[47].val = 1
+bin_LR[48].val = 0
+bin_LR[49].val = 0
+bin_LR[50].val = 0
+bin_LR[51].val = 0
+bin_LR[52].val = 0
+bin_LR[53].val = 0
+bin_LR[54].val = 0
+bin_LR[55].val = 0
+bin_LR[56].val = 0
+bin_LR[57].val = 0
+bin_LR[58].val = 0
+bin_LR[59].val = 1
+bin_LR[60].val = 0
+bin_LR[61].val = 0
+bin_LR[62].val = 0
+bin_LR[63].val = 0
+bin_LR[64].val = 0
+bin_LR[65].val = 0
+bin_LR[66].val = 0
+bin_LR[67].val = 0
+bin_LR[68].val = 0
+bin_LR[69].val = 0
+bin_LR[70].val = 0
+bin_LR[71].val = 1
+bin_LR[72].val = 0
+bin_LR[73].val = 0
+bin_LR[74].val = 0
+bin_LR[75].val = 0
+bin_LR[76].val = 0
+bin_LR[77].val = 0
+bin_LR[78].val = 0
+bin_LR[79].val = 0
+bin_LR[80].val = 0
+bin_LR[81].val = 0
+bin_LR[82].val = 0
+bin_LR[83].val = 0
+bin_LR[84].val = 0
+bin_LR[85].val = 0
+bin_LR[86].val = 1
+bin_LR[87].val = 0
+bin_LR[88].val = 0
+bin_LR[89].val = 0
+bin_LR[90].val = 0
+bin_LR[91].val = 0
+bin_LR[92].val = 0
+bin_LR[93].val = 0
+bin_LR[94].val = 0
+bin_LR[95].val = 0
+bin_LR[96].val = 0
+bin_LR[97].val = 0
+bin_LR[98].val = 0
+bin_LR[99].val = 0
+bin_LR[100].val = 0
+Display statement at line 203
+f_cost.val = 90751
+Display statement at line 204
+m_cost.val = 2152.84666666667
+Display statement at line 205
+v_cost.val = 18002639.12
+Display statement at line 206
+cost.val = 18095542.9666667
+1000 butiker, 30 grossister, 5 bryggerier, 100 lager.
+3 matr, 5 fpack.
+Totalt behov 58714, spill 2424.
+Model has been successfully processed
+Writing MIP solution to `ex10/spill_noll.txt'...

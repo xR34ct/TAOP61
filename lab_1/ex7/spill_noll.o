@@ -1,0 +1,135 @@
+GLPSOL: GLPK LP/MIP Solver, v4.52
+Parameter(s) specified in the command line:
+ -m spill_noll.mod -d ex7/ex7.dat -o ex7/spill_noll.txt
+Reading model section from spill_noll.mod...
+215 lines were read
+Reading data section from ex7/ex7.dat...
+30570 lines were read
+Generating cost...
+Generating pant_tot...
+Generating sent_GR...
+Generating sent_BR...
+Generating sent_LR...
+Generating tot_lager...
+Generating bought_matr...
+Generating sent_RM...
+Generating sent_MT...
+Generating sent_TB...
+Generating sent_BG...
+Generating sent_GBu...
+Generating sent_BBu...
+Generating from_B...
+Generating from_G...
+Generating sent_to_BUTIK...
+Generating variable_costs...
+Generating fixed_costs...
+Generating material_costs...
+Model has been successfully generated
+GLPK Integer Optimizer, v4.52
+1112 rows, 45254 columns, 153574 non-zeros
+55 integer variables, all of which are binary
+Preprocessing...
+1108 rows, 45251 columns, 108317 non-zeros
+55 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  9.000e-01  max|aij| =  1.685e+03  ratio =  1.872e+03
+GM: min|aij| =  6.687e-01  max|aij| =  1.495e+00  ratio =  2.236e+00
+EQ: min|aij| =  4.472e-01  max|aij| =  1.000e+00  ratio =  2.236e+00
+2N: min|aij| =  5.000e-01  max|aij| =  1.500e+00  ratio =  3.000e+00
+Constructing initial basis...
+Size of triangular part is 1107
+Solving LP relaxation...
+GLPK Simplex Optimizer, v4.52
+1108 rows, 45251 columns, 108317 non-zeros
+      0: obj =   7.893475390e+06  infeas =  1.094e+05 (1)
+    500: obj =   2.279472989e+07  infeas =  1.981e+03 (0)
+   1000: obj =   2.410732621e+07  infeas =  1.400e+02 (0)
+*  1043: obj =   2.420812782e+07  infeas =  0.000e+00 (0)
+*  1500: obj =   1.495072232e+07  infeas =  0.000e+00 (0)
+*  2000: obj =   1.453638843e+07  infeas =  3.860e-15 (0)
+*  2500: obj =   1.244441048e+07  infeas =  3.718e-13 (0)
+*  3000: obj =   1.186241086e+07  infeas =  5.742e-14 (0)
+*  3500: obj =   1.092148792e+07  infeas =  1.880e-14 (0)
+*  4000: obj =   1.063512585e+07  infeas =  8.165e-14 (0)
+*  4500: obj =   1.049028435e+07  infeas =  0.000e+00 (0)
+*  4620: obj =   1.048701780e+07  infeas =  0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
++  4620: mip =     not found yet >=              -inf        (1; 0)
++  5335: >>>>>   1.049106039e+07 >=   1.048726328e+07 < 0.1% (18; 0)
++  7119: >>>>>   1.048957039e+07 >=   1.048957039e+07   0.0% (24; 23)
++  7119: mip =   1.048957039e+07 >=     tree is empty   0.0% (0; 87)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   6.3 secs
+Memory used: 69.0 Mb (72391815 bytes)
+Display statement at line 199
+bin_GR[1].val = 0
+bin_GR[2].val = 1
+bin_GR[3].val = 1
+bin_GR[4].val = 1
+bin_GR[5].val = 1
+bin_GR[6].val = 1
+bin_GR[7].val = 1
+bin_GR[8].val = 1
+bin_GR[9].val = 1
+bin_GR[10].val = 1
+bin_GR[11].val = 1
+bin_GR[12].val = 1
+bin_GR[13].val = 1
+bin_GR[14].val = 1
+bin_GR[15].val = 0
+bin_GR[16].val = 0
+bin_GR[17].val = 1
+bin_GR[18].val = 1
+bin_GR[19].val = 1
+bin_GR[20].val = 1
+bin_GR[21].val = 1
+bin_GR[22].val = 1
+bin_GR[23].val = 1
+bin_GR[24].val = 1
+bin_GR[25].val = 1
+bin_GR[26].val = 1
+bin_GR[27].val = 0
+bin_GR[28].val = 0
+bin_GR[29].val = 1
+bin_GR[30].val = 1
+Display statement at line 200
+bin_BR[1].val = 1
+bin_BR[2].val = 1
+bin_BR[3].val = 1
+bin_BR[4].val = 1
+bin_BR[5].val = 0
+Display statement at line 201
+bin_LR[1].val = 1
+bin_LR[2].val = 1
+bin_LR[3].val = 0
+bin_LR[4].val = 0
+bin_LR[5].val = 0
+bin_LR[6].val = 1
+bin_LR[7].val = 0
+bin_LR[8].val = 0
+bin_LR[9].val = 0
+bin_LR[10].val = 1
+bin_LR[11].val = 1
+bin_LR[12].val = 1
+bin_LR[13].val = 1
+bin_LR[14].val = 0
+bin_LR[15].val = 0
+bin_LR[16].val = 1
+bin_LR[17].val = 0
+bin_LR[18].val = 0
+bin_LR[19].val = 1
+bin_LR[20].val = 1
+Display statement at line 203
+f_cost.val = 82638
+Display statement at line 204
+m_cost.val = 1070.19
+Display statement at line 205
+v_cost.val = 10405862.2
+Display statement at line 206
+cost.val = 10489570.39
+500 butiker, 30 grossister, 5 bryggerier, 20 lager.
+3 matr, 5 fpack.
+Totalt behov 29187, spill 1255.
+Model has been successfully processed
+Writing MIP solution to `ex7/spill_noll.txt'...

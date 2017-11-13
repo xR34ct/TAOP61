@@ -1,0 +1,98 @@
+GLPSOL: GLPK LP/MIP Solver, v4.52
+Parameter(s) specified in the command line:
+ -m spill_noll_100.mod -d ex6/ex6.dat -o ex6/spill_noll_100.txt
+Reading model section from spill_noll_100.mod...
+215 lines were read
+Reading data section from ex6/ex6.dat...
+3290 lines were read
+Generating cost...
+Generating pant_tot...
+Generating sent_GR...
+Generating sent_BR...
+Generating sent_LR...
+Generating tot_lager...
+Generating bought_matr...
+Generating sent_RM...
+Generating sent_MT...
+Generating sent_TB...
+Generating sent_BG...
+Generating sent_GBu...
+Generating sent_BBu...
+Generating from_B...
+Generating from_G...
+Generating sent_to_BUTIK...
+Generating variable_costs...
+Generating fixed_costs...
+Generating material_costs...
+Model has been successfully generated
+GLPK Integer Optimizer, v4.52
+260 rows, 4108 columns, 13936 non-zeros
+25 integer variables, all of which are binary
+Preprocessing...
+256 rows, 4105 columns, 9825 non-zeros
+25 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  9.000e-01  max|aij| =  1.005e+03  ratio =  1.117e+03
+GM: min|aij| =  6.687e-01  max|aij| =  1.495e+00  ratio =  2.236e+00
+EQ: min|aij| =  4.472e-01  max|aij| =  1.000e+00  ratio =  2.236e+00
+2N: min|aij| =  2.500e-01  max|aij| =  1.500e+00  ratio =  6.000e+00
+Constructing initial basis...
+Size of triangular part is 255
+Solving LP relaxation...
+GLPK Simplex Optimizer, v4.52
+256 rows, 4105 columns, 9825 non-zeros
+      0: obj =   1.854015400e+06  infeas =  1.320e+04 (1)
+*   178: obj =   4.512689002e+06  infeas =  0.000e+00 (0)
+*   500: obj =   2.640404182e+06  infeas =  0.000e+00 (0)
+*   734: obj =   2.119779202e+06  infeas =  1.400e-29 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
++   734: mip =     not found yet >=              -inf        (1; 0)
++   929: >>>>>   2.134823489e+06 >=   2.120949743e+06   0.6% (9; 0)
++  1060: >>>>>   2.130535489e+06 >=   2.122195915e+06   0.4% (7; 9)
++  1155: >>>>>   2.124038489e+06 >=   2.124038489e+06   0.0% (6; 12)
++  1155: mip =   2.124038489e+06 >=     tree is empty   0.0% (0; 27)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   0.1 secs
+Memory used: 6.7 Mb (6990659 bytes)
+Display statement at line 199
+bin_GR[1].val = 0
+bin_GR[2].val = 0
+bin_GR[3].val = 0
+bin_GR[4].val = 0
+bin_GR[5].val = 0
+bin_GR[6].val = 0
+bin_GR[7].val = 0
+bin_GR[8].val = 0
+bin_GR[9].val = 0
+bin_GR[10].val = 0
+Display statement at line 200
+bin_BR[1].val = 0
+bin_BR[2].val = 0
+bin_BR[3].val = 1
+bin_BR[4].val = 0
+bin_BR[5].val = 1
+Display statement at line 201
+bin_LR[1].val = 0
+bin_LR[2].val = 1
+bin_LR[3].val = 1
+bin_LR[4].val = 1
+bin_LR[5].val = 1
+bin_LR[6].val = 1
+bin_LR[7].val = 0
+bin_LR[8].val = 0
+bin_LR[9].val = 1
+bin_LR[10].val = 1
+Display statement at line 203
+f_cost.val = 53811
+Display statement at line 204
+m_cost.val = 22399.6666666666
+Display statement at line 205
+v_cost.val = 2047827.82222222
+Display statement at line 206
+cost.val = 2124038.48888889
+100 butiker, 10 grossister, 5 bryggerier, 10 lager.
+3 matr, 3 fpack.
+Totalt behov 6109, spill 281.
+Model has been successfully processed
+Writing MIP solution to `ex6/spill_noll_100.txt'...
