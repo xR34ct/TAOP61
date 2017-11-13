@@ -10,7 +10,7 @@ fid=fopen(fil);
 bb=textscan(fid,'%d',1); 
 b=bb{1}; 
 n=textscan(fid,'%d',1); 
-nlinks=n{1}; % antalet vägavsnitt 
+nlinks=n{1}; % antalet vï¿½gavsnitt 
 links = textscan(fid,'%f %f');
 fclose(fid);
 ltypes0 = links{1}; 
@@ -21,12 +21,12 @@ ldzero=sum(ldist0==0);
 if (ldzero>0)
     fprintf('Omitting %d links with length zero.\n',ldzero);
     isnotzero=(find(ldist0~=0));
-    ldist=ldist0(isnotzero); % längd på vägavsnitt lj
-    ltypes=ltypes0(isnotzero); % vägtyp t
-    nlinks=length(ldist); % antalet vägavsnitt
+    ldist=ldist0(isnotzero); % lï¿½ngd pï¿½ vï¿½gavsnitt lj
+    ltypes=ltypes0(isnotzero); % vï¿½gtyp t
+    nlinks=length(ldist); % antalet vï¿½gavsnitt
 else
-    ldist=ldist0; % längd på vägavsnitt lj
-    ltypes=ltypes0; % vägtyp t
+    ldist=ldist0; % lï¿½ngd pï¿½ vï¿½gavsnitt lj
+    ltypes=ltypes0; % vï¿½gtyp t
 end
 
 fprintf('Initial battery level %d.\n',b);
@@ -93,21 +93,27 @@ if (dosolve)
     disp(' !!!!!!!!! Here you should find the optimal solution!!!!!!!');
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % insert your code here!
-    tot_cost = z;
-    laddn = s;
+    %tot_cost = z;
     
-    function tot_cost = (j,k)
     
-        if j == 1
-            c[j,k] * x[j,k];
+    table = zeros(k,b);
+    
+    cost = min(table(:,w));
+    
+    
+    %w = 0;
+    function z = cost(j)
+    
+        if j == nlinks
+            z = c(j,k) * x(j,k);
+            s = s - a(j,k) * x(j,k); % Ã¶verfÃ¶ringsfunktion
         else
-            c[j,4] * x[j,4] + tot_cost(j-1,4);
+            z = c(j,k) * x(j,k) + cost(j+1);
         end
     
     end
     
-    s = laddn;
-    z = tot_cost;
+    %z = tot_cost;
     % no need to change below
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 end
