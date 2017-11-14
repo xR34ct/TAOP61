@@ -93,27 +93,40 @@ if (dosolve)
     disp(' !!!!!!!!! Here you should find the optimal solution!!!!!!!');
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % insert your code here!
-    %tot_cost = z;
     
+    langd = b+1;
     
-    table = zeros(k,b);
-    
-    cost = min(table(:,w));
-    
-    
-    %w = 0;
-    function z = cost(j)
-    
-        if j == nlinks
-            z = c(j,k) * x(j,k);
-            s = s - a(j,k) * x(j,k); % överföringsfunktion
-        else
-            z = c(j,k) * x(j,k) + cost(j+1);
-        end
-    
+    %Görs innan loopen
+    s_rad = zeros(1,langd);
+    table = zeros(k,langd);
+    f = zeros(1,langd);
+    x_hatt = zeros(1,langd);
+    for i=0:lenght(s_rad)
+        s_rad(1,i) = i;
     end
     
-    %z = tot_cost;
+    
+    % Ska göras i loopen
+    function w = cost(j)
+        for x=1:k
+            for y=1:lenght(table)
+                if b / a(j,x) < 1
+                    table(x,y) = inf;
+                else
+                    
+                    table(x,y) = c(j,x) + cost(j-1); % + om framåt, - om bakåt
+                end
+            end
+        end
+        for i=1:lenght(f)
+            f(1,i) = min(table(:,i));
+        end
+        for i=1:length(x_hatt)
+            x_hatt(1,i) = floor(s_rad(1,i)/a(j,i));
+        end
+    end
+    
+     
     % no need to change below
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 end
