@@ -1,4 +1,6 @@
-function f_old = cost(j,b,k,c,a)
+function [x_opt,malfunk,sk,future_k] = cost(j,j_max,b,k,c,a,f_old)
+    
+    
     langd = b+1;
     
     %Görs innan loopen
@@ -20,43 +22,51 @@ function f_old = cost(j,b,k,c,a)
             end
         end
     else
-        f_old = cost(j-1,b,k,c,a);
         for x=1:k
+            flytt = a(j,x);
             for y=1:length(table)
                 if s_rad(1,y) / a(j,x) < 1
                     table(x,y) = inf;
                 else
                     if j ~= 1 && table(x,y) ~= inf
-                    %if table(x,y) ~= inf
-                        %y >= a(j,x)
-                        table(x,y) = c(j,x) + f_old(1,y);
-                    %end
-                    %table(x,y) = c(j,x);
-                    %f_old = zeros(1,langd);
-                %else
-                   % målfunktionsvärde + f_j-1(y - bivilkorsvärde)
-                    %if y < a(j,x) % + om framåt, - om bakåt
-                        %table(x,y) = inf;
-                        %table(x,y) = c(j,x) + f_old(1,1);
-                    %else
-                        
-                    %end
+                        table(x,y) = c(j,x) + f_old(1,y-flytt);
                     end
                 end
             end
         end
     end
-    for i=1:length(f)
+    for i=1:langd
         f(1,i) = min(table(:,i));
         [rad,col] = find(table(:,i) == f(1,i));
-        x_hatt(1,i) = rad;
+        x_hatt(1,i) = rad(1,1);
     end
         
-        %räkna ut w
+    f_old = f;
+    
+    
+    if j ~= j_max
+        [x_opt,malfunk,sk,future_k] = cost(j+1,j_max,b,k,c,a,f_old);
+        sk = sk - a(j,future_k);
+        x_opt(1,j) = x_hatt(1,find(s_rad==sk));
+        future_k = x_opt(1,j);
+    end
+    
+    if j == 1
+        sk = sk - a(j,future_k);
+    end
+        
+    if j == j_max
+        x_opt(1,j) = x_hatt(1,langd);
+        future_k = x_opt(1,j);
+        malfunk = f(1,langd);
+        sk = s_rad(1,langd);
+    end
+    
     %disp(table);
     %disp(c);
     %disp(a);
-    f_old = f;
-    disp(x_hatt);
+    %disp(f);
+    %disp(x_hatt);
+    %disp(x_opt);
 end
 

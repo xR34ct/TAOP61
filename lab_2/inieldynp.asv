@@ -1,5 +1,5 @@
 % choose indata file and discretization
-fil='path2.txt';
+fil='path1.txt';
 scal=1;
 
 disp(' *** Dynamic programming for PHEV *** ');
@@ -95,9 +95,8 @@ if (dosolve)
     % insert your code here!
     
     
-    f_old=zeros(1,b+1);
-  
-    [xopt,z,s] = cost(1,j,b,k,c,a,f_old);
+    
+    % Ska göras i loopen
     
     
      

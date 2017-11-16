@@ -1,4 +1,4 @@
-function f_old = cost(j,b,k,c,a)
+function [sk,z] = cost(j,j_max,b,k,c,a,f_old)
     langd = b+1;
     
     %Görs innan loopen
@@ -12,11 +12,17 @@ function f_old = cost(j,b,k,c,a)
     if j == 1
         for x=1:k
             for y=1:length(table)
-                
-        table(x,y) = c(j,x);
+                if s_rad(1,y) / a(j,x) < 1
+                    table(x,y) = inf;
+                else
+                    table(x,y) = c(j,x);
+                end
+            end
+        end
     else
-        f_old = cost(j-1,b,k,c,a);
+        %f_old = cost(j-1,b,k,c,a);
         for x=1:k
+            flytt = a(j,x);
             for y=1:length(table)
                 if s_rad(1,y) / a(j,x) < 1
                     table(x,y) = inf;
@@ -24,7 +30,7 @@ function f_old = cost(j,b,k,c,a)
                     if j ~= 1 && table(x,y) ~= inf
                     %if table(x,y) ~= inf
                         %y >= a(j,x)
-                        table(x,y) = c(j,x) + f_old(1,y);
+                        table(x,y) = c(j,x) + f_old(1,y-flytt);
                     %end
                     %table(x,y) = c(j,x);
                     %f_old = zeros(1,langd);
@@ -47,7 +53,25 @@ function f_old = cost(j,b,k,c,a)
         x_hatt(1,i) = rad;
     end
         
-        %räkna ut w
     f_old = f;
+    
+    if j ~= j_max
+        [sk,x_,malfunk] = cost(j+1,b,k,c,a,f_old);
+        sk_min_1 = sk - a(j,
+        x_opt(1,j) = x_hatt(1,find(s_rad==sk_min_1));
+        z = malfunk;
+        %cost(j+1,b,k,c,a,f_old,x_hatt_old);
+    end
+        
+    if j == j_max
+        x_opt(1,j) = x_hatt(1,langd);
+        z = f(1,langd);
+    end
+    
+    disp(table);
+    %disp(c);
+    %disp(a);
+    disp(f);
+    disp(x_hatt);
 end
 
