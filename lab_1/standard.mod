@@ -136,7 +136,7 @@ s.t. sent_BG{k in BRYGG}:
     sum{n in FPACK} nburk_TB[n,k] - sum{j in GROSS} nburk_BG[k,j] >= 0;
 
 s.t. sent_GBu{j in GROSS}:
-    sum{k in BRYGG} (nburk_BG[k,j] - sum{i in BUTIK} nburk_GBu[j,i]) >= 0;
+    sum{k in BRYGG} (nburk_BG[k,j] - sum{i in BUTIK} nburk_GBu[j,i]) = 0;
 
 s.t. sent_BBu{k in BRYGG}:
     sum{n in FPACK} nburk_TB[n,k] - sum{i in BUTIK} nburk_BBu[k,i] >= 0;

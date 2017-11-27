@@ -29,9 +29,9 @@ Objective:  cost = 105334.6667 (MINimum)
     20 sent_TB[2]                  0            -0             = 
     21 sent_BG[1]                300            -0               
     22 sent_BG[2]                100            -0               
-    23 sent_GBu[1]                 0            -0               
-    24 sent_GBu[2]                 0            -0               
-    25 sent_GBu[3]                 0            -0               
+    23 sent_GBu[1]                 0            -0             = 
+    24 sent_GBu[2]                 0            -0             = 
+    25 sent_GBu[3]                 0            -0             = 
     26 sent_BBu[1]                 0            -0               
     27 sent_BBu[2]                 0            -0               
     28 from_B                      0            -0             = 

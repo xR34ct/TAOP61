@@ -980,36 +980,36 @@ Objective:  cost = 10743320.04 (MINimum)
    570 sent_BG[3]                195            -0               
    571 sent_BG[4]                252            -0               
    572 sent_BG[5]               8685            -0               
-   573 sent_GBu[1]                 0            -0               
-   574 sent_GBu[2]                 0            -0               
-   575 sent_GBu[3]                 0            -0               
-   576 sent_GBu[4]                 0            -0               
-   577 sent_GBu[5]                 0            -0               
-   578 sent_GBu[6]                 0            -0               
-   579 sent_GBu[7]                 0            -0               
-   580 sent_GBu[8]                 0            -0               
-   581 sent_GBu[9]                 0            -0               
-   582 sent_GBu[10]                0            -0               
-   583 sent_GBu[11]                0            -0               
-   584 sent_GBu[12]                0            -0               
-   585 sent_GBu[13]                0            -0               
-   586 sent_GBu[14]                0            -0               
-   587 sent_GBu[15]                0            -0               
-   588 sent_GBu[16]                0            -0               
-   589 sent_GBu[17]                0            -0               
-   590 sent_GBu[18]                0            -0               
-   591 sent_GBu[19]                0            -0               
-   592 sent_GBu[20]                0            -0               
-   593 sent_GBu[21]                0            -0               
-   594 sent_GBu[22]                0            -0               
-   595 sent_GBu[23]                0            -0               
-   596 sent_GBu[24]                0            -0               
-   597 sent_GBu[25]                0            -0               
-   598 sent_GBu[26]                0            -0               
-   599 sent_GBu[27]                0            -0               
-   600 sent_GBu[28]                0            -0               
-   601 sent_GBu[29]                0            -0               
-   602 sent_GBu[30]                0            -0               
+   573 sent_GBu[1]                 0            -0             = 
+   574 sent_GBu[2]                 0            -0             = 
+   575 sent_GBu[3]                 0            -0             = 
+   576 sent_GBu[4]                 0            -0             = 
+   577 sent_GBu[5]                 0            -0             = 
+   578 sent_GBu[6]                 0            -0             = 
+   579 sent_GBu[7]                 0            -0             = 
+   580 sent_GBu[8]                 0            -0             = 
+   581 sent_GBu[9]                 0            -0             = 
+   582 sent_GBu[10]                0            -0             = 
+   583 sent_GBu[11]                0            -0             = 
+   584 sent_GBu[12]                0            -0             = 
+   585 sent_GBu[13]                0            -0             = 
+   586 sent_GBu[14]                0            -0             = 
+   587 sent_GBu[15]                0            -0             = 
+   588 sent_GBu[16]                0            -0             = 
+   589 sent_GBu[17]                0            -0             = 
+   590 sent_GBu[18]                0            -0             = 
+   591 sent_GBu[19]                0            -0             = 
+   592 sent_GBu[20]                0            -0             = 
+   593 sent_GBu[21]                0            -0             = 
+   594 sent_GBu[22]                0            -0             = 
+   595 sent_GBu[23]                0            -0             = 
+   596 sent_GBu[24]                0            -0             = 
+   597 sent_GBu[25]                0            -0             = 
+   598 sent_GBu[26]                0            -0             = 
+   599 sent_GBu[27]                0            -0             = 
+   600 sent_GBu[28]                0            -0             = 
+   601 sent_GBu[29]                0            -0             = 
+   602 sent_GBu[30]                0            -0             = 
    603 sent_BBu[1]                 0            -0               
    604 sent_BBu[2]                 0            -0               
    605 sent_BBu[3]                 0            -0               
@@ -5350,7 +5350,7 @@ Objective:  cost = 10743320.04 (MINimum)
   1662 nburk_GR[56,12]
                                    0             0               
   1663 nburk_GR[56,13]
-                                  78             0               
+                                  94             0               
   1664 nburk_GR[56,14]
                                    0             0               
   1665 nburk_GR[56,15]
@@ -5382,7 +5382,7 @@ Objective:  cost = 10743320.04 (MINimum)
   1678 nburk_GR[56,28]
                                    0             0               
   1679 nburk_GR[56,29]
-                                  20             0               
+                                   4             0               
   1680 nburk_GR[56,30]
                                    0             0               
   1681 nburk_GR[57,1]
@@ -5634,7 +5634,7 @@ Objective:  cost = 10743320.04 (MINimum)
   1804 nburk_GR[61,4]
                                    0             0               
   1805 nburk_GR[61,5]
-                                  19             0               
+                                  34             0               
   1806 nburk_GR[61,6]
                                    0             0               
   1807 nburk_GR[61,7]
@@ -5666,7 +5666,7 @@ Objective:  cost = 10743320.04 (MINimum)
   1820 nburk_GR[61,20]
                                    0             0               
   1821 nburk_GR[61,21]
-                                  50             0               
+                                  35             0               
   1822 nburk_GR[61,22]
                                    0             0               
   1823 nburk_GR[61,23]
@@ -6010,7 +6010,7 @@ Objective:  cost = 10743320.04 (MINimum)
   1992 nburk_GR[67,12]
                                    0             0               
   1993 nburk_GR[67,13]
-                                  48             0               
+                                  32             0               
   1994 nburk_GR[67,14]
                                    0             0               
   1995 nburk_GR[67,15]
@@ -7268,7 +7268,7 @@ Objective:  cost = 10743320.04 (MINimum)
   2621 nburk_GR[88,11]
                                    0             0               
   2622 nburk_GR[88,12]
-                                  85             0               
+                                  48             0               
   2623 nburk_GR[88,13]
                                    0             0               
   2624 nburk_GR[88,14]
@@ -7444,7 +7444,7 @@ Objective:  cost = 10743320.04 (MINimum)
   2709 nburk_GR[91,9]
                                    0             0               
   2710 nburk_GR[91,10]
-                                   1             0               
+                                  38             0               
   2711 nburk_GR[91,11]
                                    0             0               
   2712 nburk_GR[91,12]
@@ -7460,7 +7460,7 @@ Objective:  cost = 10743320.04 (MINimum)
   2717 nburk_GR[91,17]
                                    0             0               
   2718 nburk_GR[91,18]
-                                 101             0               
+                                  64             0               
   2719 nburk_GR[91,19]
                                    0             0               
   2720 nburk_GR[91,20]
@@ -8994,7 +8994,7 @@ Objective:  cost = 10743320.04 (MINimum)
   3484 nburk_GR[117,4]
                                    0             0               
   3485 nburk_GR[117,5]
-                                  34             0               
+                                  19             0               
   3486 nburk_GR[117,6]
                                    0             0               
   3487 nburk_GR[117,7]
@@ -9012,7 +9012,7 @@ Objective:  cost = 10743320.04 (MINimum)
   3493 nburk_GR[117,13]
                                    0             0               
   3494 nburk_GR[117,14]
-                                  22             0               
+                                   0             0               
   3495 nburk_GR[117,15]
                                    0             0               
   3496 nburk_GR[117,16]
@@ -9034,7 +9034,7 @@ Objective:  cost = 10743320.04 (MINimum)
   3504 nburk_GR[117,24]
                                    0             0               
   3505 nburk_GR[117,25]
-                                   0             0               
+                                  37             0               
   3506 nburk_GR[117,26]
                                    0             0               
   3507 nburk_GR[117,27]
@@ -9140,7 +9140,7 @@ Objective:  cost = 10743320.04 (MINimum)
   3557 nburk_GR[119,17]
                                    0             0               
   3558 nburk_GR[119,18]
-                                  42             0               
+                                  55             0               
   3559 nburk_GR[119,19]
                                    0             0               
   3560 nburk_GR[119,20]
@@ -9164,7 +9164,7 @@ Objective:  cost = 10743320.04 (MINimum)
   3569 nburk_GR[119,29]
                                    0             0               
   3570 nburk_GR[119,30]
-                                  60             0               
+                                  47             0               
   3571 nburk_GR[120,1]
                                    0             0               
   3572 nburk_GR[120,2]
@@ -10558,13 +10558,13 @@ Objective:  cost = 10743320.04 (MINimum)
   4266 nburk_GR[143,6]
                                    0             0               
   4267 nburk_GR[143,7]
-                                   8             0               
+                                  30             0               
   4268 nburk_GR[143,8]
                                    0             0               
   4269 nburk_GR[143,9]
                                    0             0               
   4270 nburk_GR[143,10]
-                                  22             0               
+                                   0             0               
   4271 nburk_GR[143,11]
                                    0             0               
   4272 nburk_GR[143,12]
@@ -10624,7 +10624,7 @@ Objective:  cost = 10743320.04 (MINimum)
   4299 nburk_GR[144,9]
                                    0             0               
   4300 nburk_GR[144,10]
-                                  42             0               
+                                   0             0               
   4301 nburk_GR[144,11]
                                    0             0               
   4302 nburk_GR[144,12]
@@ -10652,7 +10652,7 @@ Objective:  cost = 10743320.04 (MINimum)
   4313 nburk_GR[144,23]
                                    0             0               
   4314 nburk_GR[144,24]
-                                  64             0               
+                                 106             0               
   4315 nburk_GR[144,25]
                                    0             0               
   4316 nburk_GR[144,26]
@@ -12350,7 +12350,7 @@ Objective:  cost = 10743320.04 (MINimum)
   5162 nburk_GR[173,2]
                                    0             0               
   5163 nburk_GR[173,3]
-                                  22             0               
+                                  13             0               
   5164 nburk_GR[173,4]
                                    0             0               
   5165 nburk_GR[173,5]
@@ -12390,7 +12390,7 @@ Objective:  cost = 10743320.04 (MINimum)
   5182 nburk_GR[173,22]
                                    0             0               
   5183 nburk_GR[173,23]
-                                   7             0               
+                                  16             0               
   5184 nburk_GR[173,24]
                                    0             0               
   5185 nburk_GR[173,25]
@@ -13986,7 +13986,7 @@ Objective:  cost = 10743320.04 (MINimum)
   5980 nburk_GR[200,10]
                                    0             0               
   5981 nburk_GR[200,11]
-                                  16             0               
+                                   0             0               
   5982 nburk_GR[200,12]
                                    0             0               
   5983 nburk_GR[200,13]
@@ -14122,7 +14122,7 @@ Objective:  cost = 10743320.04 (MINimum)
   6048 nburk_GR[202,18]
                                    0             0               
   6049 nburk_GR[202,19]
-                                  14             0               
+                                  41             0               
   6050 nburk_GR[202,20]
                                    0             0               
   6051 nburk_GR[202,21]
@@ -14212,7 +14212,7 @@ Objective:  cost = 10743320.04 (MINimum)
   6093 nburk_GR[204,3]
                                    0             0               
   6094 nburk_GR[204,4]
-                                   0             0               
+                                  13             0               
   6095 nburk_GR[204,5]
                                    0             0               
   6096 nburk_GR[204,6]
@@ -15642,7 +15642,7 @@ Objective:  cost = 10743320.04 (MINimum)
   6808 nburk_GR[227,28]
                                    0             0               
   6809 nburk_GR[227,29]
-                                  83             0               
+                                  99             0               
   6810 nburk_GR[227,30]
                                    0             0               
   6811 nburk_GR[228,1]
@@ -15792,7 +15792,7 @@ Objective:  cost = 10743320.04 (MINimum)
   6883 nburk_GR[230,13]
                                    0             0               
   6884 nburk_GR[230,14]
-                                  18             0               
+                                  40             0               
   6885 nburk_GR[230,15]
                                    0             0               
   6886 nburk_GR[230,16]
@@ -15814,7 +15814,7 @@ Objective:  cost = 10743320.04 (MINimum)
   6894 nburk_GR[230,24]
                                    0             0               
   6895 nburk_GR[230,25]
-                                  51             0               
+                                  29             0               
   6896 nburk_GR[230,26]
                                    0             0               
   6897 nburk_GR[230,27]
@@ -16028,7 +16028,7 @@ Objective:  cost = 10743320.04 (MINimum)
   7001 nburk_GR[234,11]
                                    0             0               
   7002 nburk_GR[234,12]
-                                  15             0               
+                                  37             0               
   7003 nburk_GR[234,13]
                                    0             0               
   7004 nburk_GR[234,14]
@@ -16864,7 +16864,7 @@ Objective:  cost = 10743320.04 (MINimum)
   7419 nburk_GR[248,9]
                                    0             0               
   7420 nburk_GR[248,10]
-                                  59             0               
+                                  68             0               
   7421 nburk_GR[248,11]
                                    0             0               
   7422 nburk_GR[248,12]
@@ -16890,7 +16890,7 @@ Objective:  cost = 10743320.04 (MINimum)
   7432 nburk_GR[248,22]
                                    0             0               
   7433 nburk_GR[248,23]
-                                  39             0               
+                                  30             0               
   7434 nburk_GR[248,24]
                                    0             0               
   7435 nburk_GR[248,25]
@@ -17884,7 +17884,7 @@ Objective:  cost = 10743320.04 (MINimum)
   7929 nburk_GR[265,9]
                                    0             0               
   7930 nburk_GR[265,10]
-                                   0             0               
+                                  42             0               
   7931 nburk_GR[265,11]
                                    0             0               
   7932 nburk_GR[265,12]
@@ -17912,7 +17912,7 @@ Objective:  cost = 10743320.04 (MINimum)
   7943 nburk_GR[265,23]
                                    0             0               
   7944 nburk_GR[265,24]
-                                  87             0               
+                                  45             0               
   7945 nburk_GR[265,25]
                                    0             0               
   7946 nburk_GR[265,26]
@@ -21366,7 +21366,7 @@ Objective:  cost = 10743320.04 (MINimum)
   9670 nburk_GR[323,10]
                                    0             0               
   9671 nburk_GR[323,11]
-                                  24             0               
+                                  40             0               
   9672 nburk_GR[323,12]
                                    0             0               
   9673 nburk_GR[323,13]
@@ -22558,7 +22558,7 @@ Objective:  cost = 10743320.04 (MINimum)
  10266 nburk_GR[343,6]
                                    0             0               
  10267 nburk_GR[343,7]
-                                  98             0               
+                                  85             0               
  10268 nburk_GR[343,8]
                                    0             0               
  10269 nburk_GR[343,9]
@@ -22588,7 +22588,7 @@ Objective:  cost = 10743320.04 (MINimum)
  10281 nburk_GR[343,21]
                                    0             0               
  10282 nburk_GR[343,22]
-                                   0             0               
+                                  13             0               
  10283 nburk_GR[343,23]
                                    0             0               
  10284 nburk_GR[343,24]
@@ -22888,7 +22888,7 @@ Objective:  cost = 10743320.04 (MINimum)
  10431 nburk_GR[348,21]
                                    0             0               
  10432 nburk_GR[348,22]
-                                  13             0               
+                                   0             0               
  10433 nburk_GR[348,23]
                                    0             0               
  10434 nburk_GR[348,24]
@@ -22904,7 +22904,7 @@ Objective:  cost = 10743320.04 (MINimum)
  10439 nburk_GR[348,29]
                                    0             0               
  10440 nburk_GR[348,30]
-                                  73             0               
+                                  86             0               
  10441 nburk_GR[349,1]
                                    0             0               
  10442 nburk_GR[349,2]
@@ -22972,7 +22972,7 @@ Objective:  cost = 10743320.04 (MINimum)
  10473 nburk_GR[350,3]
                                    0             0               
  10474 nburk_GR[350,4]
-                                  11             0               
+                                   0             0               
  10475 nburk_GR[350,5]
                                    0             0               
  10476 nburk_GR[350,6]
@@ -23002,7 +23002,7 @@ Objective:  cost = 10743320.04 (MINimum)
  10488 nburk_GR[350,18]
                                    0             0               
  10489 nburk_GR[350,19]
-                                   0             0               
+                                  15             0               
  10490 nburk_GR[350,20]
                                    0             0               
  10491 nburk_GR[350,21]
@@ -25204,7 +25204,7 @@ Objective:  cost = 10743320.04 (MINimum)
  11589 nburk_GR[387,9]
                                    0             0               
  11590 nburk_GR[387,10]
-                                  24             0               
+                                   0             0               
  11591 nburk_GR[387,11]
                                    0             0               
  11592 nburk_GR[387,12]
@@ -25220,7 +25220,7 @@ Objective:  cost = 10743320.04 (MINimum)
  11597 nburk_GR[387,17]
                                    0             0               
  11598 nburk_GR[387,18]
-                                   0             0               
+                                  24             0               
  11599 nburk_GR[387,19]
                                    0             0               
  11600 nburk_GR[387,20]
@@ -25972,7 +25972,7 @@ Objective:  cost = 10743320.04 (MINimum)
  11973 nburk_GR[400,3]
                                    0             0               
  11974 nburk_GR[400,4]
-                                  29             0               
+                                  14             0               
  11975 nburk_GR[400,5]
                                    0             0               
  11976 nburk_GR[400,6]
@@ -26006,7 +26006,7 @@ Objective:  cost = 10743320.04 (MINimum)
  11990 nburk_GR[400,20]
                                    0             0               
  11991 nburk_GR[400,21]
-                                   0             0               
+                                  15             0               
  11992 nburk_GR[400,22]
                                    0             0               
  11993 nburk_GR[400,23]
@@ -26030,7 +26030,7 @@ Objective:  cost = 10743320.04 (MINimum)
  12002 nburk_GR[401,2]
                                    0             0               
  12003 nburk_GR[401,3]
-                                   0             0               
+                                   9             0               
  12004 nburk_GR[401,4]
                                    0             0               
  12005 nburk_GR[401,5]
@@ -26082,7 +26082,7 @@ Objective:  cost = 10743320.04 (MINimum)
  12028 nburk_GR[401,28]
                                    0             0               
  12029 nburk_GR[401,29]
-                                  91             0               
+                                  82             0               
  12030 nburk_GR[401,30]
                                    0             0               
  12031 nburk_GR[402,1]
@@ -26212,7 +26212,7 @@ Objective:  cost = 10743320.04 (MINimum)
  12093 nburk_GR[404,3]
                                    0             0               
  12094 nburk_GR[404,4]
-                                   2             0               
+                                   0             0               
  12095 nburk_GR[404,5]
                                    0             0               
  12096 nburk_GR[404,6]
@@ -26242,7 +26242,7 @@ Objective:  cost = 10743320.04 (MINimum)
  12108 nburk_GR[404,18]
                                    0             0               
  12109 nburk_GR[404,19]
-                                  61             0               
+                                  19             0               
  12110 nburk_GR[404,20]
                                    0             0               
  12111 nburk_GR[404,21]
@@ -27608,7 +27608,7 @@ Objective:  cost = 10743320.04 (MINimum)
  12791 nburk_GR[427,11]
                                    0             0               
  12792 nburk_GR[427,12]
-                                  35             0               
+                                  50             0               
  12793 nburk_GR[427,13]
                                    0             0               
  12794 nburk_GR[427,14]
@@ -27618,7 +27618,7 @@ Objective:  cost = 10743320.04 (MINimum)
  12796 nburk_GR[427,16]
                                    0             0               
  12797 nburk_GR[427,17]
-                                  30             0               
+                                  15             0               
  12798 nburk_GR[427,18]
                                    0             0               
  12799 nburk_GR[427,19]
@@ -29638,7 +29638,7 @@ Objective:  cost = 10743320.04 (MINimum)
  13806 nburk_GR[461,6]
                                    0             0               
  13807 nburk_GR[461,7]
-                                   9             0               
+                                   0             0               
  13808 nburk_GR[461,8]
                                    0             0               
  13809 nburk_GR[461,9]
@@ -29682,7 +29682,7 @@ Objective:  cost = 10743320.04 (MINimum)
  13828 nburk_GR[461,28]
                                    0             0               
  13829 nburk_GR[461,29]
-                                  33             0               
+                                  42             0               
  13830 nburk_GR[461,30]
                                    0             0               
  13831 nburk_GR[462,1]
@@ -29778,7 +29778,7 @@ Objective:  cost = 10743320.04 (MINimum)
  13876 nburk_GR[463,16]
                                    0             0               
  13877 nburk_GR[463,17]
-                                  86             0               
+                                 101             0               
  13878 nburk_GR[463,18]
                                    0             0               
  13879 nburk_GR[463,19]
@@ -29794,7 +29794,7 @@ Objective:  cost = 10743320.04 (MINimum)
  13884 nburk_GR[463,24]
                                    0             0               
  13885 nburk_GR[463,25]
-                                  15             0               
+                                   0             0               
  13886 nburk_GR[463,26]
                                    0             0               
  13887 nburk_GR[463,27]
@@ -31252,7 +31252,7 @@ Objective:  cost = 10743320.04 (MINimum)
  14613 nburk_GR[488,3]
                                    0             0               
  14614 nburk_GR[488,4]
-                                  29             0               
+                                  44             0               
  14615 nburk_GR[488,5]
                                    0             0               
  14616 nburk_GR[488,6]
@@ -32694,7 +32694,7 @@ Objective:  cost = 10743320.04 (MINimum)
  15334 nburk_BR[67,4]
                                    0             0               
  15335 nburk_BR[67,5]
-                                   0             0               
+                                  16             0               
  15336 nburk_BR[68,1]
                                    0             0               
  15337 nburk_BR[68,2]
@@ -32850,9 +32850,9 @@ Objective:  cost = 10743320.04 (MINimum)
  15412 nburk_BR[83,2]
                                    0             0               
  15413 nburk_BR[83,3]
-                                  63             0               
+                                  48             0               
  15414 nburk_BR[83,4]
-                                   0             0               
+                                  15             0               
  15415 nburk_BR[83,5]
                                    0             0               
  15416 nburk_BR[84,1]
@@ -32896,7 +32896,7 @@ Objective:  cost = 10743320.04 (MINimum)
  15435 nburk_BR[87,5]
                                    0             0               
  15436 nburk_BR[88,1]
-                                   0             0               
+                                  37             0               
  15437 nburk_BR[88,2]
                                    0             0               
  15438 nburk_BR[88,3]
@@ -33408,9 +33408,9 @@ Objective:  cost = 10743320.04 (MINimum)
  15691 nburk_BR[139,1]
                                    0             0               
  15692 nburk_BR[139,2]
-                                   2             0               
+                                   0             0               
  15693 nburk_BR[139,3]
-                                  61             0               
+                                  63             0               
  15694 nburk_BR[139,4]
                                    0             0               
  15695 nburk_BR[139,5]
@@ -34018,7 +34018,7 @@ Objective:  cost = 10743320.04 (MINimum)
  15996 nburk_BR[200,1]
                                    0             0               
  15997 nburk_BR[200,2]
-                                   0             0               
+                                  16             0               
  15998 nburk_BR[200,3]
                                    0             0               
  15999 nburk_BR[200,4]
@@ -34040,7 +34040,7 @@ Objective:  cost = 10743320.04 (MINimum)
  16007 nburk_BR[202,2]
                                    0             0               
  16008 nburk_BR[202,3]
-                                  27             0               
+                                   0             0               
  16009 nburk_BR[202,4]
                                    0             0               
  16010 nburk_BR[202,5]
@@ -34058,7 +34058,7 @@ Objective:  cost = 10743320.04 (MINimum)
  16016 nburk_BR[204,1]
                                    0             0               
  16017 nburk_BR[204,2]
-                                  82             0               
+                                  69             0               
  16018 nburk_BR[204,3]
                                    0             0               
  16019 nburk_BR[204,4]
@@ -34266,11 +34266,11 @@ Objective:  cost = 10743320.04 (MINimum)
  16120 nburk_BR[224,5]
                                    0             0               
  16121 nburk_BR[225,1]
-                                  37             0               
+                                  26             0               
  16122 nburk_BR[225,2]
                                    0             0               
  16123 nburk_BR[225,3]
-                                   0             0               
+                                  11             0               
  16124 nburk_BR[225,4]
                                    0             0               
  16125 nburk_BR[225,5]
@@ -34294,7 +34294,7 @@ Objective:  cost = 10743320.04 (MINimum)
  16134 nburk_BR[227,4]
                                    0             0               
  16135 nburk_BR[227,5]
-                                  16             0               
+                                   0             0               
  16136 nburk_BR[228,1]
                                    0             0               
  16137 nburk_BR[228,2]
@@ -34356,7 +34356,7 @@ Objective:  cost = 10743320.04 (MINimum)
  16165 nburk_BR[233,5]
                                    0             0               
  16166 nburk_BR[234,1]
-                                  22             0               
+                                   0             0               
  16167 nburk_BR[234,2]
                                    0             0               
  16168 nburk_BR[234,3]
@@ -34768,9 +34768,9 @@ Objective:  cost = 10743320.04 (MINimum)
  16371 nburk_BR[275,1]
                                    0             0               
  16372 nburk_BR[275,2]
-                                  29             0               
- 16373 nburk_BR[275,3]
                                    0             0               
+ 16373 nburk_BR[275,3]
+                                  29             0               
  16374 nburk_BR[275,4]
                                    0             0               
  16375 nburk_BR[275,5]
@@ -35248,7 +35248,7 @@ Objective:  cost = 10743320.04 (MINimum)
  16611 nburk_BR[323,1]
                                    0             0               
  16612 nburk_BR[323,2]
-                                  50             0               
+                                  34             0               
  16613 nburk_BR[323,3]
                                    0             0               
  16614 nburk_BR[323,4]
@@ -35516,7 +35516,7 @@ Objective:  cost = 10743320.04 (MINimum)
  16745 nburk_BR[349,5]
                                    0             0               
  16746 nburk_BR[350,1]
-                                  17             0               
+                                  13             0               
  16747 nburk_BR[350,2]
                                    0             0               
  16748 nburk_BR[350,3]
@@ -36058,7 +36058,7 @@ Objective:  cost = 10743320.04 (MINimum)
  17016 nburk_BR[404,1]
                                    0             0               
  17017 nburk_BR[404,2]
-                                   0             0               
+                                  44             0               
  17018 nburk_BR[404,3]
                                    0             0               
  17019 nburk_BR[404,4]
@@ -36902,7 +36902,7 @@ Objective:  cost = 10743320.04 (MINimum)
  17438 nburk_BR[488,3]
                                    0             0               
  17439 nburk_BR[488,4]
-                                  15             0               
+                                   0             0               
  17440 nburk_BR[488,5]
                                    0             0               
  17441 nburk_BR[489,1]

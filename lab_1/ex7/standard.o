@@ -37,32 +37,31 @@ GM: min|aij| =  6.687e-01  max|aij| =  1.495e+00  ratio =  2.236e+00
 EQ: min|aij| =  4.472e-01  max|aij| =  1.000e+00  ratio =  2.236e+00
 2N: min|aij| =  5.000e-01  max|aij| =  1.500e+00  ratio =  3.000e+00
 Constructing initial basis...
-Size of triangular part is 1107
+Size of triangular part is 1106
 Solving LP relaxation...
 GLPK Simplex Optimizer, v4.52
 1108 rows, 45251 columns, 108317 non-zeros
-      0: obj =   7.605146040e+06  infeas =  1.085e+05 (1)
-    500: obj =   2.239837704e+07  infeas =  1.825e+03 (0)
-   1000: obj =   2.363215204e+07  infeas =  9.825e+01 (0)
-*  1033: obj =   2.370248472e+07  infeas =  0.000e+00 (0)
-*  1500: obj =   1.465611367e+07  infeas =  0.000e+00 (0)
-*  2000: obj =   1.408274134e+07  infeas =  0.000e+00 (0)
-*  2500: obj =   1.207252314e+07  infeas =  0.000e+00 (0)
-*  3000: obj =   1.156093260e+07  infeas =  3.763e-15 (0)
-*  3500: obj =   1.049440773e+07  infeas =  4.489e-14 (0)
-*  4000: obj =   1.026827027e+07  infeas =  1.110e-15 (0)
-*  4500: obj =   1.016818957e+07  infeas =  3.222e-15 (0)
-*  4619: obj =   1.016488759e+07  infeas =  0.000e+00 (0)
+      0: obj =   7.605146040e+06  infeas =  1.085e+05 (2)
+    500: obj =   2.239837704e+07  infeas =  1.825e+03 (1)
+   1000: obj =   2.363215204e+07  infeas =  9.825e+01 (1)
+*  1032: obj =   2.370248472e+07  infeas =  0.000e+00 (1)
+*  1500: obj =   1.465262068e+07  infeas =  0.000e+00 (1)
+*  2000: obj =   1.406657233e+07  infeas =  0.000e+00 (1)
+*  2500: obj =   1.206545810e+07  infeas =  4.885e-15 (1)
+*  3000: obj =   1.139493325e+07  infeas =  0.000e+00 (1)
+*  3500: obj =   1.047352518e+07  infeas =  5.135e-14 (1)
+*  4000: obj =   1.021855630e+07  infeas =  7.674e-15 (1)
+*  4463: obj =   1.016488759e+07  infeas =  0.000e+00 (1)
 OPTIMAL LP SOLUTION FOUND
 Integer optimization begins...
-+  4619: mip =     not found yet >=              -inf        (1; 0)
-+  5366: >>>>>   1.017192604e+07 >=   1.016514220e+07 < 0.1% (17; 0)
-+  9593: mip =   1.017192604e+07 >=   1.016632418e+07 < 0.1% (96; 14)
-+ 10598: >>>>>   1.016674904e+07 >=   1.016674904e+07   0.0% (109; 18)
-+ 10598: mip =   1.016674904e+07 >=     tree is empty   0.0% (0; 249)
++  4463: mip =     not found yet >=              -inf        (1; 0)
++  5128: >>>>>   1.017192604e+07 >=   1.016514220e+07 < 0.1% (17; 0)
++  9008: mip =   1.017192604e+07 >=   1.016632418e+07 < 0.1% (91; 13)
++ 10393: >>>>>   1.016674904e+07 >=   1.016674904e+07   0.0% (111; 19)
++ 10393: mip =   1.016674904e+07 >=     tree is empty   0.0% (0; 255)
 INTEGER OPTIMAL SOLUTION FOUND
-Time used:   10.4 secs
-Memory used: 70.0 Mb (73421302 bytes)
+Time used:   11.6 secs
+Memory used: 70.2 Mb (73638166 bytes)
 Display statement at line 199
 bin_GR[1].val = 0
 bin_GR[2].val = 1

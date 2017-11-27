@@ -148,16 +148,16 @@ Objective:  cost = 2124038.489 (MINimum)
    138 sent_BG[3]               1364            -0               
    139 sent_BG[4]               1461            -0               
    140 sent_BG[5]                110            -0               
-   141 sent_GBu[1]                 0            -0               
-   142 sent_GBu[2]                 0            -0               
-   143 sent_GBu[3]                 0            -0               
-   144 sent_GBu[4]                 0            -0               
-   145 sent_GBu[5]                 0            -0               
-   146 sent_GBu[6]                 0            -0               
-   147 sent_GBu[7]                 0            -0               
-   148 sent_GBu[8]                 0            -0               
-   149 sent_GBu[9]                 0            -0               
-   150 sent_GBu[10]                0            -0               
+   141 sent_GBu[1]                 0            -0             = 
+   142 sent_GBu[2]                 0            -0             = 
+   143 sent_GBu[3]                 0            -0             = 
+   144 sent_GBu[4]                 0            -0             = 
+   145 sent_GBu[5]                 0            -0             = 
+   146 sent_GBu[6]                 0            -0             = 
+   147 sent_GBu[7]                 0            -0             = 
+   148 sent_GBu[8]                 0            -0             = 
+   149 sent_GBu[9]                 0            -0             = 
+   150 sent_GBu[10]                0            -0             = 
    151 sent_BBu[1]                 0            -0               
    152 sent_BBu[2]                 0            -0               
    153 sent_BBu[3]                 0            -0               

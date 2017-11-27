@@ -37,27 +37,27 @@ GM: min|aij| =  6.687e-01  max|aij| =  1.495e+00  ratio =  2.236e+00
 EQ: min|aij| =  4.472e-01  max|aij| =  1.000e+00  ratio =  2.236e+00
 2N: min|aij| =  5.000e-01  max|aij| =  1.500e+00  ratio =  3.000e+00
 Constructing initial basis...
-Size of triangular part is 1087
+Size of triangular part is 1086
 Solving LP relaxation...
 GLPK Simplex Optimizer, v4.52
 1088 rows, 35251 columns, 88297 non-zeros
-      0: obj =   1.093252704e+07  infeas =  1.038e+05 (1)
-    500: obj =   2.469362201e+07  infeas =  1.466e+04 (0)
-   1000: obj =   2.426918940e+07  infeas =  9.680e+02 (0)
-*  1017: obj =   2.424960793e+07  infeas =  0.000e+00 (0)
-*  1500: obj =   1.350384115e+07  infeas =  0.000e+00 (0)
-*  2000: obj =   1.249901416e+07  infeas =  0.000e+00 (0)
-*  2500: obj =   1.148500616e+07  infeas =  0.000e+00 (0)
-*  3000: obj =   1.102912095e+07  infeas =  0.000e+00 (0)
-*  3500: obj =   1.079795901e+07  infeas =  0.000e+00 (0)
-*  3980: obj =   1.074329078e+07  infeas =  0.000e+00 (0)
+      0: obj =   1.093252704e+07  infeas =  1.038e+05 (2)
+    500: obj =   2.469382103e+07  infeas =  1.456e+04 (1)
+   1000: obj =   2.426981351e+07  infeas =  9.440e+02 (1)
+*  1016: obj =   2.424960793e+07  infeas =  0.000e+00 (1)
+*  1500: obj =   1.350619115e+07  infeas =  0.000e+00 (1)
+*  2000: obj =   1.258614985e+07  infeas =  1.137e-13 (1)
+*  2500: obj =   1.149321293e+07  infeas =  0.000e+00 (1)
+*  3000: obj =   1.097506134e+07  infeas =  1.776e-14 (1)
+*  3500: obj =   1.077363203e+07  infeas =  0.000e+00 (1)
+*  3887: obj =   1.074329078e+07  infeas =  0.000e+00 (1)
 OPTIMAL LP SOLUTION FOUND
 Integer optimization begins...
-+  3980: mip =     not found yet >=              -inf        (1; 0)
-+  4351: >>>>>   1.074332004e+07 >=   1.074332004e+07 < 0.1% (8; 0)
-+  4351: mip =   1.074332004e+07 >=     tree is empty   0.0% (0; 15)
++  3887: mip =     not found yet >=              -inf        (1; 0)
++  4203: >>>>>   1.074332004e+07 >=   1.074332004e+07 < 0.1% (8; 0)
++  4203: mip =   1.074332004e+07 >=     tree is empty   0.0% (0; 15)
 INTEGER OPTIMAL SOLUTION FOUND
-Time used:   2.8 secs
+Time used:   3.3 secs
 Memory used: 66.9 Mb (70167031 bytes)
 Display statement at line 199
 bin_GR[1].val = 1

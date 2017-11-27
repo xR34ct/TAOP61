@@ -37,20 +37,20 @@ GM: min|aij| =  7.598e-01  max|aij| =  1.316e+00  ratio =  1.732e+00
 EQ: min|aij| =  5.774e-01  max|aij| =  1.000e+00  ratio =  1.732e+00
 2N: min|aij| =  5.000e-01  max|aij| =  1.500e+00  ratio =  3.000e+00
 Constructing initial basis...
-Size of triangular part is 72
+Size of triangular part is 71
 Solving LP relaxation...
 GLPK Simplex Optimizer, v4.52
 73 rows, 451 columns, 1098 non-zeros
-      0: obj =   1.728138000e+05  infeas =  3.967e+03 (1)
-*    20: obj =   6.576264481e+05  infeas =  7.105e-15 (0)
-*   135: obj =   3.603241037e+05  infeas =  0.000e+00 (0)
+      0: obj =   1.728138000e+05  infeas =  3.967e+03 (2)
+*    19: obj =   6.576264481e+05  infeas =  7.105e-15 (1)
+*   134: obj =   3.603241037e+05  infeas =  0.000e+00 (1)
 OPTIMAL LP SOLUTION FOUND
 Integer optimization begins...
-+   135: mip =     not found yet >=              -inf        (1; 0)
-+   166: >>>>>   3.757569333e+05 >=   3.608520580e+05   4.0% (6; 0)
-+   214: >>>>>   3.729879333e+05 >=   3.660569333e+05   1.9% (6; 7)
-+   220: >>>>>   3.667809333e+05 >=   3.667809333e+05   0.0% (2; 14)
-+   220: mip =   3.667809333e+05 >=     tree is empty   0.0% (0; 19)
++   134: mip =     not found yet >=              -inf        (1; 0)
++   165: >>>>>   3.757569333e+05 >=   3.608520580e+05   4.0% (6; 0)
++   213: >>>>>   3.729879333e+05 >=   3.660569333e+05   1.9% (6; 7)
++   219: >>>>>   3.667809333e+05 >=   3.667809333e+05   0.0% (2; 14)
++   219: mip =   3.667809333e+05 >=     tree is empty   0.0% (0; 19)
 INTEGER OPTIMAL SOLUTION FOUND
 Time used:   0.0 secs
 Memory used: 0.9 Mb (993570 bytes)

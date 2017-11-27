@@ -37,35 +37,35 @@ GM: min|aij| =  6.687e-01  max|aij| =  1.495e+00  ratio =  2.236e+00
 EQ: min|aij| =  4.472e-01  max|aij| =  1.000e+00  ratio =  2.236e+00
 2N: min|aij| =  5.000e-01  max|aij| =  1.500e+00  ratio =  3.000e+00
 Constructing initial basis...
-Size of triangular part is 2087
+Size of triangular part is 2086
 Solving LP relaxation...
 GLPK Simplex Optimizer, v4.52
 2088 rows, 70331 columns, 175877 non-zeros
-      0: obj =   1.426390430e+07  infeas =  2.092e+05 (1)
-    500: obj =   3.783078877e+07  infeas =  4.114e+04 (0)
-   1000: obj =   3.863127277e+07  infeas =  2.885e+04 (0)
-   1500: obj =   3.946400177e+07  infeas =  1.506e+04 (0)
-   2000: obj =   4.022773279e+07  infeas =  2.600e+03 (0)
-*  2354: obj =   4.043552465e+07  infeas =  0.000e+00 (0)
-*  2500: obj =   2.884116585e+07  infeas =  0.000e+00 (0)
-*  3000: obj =   2.833064785e+07  infeas =  0.000e+00 (0)
-*  3500: obj =   2.761495385e+07  infeas =  0.000e+00 (0)
-*  4000: obj =   2.606797503e+07  infeas =  0.000e+00 (0)
-*  4500: obj =   2.487798612e+07  infeas =  0.000e+00 (0)
-*  5000: obj =   2.386505103e+07  infeas =  0.000e+00 (0)
-*  5500: obj =   2.308272702e+07  infeas =  0.000e+00 (0)
-*  6000: obj =   2.268950059e+07  infeas =  0.000e+00 (0)
-*  6500: obj =   2.246263846e+07  infeas =  0.000e+00 (0)
-*  7000: obj =   2.235236523e+07  infeas =  0.000e+00 (0)
-*  7500: obj =   2.228645123e+07  infeas =  0.000e+00 (0)
-*  7695: obj =   2.227873423e+07  infeas =  0.000e+00 (0)
+      0: obj =   1.426390430e+07  infeas =  2.092e+05 (2)
+    500: obj =   3.783078877e+07  infeas =  4.114e+04 (1)
+   1000: obj =   3.863127277e+07  infeas =  2.885e+04 (1)
+   1500: obj =   3.946400177e+07  infeas =  1.506e+04 (1)
+   2000: obj =   4.022773279e+07  infeas =  2.600e+03 (1)
+*  2353: obj =   4.043552465e+07  infeas =  0.000e+00 (1)
+*  2500: obj =   2.883946985e+07  infeas =  7.105e-15 (1)
+*  3000: obj =   2.819772785e+07  infeas =  0.000e+00 (1)
+*  3500: obj =   2.761589785e+07  infeas =  0.000e+00 (1)
+*  4000: obj =   2.594084260e+07  infeas =  0.000e+00 (1)
+*  4500: obj =   2.516091202e+07  infeas =  0.000e+00 (1)
+*  5000: obj =   2.407502848e+07  infeas =  0.000e+00 (1)
+*  5500: obj =   2.320681055e+07  infeas =  3.553e-15 (1)
+*  6000: obj =   2.268959889e+07  infeas =  0.000e+00 (1)
+*  6500: obj =   2.247883915e+07  infeas =  0.000e+00 (0)
+*  7000: obj =   2.235306923e+07  infeas =  0.000e+00 (0)
+*  7500: obj =   2.228643423e+07  infeas =  0.000e+00 (0)
+*  7718: obj =   2.227873423e+07  infeas =  0.000e+00 (0)
 OPTIMAL LP SOLUTION FOUND
 Integer optimization begins...
-+  7695: mip =     not found yet >=              -inf        (1; 0)
-+  8004: >>>>>   2.227874517e+07 >=   2.227874517e+07   0.0% (3; 0)
-+  8004: mip =   2.227874517e+07 >=     tree is empty   0.0% (0; 5)
++  7718: mip =     not found yet >=              -inf        (1; 0)
++  8148: >>>>>   2.227874517e+07 >=   2.227874517e+07   0.0% (3; 0)
++  8148: mip =   2.227874517e+07 >=     tree is empty   0.0% (0; 5)
 INTEGER OPTIMAL SOLUTION FOUND
-Time used:   16.5 secs
+Time used:   18.0 secs
 Memory used: 235.8 Mb (247213815 bytes)
 Display statement at line 199
 bin_GR[1].val = 1

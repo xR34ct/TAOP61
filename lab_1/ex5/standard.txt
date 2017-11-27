@@ -52,11 +52,11 @@ Objective:  cost = 353522.2633 (MINimum)
     43 sent_BG[1]                973            -0               
     44 sent_BG[2]                 30            -0               
     45 sent_BG[3]                100            -0               
-    46 sent_GBu[1]                 0            -0               
-    47 sent_GBu[2]                 0            -0               
-    48 sent_GBu[3]                 0            -0               
-    49 sent_GBu[4]                 0            -0               
-    50 sent_GBu[5]                 0            -0               
+    46 sent_GBu[1]                 0            -0             = 
+    47 sent_GBu[2]                 0            -0             = 
+    48 sent_GBu[3]                 0            -0             = 
+    49 sent_GBu[4]                 0            -0             = 
+    50 sent_GBu[5]                 0            -0             = 
     51 sent_BBu[1]                 0            -0               
     52 sent_BBu[2]                 0            -0               
     53 sent_BBu[3]                 0            -0               

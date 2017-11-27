@@ -37,27 +37,27 @@ GM: min|aij| =  6.687e-01  max|aij| =  1.495e+00  ratio =  2.236e+00
 EQ: min|aij| =  4.472e-01  max|aij| =  1.000e+00  ratio =  2.236e+00
 2N: min|aij| =  5.000e-01  max|aij| =  1.500e+00  ratio =  3.000e+00
 Constructing initial basis...
-Size of triangular part is 2087
+Size of triangular part is 2086
 Solving LP relaxation...
 GLPK Simplex Optimizer, v4.52
 2088 rows, 70331 columns, 175877 non-zeros
-      0: obj =   1.426390430e+07  infeas =  2.092e+05 (1)
-*   274: obj =   3.779913253e+07  infeas =  0.000e+00 (0)
-*   500: obj =   2.488106362e+07  infeas =  6.128e-13 (0)
-*  1000: obj =   2.292496140e+07  infeas =  1.167e-12 (0)
-*  1500: obj =   2.195315892e+07  infeas =  1.976e-14 (0)
-*  2000: obj =   2.156755084e+07  infeas =  0.000e+00 (0)
-*  2500: obj =   2.134431548e+07  infeas =  0.000e+00 (0)
-*  3000: obj =   2.123482425e+07  infeas =  1.962e-13 (0)
-*  3500: obj =   2.119855740e+07  infeas =  2.478e-13 (0)
-*  3594: obj =   2.119855068e+07  infeas =  0.000e+00 (0)
+      0: obj =   1.426390430e+07  infeas =  2.092e+05 (2)
+*   273: obj =   3.779913253e+07  infeas =  0.000e+00 (1)
+*   500: obj =   2.487598761e+07  infeas =  6.128e-13 (1)
+*  1000: obj =   2.292968640e+07  infeas =  1.167e-12 (1)
+*  1500: obj =   2.195224692e+07  infeas =  1.976e-14 (1)
+*  2000: obj =   2.156550484e+07  infeas =  1.976e-14 (0)
+*  2500: obj =   2.134359349e+07  infeas =  0.000e+00 (0)
+*  3000: obj =   2.123422020e+07  infeas =  3.986e-14 (0)
+*  3500: obj =   2.119855712e+07  infeas =  9.825e-14 (0)
+*  3581: obj =   2.119855068e+07  infeas =  0.000e+00 (0)
 OPTIMAL LP SOLUTION FOUND
 Integer optimization begins...
-+  3594: mip =     not found yet >=              -inf        (1; 0)
-+  6128: >>>>>   2.123327717e+07 >=   2.119865364e+07   0.2% (29; 0)
-+  6128: mip =   2.123327717e+07 >=   2.119865364e+07   0.2% (24; 9)
++  3581: mip =     not found yet >=              -inf        (1; 0)
++  6044: >>>>>   2.123327717e+07 >=   2.119865364e+07   0.2% (29; 0)
++  6044: mip =   2.123327717e+07 >=   2.119865364e+07   0.2% (24; 9)
 RELATIVE MIP GAP TOLERANCE REACHED; SEARCH TERMINATED
-Time used:   17.3 secs
+Time used:   17.7 secs
 Memory used: 235.8 Mb (247213815 bytes)
 Display statement at line 199
 bin_GR[1].val = 1
