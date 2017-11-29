@@ -1,0 +1,9 @@
+Path with 3 links read from file path1/path1.txt.
+Initial battery level 10.
+Driving electric all the way would need 80.
+Stupid solution:4 4 4 Optimal solution:
+3 4 4 
+Number of segments per type: 0, 0, 1, 2
+Total length per type: 0.0, 0.0, 2.5, 5.5
+Cost for stupid driver: 112
+Optimal cost 97, final battery level: 2

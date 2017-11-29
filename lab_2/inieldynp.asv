@@ -1,6 +1,6 @@
 % choose indata file and discretization
-fil='path16/path16.txt';
-result='path16/result.txt';
+fil='path13/path13.txt';
+result='path13/result.txt';
 scal=1;
 
 disp(' *** Dynamic programming for PHEV *** ');

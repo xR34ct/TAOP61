@@ -43,19 +43,18 @@ function [x_opt,malfunk,sk,future_k] = cost(j,j_max,b,k,c,a,f_old)
         
     f_old = f;
     
-    disp(j);
+    
     if j ~= j_max
         [x_opt,malfunk,sk,future_k] = cost(j+1,j_max,b,k,c,a,f_old);
-        q = future_k;
-        while sk - a(j,q) < 0
-           q = q + 1;
-        end
-        future_k = q;
         sk = sk - a(j,future_k);
         %disp(j);
         choose = find(s_rad==sk);
-        x_opt(1,j+1) = q;
+        size(choose);
+        fprintf('Path %d will choose: %d \n',j,choose(1,1));
         x_opt(1,j) = x_hatt(1,choose(1,1));
+        fid=fopen('test.txt','w');
+        fprintf(fid,'\n \n %d \n \n %d \n \n %d \n \n %d',sk,a(j,future_k),future_k,x_opt(1,j));
+        fclose(fid);
         future_k = x_opt(1,j);
     end
     
@@ -70,7 +69,6 @@ function [x_opt,malfunk,sk,future_k] = cost(j,j_max,b,k,c,a,f_old)
         sk = s_rad(1,langd);
     end
     
-    fprintf('Avsnitt %d \n batteri kvar %d \n Kostnad %d \n Valt framföringsätt %d \n \n',j,sk,a(j,future_k),x_opt(1,j));
     %disp(table);
     %disp(c);
     %disp(a);
