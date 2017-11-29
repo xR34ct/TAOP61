@@ -1,6 +1,10 @@
 % choose indata file and discretization
-fil='path7/path7.txt';
-result='path7/result.txt';
+
+
+%Made by Adnan Avdagic, Carl-Martin Johansson and Joel Runesson
+
+fil='path16/path16.txt';
+result='path16/result.txt';
 scal=1;
 
 disp(' *** Dynamic programming for PHEV *** ');

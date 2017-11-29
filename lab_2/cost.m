@@ -1,4 +1,5 @@
 function [x_opt,malfunk,sk,future_k] = cost(j,j_max,b,k,c,a,f_old)
+    %Made by Adnan Avdagic, Carl-Martin Johansson and Joel Runesson
     
     %Sätter längde
     langd = b+1;
