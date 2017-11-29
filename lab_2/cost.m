@@ -1,49 +1,42 @@
 function [x_opt,malfunk,sk,future_k] = cost(j,j_max,b,k,c,a,f_old)
     
-    
+    %Sätter längde
     langd = b+1;
     
-    %Görs innan loopen
+    %Skapar matriser
     s_rad = zeros(1,langd);
     table = zeros(k,langd);
     f = zeros(1,langd);
     x_hatt = zeros(1,langd);
+    
+    %Skapar s_rad
     for i=0:langd
         s_rad(1,i+1) = i;
     end
-    if j == 1
-        for x=1:k
-            for y=1:length(table)
-                if s_rad(1,y) / a(j,x) < 1
-                    table(x,y) = inf;
-                else
-                    table(x,y) = c(j,x);
-                end
-            end
-        end
-    else
-        for x=1:k
-            flytt = a(j,x);
-            for y=1:length(table)
-                if s_rad(1,y) / a(j,x) < 1
-                    table(x,y) = inf;
-                else
-                    if j ~= 1 && table(x,y) ~= inf
-                        table(x,y) = c(j,x) + f_old(1,y-flytt);
-                    end
-                end
+    
+    %Räknar ut tabellvärden
+    for x=1:k
+        flytt = a(j,x);
+        for y=1:length(table)
+            if s_rad(1,y) / a(j,x) < 1
+                table(x,y) = inf;
+            else
+                table(x,y) = c(j,x) + f_old(1,y-flytt);
             end
         end
     end
+    
+    %Räknar ut f-raden samt circumflex(x)-raden
     for i=1:langd
         f(1,i) = min(table(:,i));
         [rad,col] = find(table(:,i) == f(1,i));
         x_hatt(1,i) = rad(1,1);
     end
-        
+    
+    %Sätter gammla f-raden till den nuvarande f-rad
     f_old = f;
     
-    disp(j);
+    %Väljer x-optimum, m.h.a sk
     if j ~= j_max
         [x_opt,malfunk,sk,future_k] = cost(j+1,j_max,b,k,c,a,f_old);
         q = future_k;
@@ -52,17 +45,13 @@ function [x_opt,malfunk,sk,future_k] = cost(j,j_max,b,k,c,a,f_old)
         end
         future_k = q;
         sk = sk - a(j,future_k);
-        %disp(j);
         choose = find(s_rad==sk);
         x_opt(1,j+1) = q;
         x_opt(1,j) = x_hatt(1,choose(1,1));
         future_k = x_opt(1,j);
     end
     
-    if j == 1
-        sk = sk - a(j,future_k);
-    end
-        
+    %Sista tablån väljer alltid det högraste värdet
     if j == j_max
         x_opt(1,j) = x_hatt(1,langd);
         future_k = x_opt(1,j);
@@ -70,7 +59,7 @@ function [x_opt,malfunk,sk,future_k] = cost(j,j_max,b,k,c,a,f_old)
         sk = s_rad(1,langd);
     end
     
-    fprintf('Avsnitt %d \n batteri kvar %d \n Kostnad %d \n Valt framföringsätt %d \n \n',j,sk,a(j,future_k),x_opt(1,j));
+    %fprintf('Avsnitt %d \n batteri kvar %d \n Kostnad %d \n Valt framföringsätt %d \n \n',j,sk,a(j,future_k),x_opt(1,j));
     %disp(table);
     %disp(c);
     %disp(a);

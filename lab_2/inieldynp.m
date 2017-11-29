@@ -1,6 +1,6 @@
 % choose indata file and discretization
-fil='path16/path16.txt';
-result='path16/result.txt';
+fil='path2/path2.txt';
+result='path2/result.txt';
 scal=1;
 
 disp(' *** Dynamic programming for PHEV *** ');
@@ -95,11 +95,17 @@ if (dosolve)
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % insert your code here!
     
-    
+    %Första "gammla" f-raden sätts till nollor
     f_old=zeros(1,b+1);
-  
-    [xopt,z,s] = cost(1,j,b,k,c,a,f_old);
     
+    %Vilket vägavsnitt ska funktionen starta på
+    start=1;
+    
+    %Kallar på den rekursiva funktionen
+    [xopt,z,s] = cost(start,j,b,k,c,a,f_old);
+    
+    %Räknar ut hur mycket laddning som finns kvar vid slutet av turen
+    s = s - a(start,xopt(start));
     
      
     % no need to change below
