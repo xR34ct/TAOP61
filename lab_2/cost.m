@@ -10,14 +10,14 @@ function [x_opt,malfunk,sk,future_k] = cost(j,j_max,b,k,c,a,f_old)
     x_hatt = zeros(1,langd);
     
     %Skapar s_rad
-    for i=0:langd
-        s_rad(1,i+1) = i;
+    for i=1:langd
+        s_rad(1,i) = i-1;
     end
     
     %Räknar ut tabellvärden
     for x=1:k
         flytt = a(j,x);
-        for y=1:length(table)
+        for y=1:langd
             if s_rad(1,y) / a(j,x) < 1
                 table(x,y) = inf;
             else

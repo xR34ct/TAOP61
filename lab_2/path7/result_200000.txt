@@ -7,3 +7,4 @@ Number of segments per type: 35, 10, 10, 19
 Total length per type: 9241.0, 2936.0, 1016.0, 11062.0
 Cost for stupid driver: 113857
 Optimal cost 79581, final battery level: 17
+Time: 64.595474 s
