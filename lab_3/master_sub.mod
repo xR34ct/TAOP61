@@ -1,36 +1,27 @@
-#Subproblemet
-
 param n_nod;
 set nod := 1..n_nod;
 
 #Hur fan sätter man bågar??!!
 
-param n_path;
-set path := 1..n_path;
+#param n_path;
+#set path := 1..n_path;
 
-param dist{nod,nod};
+param cf_c{nod,nod};
 
-param {}
+param b{i in nod,j in nod} := max(0,-cf_c[i,j]);
 
-param bin {nod,nod} binary; #1 då en ny båge används
+printf{i in nod,j in nod} "b[%2s] = %g, %g\n", i, j, b[i,j];
 
-
-var flow{nod,nod} >= 0; #Flödet mellan två noder, ska detta vara från i till j eller per båge k??
-
-
-
-minimize sub:
-	sum{i in nod, j in nod} (dist[i,j] * flow[i,j]) + sum{i in nod, j in nod} (bin[i,j] * 300);
-
-s.t. tillgodose{i in nod}:
-	sum{j in nod} (flow[j,i] - flow[i,j]) = demand[i];
-
-s.t. capacity{k in path}:
-	0 <= flow[k] <= 50 * bin[i,j];
 
 #Masterproblemet
 
+#minimize master: q + sum{} bin[k] * 300;
+
+#s.t. my_ass{k in snitt}:
+#		q >=
+
+solve;
 
 
-minimize master: q;
 
+end;
