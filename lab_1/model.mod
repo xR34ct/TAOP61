@@ -141,11 +141,11 @@ s.t. sent_GBu{j in GROSS}:
 s.t. sent_BBu{k in BRYGG}:
     sum{n in FPACK} nburk_TB[n,k] - sum{i in BUTIK} nburk_BBu[k,i] >= 0;
 
-s.t. from_B:
-    sum{k in BRYGG} (sum{j in GROSS} nburk_BG[k,j] + sum{i in BUTIK} nburk_BBu[k,i]) = sum{n in FPACK, k in BRYGG} nburk_TB[n,k];
+s.t. from_B{k in BRYGG}:
+    (sum{j in GROSS} nburk_BG[k,j] + sum{i in BUTIK} nburk_BBu[k,i]) = sum{n in FPACK} nburk_TB[n,k];
 
-s.t. from_G:
-   sum{j in GROSS, i in BUTIK} nburk_GBu[j,i] = sum{k in BRYGG, j in GROSS} nburk_BG[k,j];
+s.t. from_G{j in GROSS}:
+   sum{i in BUTIK} nburk_GBu[j,i] = sum{k in BRYGG} nburk_BG[k,j];
 
 s.t. sent_to_BUTIK{i in BUTIK}:
     sum{j in GROSS} nburk_GBu[j,i] + sum{k in BRYGG} nburk_BBu[k,i] = behov[i];
@@ -186,7 +186,10 @@ s.t. material_costs:
 
 solve;
 
-/*display nburk_RM;
+display nburk_GR;
+display nburk_BR;
+display nburk_LR;
+display nburk_RM;
 display nburk_MT;
 display nburk_TB;
 display nburk_BG;
@@ -195,7 +198,7 @@ display nburk_BBu;
 display nnytt_matr;
 display tot_nytt_matr;
 #display
-*/
+
 display bin_GR;
 display bin_BR;
 display bin_LR;
