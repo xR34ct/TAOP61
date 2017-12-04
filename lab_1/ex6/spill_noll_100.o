@@ -15,9 +15,6 @@ Generating bought_matr...
 Generating sent_RM...
 Generating sent_MT...
 Generating sent_TB...
-Generating sent_BG...
-Generating sent_GBu...
-Generating sent_BBu...
 Generating from_B...
 Generating from_G...
 Generating sent_to_BUTIK...
@@ -26,35 +23,33 @@ Generating fixed_costs...
 Generating material_costs...
 Model has been successfully generated
 GLPK Integer Optimizer, v4.52
-260 rows, 4108 columns, 13936 non-zeros
+253 rows, 4108 columns, 12306 non-zeros
 25 integer variables, all of which are binary
 Preprocessing...
-256 rows, 4105 columns, 9825 non-zeros
+249 rows, 4105 columns, 8195 non-zeros
 25 integer variables, all of which are binary
 Scaling...
  A: min|aij| =  9.000e-01  max|aij| =  1.005e+03  ratio =  1.117e+03
-GM: min|aij| =  6.687e-01  max|aij| =  1.495e+00  ratio =  2.236e+00
-EQ: min|aij| =  4.472e-01  max|aij| =  1.000e+00  ratio =  2.236e+00
-2N: min|aij| =  2.500e-01  max|aij| =  1.500e+00  ratio =  6.000e+00
+GM: min|aij| =  7.918e-01  max|aij| =  1.263e+00  ratio =  1.595e+00
+EQ: min|aij| =  6.673e-01  max|aij| =  1.000e+00  ratio =  1.499e+00
+2N: min|aij| =  5.000e-01  max|aij| =  1.500e+00  ratio =  3.000e+00
 Constructing initial basis...
-Size of triangular part is 254
+Size of triangular part is 248
 Solving LP relaxation...
 GLPK Simplex Optimizer, v4.52
-256 rows, 4105 columns, 9825 non-zeros
-      0: obj =   1.854015400e+06  infeas =  1.320e+04 (2)
-*   178: obj =   4.512689002e+06  infeas =  0.000e+00 (1)
-*   500: obj =   2.640404182e+06  infeas =  0.000e+00 (1)
-*   734: obj =   2.119779202e+06  infeas =  1.400e-29 (1)
+249 rows, 4105 columns, 8195 non-zeros
+      0: obj =   1.267551400e+06  infeas =  1.640e+04 (1)
+*   194: obj =   4.512689002e+06  infeas =  0.000e+00 (0)
+*   500: obj =   2.631493388e+06  infeas =  4.689e-14 (0)
+*   818: obj =   2.119548202e+06  infeas =  0.000e+00 (0)
 OPTIMAL LP SOLUTION FOUND
 Integer optimization begins...
-+   734: mip =     not found yet >=              -inf        (1; 0)
-+   930: >>>>>   2.134823489e+06 >=   2.120949743e+06   0.6% (9; 0)
-+  1061: >>>>>   2.130535489e+06 >=   2.122195915e+06   0.4% (7; 9)
-+  1156: >>>>>   2.124038489e+06 >=   2.124038489e+06   0.0% (6; 12)
-+  1156: mip =   2.124038489e+06 >=     tree is empty   0.0% (0; 27)
++   818: mip =     not found yet >=              -inf        (1; 0)
++   895: >>>>>   2.123807489e+06 >=   2.122541166e+06 < 0.1% (6; 0)
++   912: mip =   2.123807489e+06 >=     tree is empty   0.0% (0; 11)
 INTEGER OPTIMAL SOLUTION FOUND
 Time used:   0.1 secs
-Memory used: 6.7 Mb (6990659 bytes)
+Memory used: 6.3 Mb (6621103 bytes)
 Display statement at line 199
 bin_GR[1].val = 0
 bin_GR[2].val = 0
@@ -88,9 +83,9 @@ f_cost.val = 53811
 Display statement at line 204
 m_cost.val = 22399.6666666666
 Display statement at line 205
-v_cost.val = 2047827.82222222
+v_cost.val = 2047596.82222222
 Display statement at line 206
-cost.val = 2124038.48888889
+cost.val = 2123807.48888889
 100 butiker, 10 grossister, 5 bryggerier, 10 lager.
 3 matr, 3 fpack.
 Totalt behov 6109, spill 281.

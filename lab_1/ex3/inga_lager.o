@@ -2,7 +2,7 @@ GLPSOL: GLPK LP/MIP Solver, v4.52
 Parameter(s) specified in the command line:
  -m inga_lager.mod -d ex3/ex3.dat -o ex3/inga_lager.txt
 Reading model section from inga_lager.mod...
-215 lines were read
+217 lines were read
 Reading data section from ex3/ex3.dat...
 209 lines were read
 Generating cost...
@@ -15,9 +15,6 @@ Generating bought_matr...
 Generating sent_RM...
 Generating sent_MT...
 Generating sent_TB...
-Generating sent_BG...
-Generating sent_GBu...
-Generating sent_BBu...
 Generating from_B...
 Generating from_G...
 Generating sent_to_BUTIK...
@@ -26,52 +23,52 @@ Generating fixed_costs...
 Generating material_costs...
 Model has been successfully generated
 GLPK Integer Optimizer, v4.52
-39 rows, 100 columns, 333 non-zeros
+35 rows, 100 columns, 288 non-zeros
 9 integer variables, all of which are binary
 Preprocessing...
 3 constraint coefficient(s) were reduced
-30 rows, 73 columns, 186 non-zeros
+26 rows, 73 columns, 141 non-zeros
 5 integer variables, all of which are binary
 Scaling...
  A: min|aij| =  9.000e-01  max|aij| =  2.290e+02  ratio =  2.544e+02
-GM: min|aij| =  8.409e-01  max|aij| =  1.189e+00  ratio =  1.414e+00
-EQ: min|aij| =  7.071e-01  max|aij| =  1.000e+00  ratio =  1.414e+00
-2N: min|aij| =  5.000e-01  max|aij| =  1.500e+00  ratio =  3.000e+00
+GM: min|aij| =  9.268e-01  max|aij| =  1.079e+00  ratio =  1.164e+00
+EQ: min|aij| =  8.589e-01  max|aij| =  1.000e+00  ratio =  1.164e+00
+2N: min|aij| =  8.867e-01  max|aij| =  1.500e+00  ratio =  1.692e+00
 Constructing initial basis...
-Size of triangular part is 28
+Size of triangular part is 25
 Solving LP relaxation...
 GLPK Simplex Optimizer, v4.52
-30 rows, 73 columns, 186 non-zeros
-      0: obj =   5.821983000e+04  infeas =  7.683e+02 (2)
-*    13: obj =   1.575179505e+05  infeas =  0.000e+00 (1)
-*    31: obj =   1.251180263e+05  infeas =  0.000e+00 (1)
+26 rows, 73 columns, 141 non-zeros
+      0: obj =   5.821983000e+04  infeas =  7.683e+02 (1)
+*    13: obj =   1.575179505e+05  infeas =  0.000e+00 (0)
+*    33: obj =   1.251180263e+05  infeas =  0.000e+00 (0)
 OPTIMAL LP SOLUTION FOUND
 Integer optimization begins...
-+    31: mip =     not found yet >=              -inf        (1; 0)
++    33: mip =     not found yet >=              -inf        (1; 0)
 +    38: >>>>>   1.251369633e+05 >=   1.251369633e+05   0.0% (5; 0)
 +    38: mip =   1.251369633e+05 >=     tree is empty   0.0% (0; 9)
 INTEGER OPTIMAL SOLUTION FOUND
 Time used:   0.0 secs
-Memory used: 0.3 Mb (311598 bytes)
-Display statement at line 199
+Memory used: 0.3 Mb (300606 bytes)
+Display statement at line 201
 bin_GR[1].val = 1
 bin_GR[2].val = 0
 bin_GR[3].val = 1
-Display statement at line 200
+Display statement at line 202
 bin_BR[1].val = 1
 bin_BR[2].val = 1
-Display statement at line 201
+Display statement at line 203
 bin_LR[1].val = 0
 bin_LR[2].val = 0
 bin_LR[3].val = 0
 bin_LR[4].val = 0
-Display statement at line 203
-f_cost.val = 25
-Display statement at line 204
-m_cost.val = 17.0633333333334
 Display statement at line 205
-v_cost.val = 125094.9
+f_cost.val = 25
 Display statement at line 206
+m_cost.val = 17.0633333333334
+Display statement at line 207
+v_cost.val = 125094.9
+Display statement at line 208
 cost.val = 125136.963333333
 5 butiker, 3 grossister, 2 bryggerier, 4 lager.
 2 matr, 2 fpack.

@@ -1,13 +1,13 @@
 Problem:    inga_lager
-Rows:       260
+Rows:       253
 Columns:    4108 (25 integer, 25 binary)
-Non-zeros:  13926
+Non-zeros:  12296
 Status:     INTEGER OPTIMAL
-Objective:  cost = 2424744.449 (MINimum)
+Objective:  cost = 2424513.449 (MINimum)
 
    No.   Row name        Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 cost              2.42474e+06                             
+     1 cost              2.42451e+06                             
      2 pant_tot[1]                70            70             = 
      3 pant_tot[2]                22            22             = 
      4 pant_tot[3]                77            77             = 
@@ -143,232 +143,225 @@ Objective:  cost = 2424744.449 (MINimum)
    133 sent_TB[1]                  0            -0             = 
    134 sent_TB[2]                  0            -0             = 
    135 sent_TB[3]                  0            -0             = 
-   136 sent_BG[1]                183            -0               
-   137 sent_BG[2]               2991            -0               
-   138 sent_BG[3]               1292            -0               
-   139 sent_BG[4]               1533            -0               
-   140 sent_BG[5]                110            -0               
-   141 sent_GBu[1]                 0            -0             = 
-   142 sent_GBu[2]                 0            -0             = 
-   143 sent_GBu[3]                 0            -0             = 
-   144 sent_GBu[4]                 0            -0             = 
-   145 sent_GBu[5]                 0            -0             = 
-   146 sent_GBu[6]                 0            -0             = 
-   147 sent_GBu[7]                 0            -0             = 
-   148 sent_GBu[8]                 0            -0             = 
-   149 sent_GBu[9]                 0            -0             = 
-   150 sent_GBu[10]                0            -0             = 
-   151 sent_BBu[1]                 0            -0               
-   152 sent_BBu[2]                 0            -0               
-   153 sent_BBu[3]                 0            -0               
-   154 sent_BBu[4]                 0            -0               
-   155 sent_BBu[5]                 0            -0               
-   156 from_B                      0            -0             = 
-   157 from_G                      0            -0             = 
-   158 sent_to_BUTIK[1]
+   136 from_B[1]                   0            -0             = 
+   137 from_B[2]                   0            -0             = 
+   138 from_B[3]                   0            -0             = 
+   139 from_B[4]                   0            -0             = 
+   140 from_B[5]                   0            -0             = 
+   141 from_G[1]                   0            -0             = 
+   142 from_G[2]                   0            -0             = 
+   143 from_G[3]                   0            -0             = 
+   144 from_G[4]                   0            -0             = 
+   145 from_G[5]                   0            -0             = 
+   146 from_G[6]                   0            -0             = 
+   147 from_G[7]                   0            -0             = 
+   148 from_G[8]                   0            -0             = 
+   149 from_G[9]                   0            -0             = 
+   150 from_G[10]                  0            -0             = 
+   151 sent_to_BUTIK[1]
                                   73            73             = 
-   159 sent_to_BUTIK[2]
+   152 sent_to_BUTIK[2]
                                   22            22             = 
-   160 sent_to_BUTIK[3]
+   153 sent_to_BUTIK[3]
                                   79            79             = 
-   161 sent_to_BUTIK[4]
+   154 sent_to_BUTIK[4]
                                   11            11             = 
-   162 sent_to_BUTIK[5]
+   155 sent_to_BUTIK[5]
                                   72            72             = 
-   163 sent_to_BUTIK[6]
+   156 sent_to_BUTIK[6]
                                   42            42             = 
-   164 sent_to_BUTIK[7]
+   157 sent_to_BUTIK[7]
                                   67            67             = 
-   165 sent_to_BUTIK[8]
+   158 sent_to_BUTIK[8]
                                   65            65             = 
-   166 sent_to_BUTIK[9]
+   159 sent_to_BUTIK[9]
                                   55            55             = 
-   167 sent_to_BUTIK[10]
+   160 sent_to_BUTIK[10]
                                   45            45             = 
-   168 sent_to_BUTIK[11]
+   161 sent_to_BUTIK[11]
                                   93            93             = 
-   169 sent_to_BUTIK[12]
+   162 sent_to_BUTIK[12]
                                   95            95             = 
-   170 sent_to_BUTIK[13]
+   163 sent_to_BUTIK[13]
                                   75            75             = 
-   171 sent_to_BUTIK[14]
+   164 sent_to_BUTIK[14]
                                   59            59             = 
-   172 sent_to_BUTIK[15]
+   165 sent_to_BUTIK[15]
                                   26            26             = 
-   173 sent_to_BUTIK[16]
+   166 sent_to_BUTIK[16]
                                   20            20             = 
-   174 sent_to_BUTIK[17]
+   167 sent_to_BUTIK[17]
                                   77            77             = 
-   175 sent_to_BUTIK[18]
+   168 sent_to_BUTIK[18]
                                   78            78             = 
-   176 sent_to_BUTIK[19]
+   169 sent_to_BUTIK[19]
                                   37            37             = 
-   177 sent_to_BUTIK[20]
+   170 sent_to_BUTIK[20]
                                   26            26             = 
-   178 sent_to_BUTIK[21]
+   171 sent_to_BUTIK[21]
                                   59            59             = 
-   179 sent_to_BUTIK[22]
+   172 sent_to_BUTIK[22]
                                   16            16             = 
-   180 sent_to_BUTIK[23]
+   173 sent_to_BUTIK[23]
                                   21            21             = 
-   181 sent_to_BUTIK[24]
+   174 sent_to_BUTIK[24]
                                   79            79             = 
-   182 sent_to_BUTIK[25]
+   175 sent_to_BUTIK[25]
                                   78            78             = 
-   183 sent_to_BUTIK[26]
+   176 sent_to_BUTIK[26]
                                   40            40             = 
-   184 sent_to_BUTIK[27]
+   177 sent_to_BUTIK[27]
                                   48            48             = 
-   185 sent_to_BUTIK[28]
+   178 sent_to_BUTIK[28]
                                  103           103             = 
-   186 sent_to_BUTIK[29]
+   179 sent_to_BUTIK[29]
                                   72            72             = 
-   187 sent_to_BUTIK[30]
+   180 sent_to_BUTIK[30]
                                   62            62             = 
-   188 sent_to_BUTIK[31]
+   181 sent_to_BUTIK[31]
                                   16            16             = 
-   189 sent_to_BUTIK[32]
+   182 sent_to_BUTIK[32]
                                   40            40             = 
-   190 sent_to_BUTIK[33]
+   183 sent_to_BUTIK[33]
                                   75            75             = 
-   191 sent_to_BUTIK[34]
+   184 sent_to_BUTIK[34]
                                   78            78             = 
-   192 sent_to_BUTIK[35]
+   185 sent_to_BUTIK[35]
                                   90            90             = 
-   193 sent_to_BUTIK[36]
+   186 sent_to_BUTIK[36]
                                   97            97             = 
-   194 sent_to_BUTIK[37]
+   187 sent_to_BUTIK[37]
                                   28            28             = 
-   195 sent_to_BUTIK[38]
+   188 sent_to_BUTIK[38]
                                   51            51             = 
-   196 sent_to_BUTIK[39]
+   189 sent_to_BUTIK[39]
                                   78            78             = 
-   197 sent_to_BUTIK[40]
+   190 sent_to_BUTIK[40]
                                   41            41             = 
-   198 sent_to_BUTIK[41]
+   191 sent_to_BUTIK[41]
                                   43            43             = 
-   199 sent_to_BUTIK[42]
+   192 sent_to_BUTIK[42]
                                   10            10             = 
-   200 sent_to_BUTIK[43]
+   193 sent_to_BUTIK[43]
                                   96            96             = 
-   201 sent_to_BUTIK[44]
+   194 sent_to_BUTIK[44]
                                   77            77             = 
-   202 sent_to_BUTIK[45]
+   195 sent_to_BUTIK[45]
                                  105           105             = 
-   203 sent_to_BUTIK[46]
+   196 sent_to_BUTIK[46]
                                  102           102             = 
-   204 sent_to_BUTIK[47]
+   197 sent_to_BUTIK[47]
                                   42            42             = 
-   205 sent_to_BUTIK[48]
+   198 sent_to_BUTIK[48]
                                   38            38             = 
-   206 sent_to_BUTIK[49]
+   199 sent_to_BUTIK[49]
                                   83            83             = 
-   207 sent_to_BUTIK[50]
+   200 sent_to_BUTIK[50]
                                   72            72             = 
-   208 sent_to_BUTIK[51]
+   201 sent_to_BUTIK[51]
                                   83            83             = 
-   209 sent_to_BUTIK[52]
+   202 sent_to_BUTIK[52]
                                  105           105             = 
-   210 sent_to_BUTIK[53]
+   203 sent_to_BUTIK[53]
                                   38            38             = 
-   211 sent_to_BUTIK[54]
+   204 sent_to_BUTIK[54]
                                   94            94             = 
-   212 sent_to_BUTIK[55]
+   205 sent_to_BUTIK[55]
                                   91            91             = 
-   213 sent_to_BUTIK[56]
+   206 sent_to_BUTIK[56]
                                   69            69             = 
-   214 sent_to_BUTIK[57]
+   207 sent_to_BUTIK[57]
                                   56            56             = 
-   215 sent_to_BUTIK[58]
+   208 sent_to_BUTIK[58]
                                   68            68             = 
-   216 sent_to_BUTIK[59]
+   209 sent_to_BUTIK[59]
                                   21            21             = 
-   217 sent_to_BUTIK[60]
+   210 sent_to_BUTIK[60]
                                   77            77             = 
-   218 sent_to_BUTIK[61]
+   211 sent_to_BUTIK[61]
                                  109           109             = 
-   219 sent_to_BUTIK[62]
+   212 sent_to_BUTIK[62]
                                  109           109             = 
-   220 sent_to_BUTIK[63]
+   213 sent_to_BUTIK[63]
                                   26            26             = 
-   221 sent_to_BUTIK[64]
+   214 sent_to_BUTIK[64]
                                   11            11             = 
-   222 sent_to_BUTIK[65]
+   215 sent_to_BUTIK[65]
                                  104           104             = 
-   223 sent_to_BUTIK[66]
+   216 sent_to_BUTIK[66]
                                   91            91             = 
-   224 sent_to_BUTIK[67]
+   217 sent_to_BUTIK[67]
                                   94            94             = 
-   225 sent_to_BUTIK[68]
+   218 sent_to_BUTIK[68]
                                   74            74             = 
-   226 sent_to_BUTIK[69]
+   219 sent_to_BUTIK[69]
                                  107           107             = 
-   227 sent_to_BUTIK[70]
+   220 sent_to_BUTIK[70]
                                   98            98             = 
-   228 sent_to_BUTIK[71]
+   221 sent_to_BUTIK[71]
                                   72            72             = 
-   229 sent_to_BUTIK[72]
+   222 sent_to_BUTIK[72]
                                   34            34             = 
-   230 sent_to_BUTIK[73]
+   223 sent_to_BUTIK[73]
                                   46            46             = 
-   231 sent_to_BUTIK[74]
+   224 sent_to_BUTIK[74]
                                   27            27             = 
-   232 sent_to_BUTIK[75]
+   225 sent_to_BUTIK[75]
                                   48            48             = 
-   233 sent_to_BUTIK[76]
+   226 sent_to_BUTIK[76]
                                   67            67             = 
-   234 sent_to_BUTIK[77]
+   227 sent_to_BUTIK[77]
                                   32            32             = 
-   235 sent_to_BUTIK[78]
+   228 sent_to_BUTIK[78]
                                   33            33             = 
-   236 sent_to_BUTIK[79]
+   229 sent_to_BUTIK[79]
                                  105           105             = 
-   237 sent_to_BUTIK[80]
+   230 sent_to_BUTIK[80]
                                   66            66             = 
-   238 sent_to_BUTIK[81]
+   231 sent_to_BUTIK[81]
                                   24            24             = 
-   239 sent_to_BUTIK[82]
+   232 sent_to_BUTIK[82]
                                   58            58             = 
-   240 sent_to_BUTIK[83]
+   233 sent_to_BUTIK[83]
                                   93            93             = 
-   241 sent_to_BUTIK[84]
+   234 sent_to_BUTIK[84]
                                   79            79             = 
-   242 sent_to_BUTIK[85]
+   235 sent_to_BUTIK[85]
                                   86            86             = 
-   243 sent_to_BUTIK[86]
+   236 sent_to_BUTIK[86]
                                   13            13             = 
-   244 sent_to_BUTIK[87]
+   237 sent_to_BUTIK[87]
                                   61            61             = 
-   245 sent_to_BUTIK[88]
+   238 sent_to_BUTIK[88]
                                   49            49             = 
-   246 sent_to_BUTIK[89]
+   239 sent_to_BUTIK[89]
                                   75            75             = 
-   247 sent_to_BUTIK[90]
+   240 sent_to_BUTIK[90]
                                   90            90             = 
-   248 sent_to_BUTIK[91]
+   241 sent_to_BUTIK[91]
                                   50            50             = 
-   249 sent_to_BUTIK[92]
+   242 sent_to_BUTIK[92]
                                   16            16             = 
-   250 sent_to_BUTIK[93]
+   243 sent_to_BUTIK[93]
                                   58            58             = 
-   251 sent_to_BUTIK[94]
+   244 sent_to_BUTIK[94]
                                   34            34             = 
-   252 sent_to_BUTIK[95]
+   245 sent_to_BUTIK[95]
                                   69            69             = 
-   253 sent_to_BUTIK[96]
+   246 sent_to_BUTIK[96]
                                   43            43             = 
-   254 sent_to_BUTIK[97]
+   247 sent_to_BUTIK[97]
                                   35            35             = 
-   255 sent_to_BUTIK[98]
+   248 sent_to_BUTIK[98]
                                   60            60             = 
-   256 sent_to_BUTIK[99]
+   249 sent_to_BUTIK[99]
                                   51            51             = 
-   257 sent_to_BUTIK[100]
+   250 sent_to_BUTIK[100]
                                   53            53             = 
-   258 variable_costs
+   251 variable_costs
                                    0            -0             = 
-   259 fixed_costs                 0            -0             = 
-   260 material_costs
+   252 fixed_costs                 0            -0             = 
+   253 material_costs
                                    0            -0             = 
 
    No. Column name       Activity     Lower bound   Upper bound
@@ -1068,7 +1061,7 @@ Objective:  cost = 2424744.449 (MINimum)
    347 nburk_GR[35,7]
                                    0             0               
    348 nburk_GR[35,8]
-                                  88             0               
+                                  39             0               
    349 nburk_GR[35,9]
                                    0             0               
    350 nburk_GR[35,10]
@@ -2128,7 +2121,7 @@ Objective:  cost = 2424744.449 (MINimum)
    877 nburk_GR[88,7]
                                    0             0               
    878 nburk_GR[88,8]
-                                   0             0               
+                                  49             0               
    879 nburk_GR[88,9]
                                    0             0               
    880 nburk_GR[88,10]
@@ -2716,7 +2709,7 @@ Objective:  cost = 2424744.449 (MINimum)
   1171 nburk_BR[35,1]
                                    0             0               
   1172 nburk_BR[35,2]
-                                   2             0               
+                                  51             0               
   1173 nburk_BR[35,3]
                                    0             0               
   1174 nburk_BR[35,4]
@@ -3246,7 +3239,7 @@ Objective:  cost = 2424744.449 (MINimum)
   1436 nburk_BR[88,1]
                                    0             0               
   1437 nburk_BR[88,2]
-                                  49             0               
+                                   0             0               
   1438 nburk_BR[88,3]
                                    0             0               
   1439 nburk_BR[88,4]
@@ -5419,9 +5412,9 @@ Objective:  cost = 2424744.449 (MINimum)
   2524 nburk_TB[3,2]
                                    0             0               
   2525 nburk_TB[3,3]
-                                1292             0               
+                                1364             0               
   2526 nburk_TB[3,4]
-                                1533             0               
+                                1461             0               
   2527 nburk_TB[3,5]
                                  110             0               
   2528 nburk_BG[1,1]
@@ -5487,7 +5480,7 @@ Objective:  cost = 2424744.449 (MINimum)
   2558 nburk_BG[4,1]
                                    0             0               
   2559 nburk_BG[4,2]
-                                   0             0               
+                                  77             0               
   2560 nburk_BG[4,3]
                                    0             0               
   2561 nburk_BG[4,4]
@@ -5811,7 +5804,7 @@ Objective:  cost = 2424744.449 (MINimum)
   2720 nburk_GBu[2,43]
                                    0             0               
   2721 nburk_GBu[2,44]
-                                   0             0               
+                                  77             0               
   2722 nburk_GBu[2,45]
                                    0             0               
   2723 nburk_GBu[2,46]
@@ -8065,7 +8058,7 @@ Objective:  cost = 2424744.449 (MINimum)
   3847 nburk_BBu[3,70]
                                    0             0               
   3848 nburk_BBu[3,71]
-                                   0             0               
+                                  72             0               
   3849 nburk_BBu[3,72]
                                    0             0               
   3850 nburk_BBu[3,73]
@@ -8211,7 +8204,7 @@ Objective:  cost = 2424744.449 (MINimum)
   3920 nburk_BBu[4,43]
                                   96             0               
   3921 nburk_BBu[4,44]
-                                  77             0               
+                                   0             0               
   3922 nburk_BBu[4,45]
                                    0             0               
   3923 nburk_BBu[4,46]
@@ -8265,7 +8258,7 @@ Objective:  cost = 2424744.449 (MINimum)
   3947 nburk_BBu[4,70]
                                    0             0               
   3948 nburk_BBu[4,71]
-                                  72             0               
+                                   0             0               
   3949 nburk_BBu[4,72]
                                   34             0               
   3950 nburk_BBu[4,73]
@@ -8530,7 +8523,7 @@ Objective:  cost = 2424744.449 (MINimum)
                                    0             0               
   4080 nnytt_matr[3]
                                    0             0               
-  4081 v_cost            2.42423e+06             0               
+  4081 v_cost              2.424e+06             0               
   4082 f_cost                    116             0               
   4083 m_cost                401.027             0               
   4084 bin_GR[1]    *              1             0             1 

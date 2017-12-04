@@ -1,7 +1,7 @@
 Problem:    standard
-Rows:       39
-Columns:    100 (9 integer, 9 binary)
-Non-zeros:  337
+Rows:       44
+Columns:    109 (9 integer, 9 binary)
+Non-zeros:  355
 Status:     INTEGER OPTIMAL
 Objective:  cost = 113311.9633 (MINimum)
 
@@ -13,235 +13,249 @@ Objective:  cost = 113311.9633 (MINimum)
      4 pant_tot[3]                20            20             = 
      5 pant_tot[4]                68            68             = 
      6 pant_tot[5]                83            83             = 
-     7 sent_GR[1]                  0            -0               
-     8 sent_GR[2]                  0            -0               
-     9 sent_GR[3]                  0            -0               
-    10 sent_BR[1]                  0            -0               
-    11 sent_BR[2]                  0            -0               
-    12 sent_LR[1]                  0            -0               
-    13 sent_LR[2]                  0            -0               
-    14 sent_LR[3]                752            -0               
-    15 sent_LR[4]                  0            -0               
-    16 tot_lager                   1             0             4 
-    17 bought_matr           17.0633             0       18.9593 
-    18 sent_RM                 160.3         160.3             = 
-    19 sent_MT[1]                  0            -0             = 
-    20 sent_MT[2]                  0            -0             = 
-    21 sent_TB[1]                  0            -0             = 
-    22 sent_TB[2]                  0            -0             = 
-    23 sent_BG[1]                 20            -0               
-    24 sent_BG[2]                222            -0               
-    25 sent_GBu[1]                 0            -0             = 
-    26 sent_GBu[2]                 0            -0             = 
-    27 sent_GBu[3]                 0            -0             = 
-    28 sent_BBu[1]                 0            -0               
-    29 sent_BBu[2]                 0            -0               
-    30 from_B                      0            -0             = 
-    31 from_G                      0            -0             = 
-    32 sent_to_BUTIK[1]
+     7 sent_BuG[1]                 0            -0               
+     8 sent_BuG[2]                 0            -0               
+     9 sent_BuG[3]                 0            -0               
+    10 sent_BuB[1]                 0            -0               
+    11 sent_BuB[2]                 0            -0               
+    12 sent_BuL[1]                 0            -0               
+    13 sent_BuL[2]                 0            -0               
+    14 sent_BuL[3]               752            -0               
+    15 sent_BuL[4]                 0            -0               
+    16 sent_GR[1]                  0            -0             = 
+    17 sent_GR[2]                  0            -0             = 
+    18 sent_GR[3]                  0            -0             = 
+    19 sent_BR[1]                  0            -0             = 
+    20 sent_BR[2]                  0            -0             = 
+    21 sent_LR[1]                  0            -0             = 
+    22 sent_LR[2]                  0            -0             = 
+    23 sent_LR[3]                  0            -0             = 
+    24 sent_LR[4]                  0            -0             = 
+    25 tot_lager                   1             0             4 
+    26 bought_matr           17.0633             0       18.9593 
+    27 sent_RM                 160.3         160.3             = 
+    28 sent_MT[1]                  0            -0             = 
+    29 sent_MT[2]                  0            -0             = 
+    30 sent_TB[1]                  0            -0             = 
+    31 sent_TB[2]                  0            -0             = 
+    32 from_B[1]                   0            -0             = 
+    33 from_B[2]                   0            -0             = 
+    34 from_G[1]                   0            -0             = 
+    35 from_G[2]                   0            -0             = 
+    36 from_G[3]                   0            -0             = 
+    37 sent_to_BUTIK[1]
                                   25            25             = 
-    33 sent_to_BUTIK[2]
+    38 sent_to_BUTIK[2]
                                   35            35             = 
-    34 sent_to_BUTIK[3]
+    39 sent_to_BUTIK[3]
                                   20            20             = 
-    35 sent_to_BUTIK[4]
+    40 sent_to_BUTIK[4]
                                   73            73             = 
-    36 sent_to_BUTIK[5]
+    41 sent_to_BUTIK[5]
                                   89            89             = 
-    37 variable_costs
+    42 variable_costs
                                    0            -0             = 
-    38 fixed_costs                 0            -0             = 
-    39 material_costs
+    43 fixed_costs                 0            -0             = 
+    44 material_costs
                                    0            -0             = 
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 nburk_GR[1,1]
+     1 nburk_BuG[1,1]
                                    0             0               
-     2 nburk_GR[1,2]
+     2 nburk_BuG[1,2]
                                    0             0               
-     3 nburk_GR[1,3]
+     3 nburk_BuG[1,3]
                                    0             0               
-     4 nburk_GR[2,1]
+     4 nburk_BuG[2,1]
                                    0             0               
-     5 nburk_GR[2,2]
+     5 nburk_BuG[2,2]
                                    0             0               
-     6 nburk_GR[2,3]
+     6 nburk_BuG[2,3]
                                    0             0               
-     7 nburk_GR[3,1]
+     7 nburk_BuG[3,1]
                                    0             0               
-     8 nburk_GR[3,2]
+     8 nburk_BuG[3,2]
                                    0             0               
-     9 nburk_GR[3,3]
+     9 nburk_BuG[3,3]
                                    0             0               
-    10 nburk_GR[4,1]
+    10 nburk_BuG[4,1]
                                    0             0               
-    11 nburk_GR[4,2]
+    11 nburk_BuG[4,2]
                                    0             0               
-    12 nburk_GR[4,3]
+    12 nburk_BuG[4,3]
                                    0             0               
-    13 nburk_GR[5,1]
+    13 nburk_BuG[5,1]
                                    0             0               
-    14 nburk_GR[5,2]
+    14 nburk_BuG[5,2]
                                    0             0               
-    15 nburk_GR[5,3]
+    15 nburk_BuG[5,3]
                                    0             0               
-    16 nburk_BR[1,1]
+    16 nburk_BuB[1,1]
                                    0             0               
-    17 nburk_BR[1,2]
+    17 nburk_BuB[1,2]
                                    0             0               
-    18 nburk_BR[2,1]
+    18 nburk_BuB[2,1]
                                    0             0               
-    19 nburk_BR[2,2]
+    19 nburk_BuB[2,2]
                                    0             0               
-    20 nburk_BR[3,1]
+    20 nburk_BuB[3,1]
                                    0             0               
-    21 nburk_BR[3,2]
+    21 nburk_BuB[3,2]
                                    0             0               
-    22 nburk_BR[4,1]
+    22 nburk_BuB[4,1]
                                    0             0               
-    23 nburk_BR[4,2]
+    23 nburk_BuB[4,2]
                                    0             0               
-    24 nburk_BR[5,1]
+    24 nburk_BuB[5,1]
                                    0             0               
-    25 nburk_BR[5,2]
+    25 nburk_BuB[5,2]
                                    0             0               
-    26 nburk_LR[1,1]
+    26 nburk_BuL[1,1]
                                    0             0               
-    27 nburk_LR[1,2]
+    27 nburk_BuL[1,2]
                                    0             0               
-    28 nburk_LR[1,3]
+    28 nburk_BuL[1,3]
                                   23             0               
-    29 nburk_LR[1,4]
+    29 nburk_BuL[1,4]
                                    0             0               
-    30 nburk_LR[2,1]
+    30 nburk_BuL[2,1]
                                    0             0               
-    31 nburk_LR[2,2]
+    31 nburk_BuL[2,2]
                                    0             0               
-    32 nburk_LR[2,3]
+    32 nburk_BuL[2,3]
                                   35             0               
-    33 nburk_LR[2,4]
+    33 nburk_BuL[2,4]
                                    0             0               
-    34 nburk_LR[3,1]
+    34 nburk_BuL[3,1]
                                    0             0               
-    35 nburk_LR[3,2]
+    35 nburk_BuL[3,2]
                                    0             0               
-    36 nburk_LR[3,3]
+    36 nburk_BuL[3,3]
                                   20             0               
-    37 nburk_LR[3,4]
+    37 nburk_BuL[3,4]
                                    0             0               
-    38 nburk_LR[4,1]
+    38 nburk_BuL[4,1]
                                    0             0               
-    39 nburk_LR[4,2]
+    39 nburk_BuL[4,2]
                                    0             0               
-    40 nburk_LR[4,3]
+    40 nburk_BuL[4,3]
                                   68             0               
-    41 nburk_LR[4,4]
+    41 nburk_BuL[4,4]
                                    0             0               
-    42 nburk_LR[5,1]
+    42 nburk_BuL[5,1]
                                    0             0               
-    43 nburk_LR[5,2]
+    43 nburk_BuL[5,2]
                                    0             0               
-    44 nburk_LR[5,3]
+    44 nburk_BuL[5,3]
                                   83             0               
-    45 nburk_LR[5,4]
+    45 nburk_BuL[5,4]
                                    0             0               
-    46 nburk_RM[1]             160.3             0               
-    47 nburk_RM[2]                 0             0               
-    48 nburk_MT[1,1]
+    46 nburk_GR[1]                 0             0               
+    47 nburk_GR[2]                 0             0               
+    48 nburk_GR[3]                 0             0               
+    49 nburk_BR[1]                 0             0               
+    50 nburk_BR[2]                 0             0               
+    51 nburk_LR[1]                 0             0               
+    52 nburk_LR[2]                 0             0               
+    53 nburk_LR[3]               229             0               
+    54 nburk_LR[4]                 0             0               
+    55 nburk_RM[1]             160.3             0               
+    56 nburk_RM[2]                 0             0               
+    57 nburk_MT[1,1]
                              161.333             0               
-    49 nburk_MT[1,2]
+    58 nburk_MT[1,2]
                                    0             0               
-    50 nburk_MT[2,1]
+    59 nburk_MT[2,1]
                                    0             0               
-    51 nburk_MT[2,2]
+    60 nburk_MT[2,2]
                                    0             0               
-    52 nburk_TB[1,1]
+    61 nburk_TB[1,1]
                                   20             0               
-    53 nburk_TB[1,2]
+    62 nburk_TB[1,2]
                                  222             0               
-    54 nburk_TB[2,1]
+    63 nburk_TB[2,1]
                                    0             0               
-    55 nburk_TB[2,2]
+    64 nburk_TB[2,2]
                                    0             0               
-    56 nburk_BG[1,1]
+    65 nburk_BG[1,1]
                                    0             0               
-    57 nburk_BG[1,2]
+    66 nburk_BG[1,2]
                                    0             0               
-    58 nburk_BG[1,3]
+    67 nburk_BG[1,3]
                                    0             0               
-    59 nburk_BG[2,1]
+    68 nburk_BG[2,1]
                                    0             0               
-    60 nburk_BG[2,2]
+    69 nburk_BG[2,2]
                                    0             0               
-    61 nburk_BG[2,3]
+    70 nburk_BG[2,3]
                                    0             0               
-    62 nburk_GBu[1,1]
+    71 nburk_GBu[1,1]
                                    0             0               
-    63 nburk_GBu[1,2]
+    72 nburk_GBu[1,2]
                                    0             0               
-    64 nburk_GBu[1,3]
+    73 nburk_GBu[1,3]
                                    0             0               
-    65 nburk_GBu[1,4]
+    74 nburk_GBu[1,4]
                                    0             0               
-    66 nburk_GBu[1,5]
+    75 nburk_GBu[1,5]
                                    0             0               
-    67 nburk_GBu[2,1]
+    76 nburk_GBu[2,1]
                                    0             0               
-    68 nburk_GBu[2,2]
+    77 nburk_GBu[2,2]
                                    0             0               
-    69 nburk_GBu[2,3]
+    78 nburk_GBu[2,3]
                                    0             0               
-    70 nburk_GBu[2,4]
+    79 nburk_GBu[2,4]
                                    0             0               
-    71 nburk_GBu[2,5]
+    80 nburk_GBu[2,5]
                                    0             0               
-    72 nburk_GBu[3,1]
+    81 nburk_GBu[3,1]
                                    0             0               
-    73 nburk_GBu[3,2]
+    82 nburk_GBu[3,2]
                                    0             0               
-    74 nburk_GBu[3,3]
+    83 nburk_GBu[3,3]
                                    0             0               
-    75 nburk_GBu[3,4]
+    84 nburk_GBu[3,4]
                                    0             0               
-    76 nburk_GBu[3,5]
+    85 nburk_GBu[3,5]
                                    0             0               
-    77 nburk_BBu[1,1]
+    86 nburk_BBu[1,1]
                                    0             0               
-    78 nburk_BBu[1,2]
+    87 nburk_BBu[1,2]
                                    0             0               
-    79 nburk_BBu[1,3]
+    88 nburk_BBu[1,3]
                                   20             0               
-    80 nburk_BBu[1,4]
+    89 nburk_BBu[1,4]
                                    0             0               
-    81 nburk_BBu[1,5]
+    90 nburk_BBu[1,5]
                                    0             0               
-    82 nburk_BBu[2,1]
+    91 nburk_BBu[2,1]
                                   25             0               
-    83 nburk_BBu[2,2]
+    92 nburk_BBu[2,2]
                                   35             0               
-    84 nburk_BBu[2,3]
+    93 nburk_BBu[2,3]
                                    0             0               
-    85 nburk_BBu[2,4]
+    94 nburk_BBu[2,4]
                                   73             0               
-    86 nburk_BBu[2,5]
+    95 nburk_BBu[2,5]
                                   89             0               
-    87 nnytt_matr[1]
+    96 nnytt_matr[1]
                              17.0633             0               
-    88 nnytt_matr[2]
+    97 nnytt_matr[2]
                                    0             0               
-    89 v_cost                 111585             0               
-    90 f_cost                   1710             0               
-    91 m_cost                17.0633             0               
-    92 bin_GR[1]    *              0             0             1 
-    93 bin_GR[2]    *              0             0             1 
-    94 bin_GR[3]    *              0             0             1 
-    95 bin_BR[1]    *              0             0             1 
-    96 bin_BR[2]    *              0             0             1 
-    97 bin_LR[1]    *              0             0             1 
-    98 bin_LR[2]    *              0             0             1 
-    99 bin_LR[3]    *              1             0             1 
-   100 bin_LR[4]    *              0             0             1 
+    98 v_cost                 111585             0               
+    99 f_cost                   1710             0               
+   100 m_cost                17.0633             0               
+   101 bin_GR[1]    *              0             0             1 
+   102 bin_GR[2]    *              0             0             1 
+   103 bin_GR[3]    *              0             0             1 
+   104 bin_BR[1]    *              0             0             1 
+   105 bin_BR[2]    *              0             0             1 
+   106 bin_LR[1]    *              0             0             1 
+   107 bin_LR[2]    *              0             0             1 
+   108 bin_LR[3]    *              1             0             1 
+   109 bin_LR[4]    *              0             0             1 
 
 Integer feasibility conditions:
 
@@ -249,8 +263,8 @@ KKT.PE: max.abs.err = 0.00e+00 on row 0
         max.rel.err = 0.00e+00 on row 0
         High quality
 
-KKT.PB: max.abs.err = 1.07e-14 on row 19
-        max.rel.err = 1.07e-14 on row 19
+KKT.PB: max.abs.err = 1.07e-14 on row 28
+        max.rel.err = 1.07e-14 on row 28
         High quality
 
 End of output

@@ -16,9 +16,6 @@ Generating bought_matr...
 Generating sent_RM...
 Generating sent_MT...
 Generating sent_TB...
-Generating sent_BG...
-Generating sent_GBu...
-Generating sent_BBu...
 Generating from_B...
 Generating from_G...
 Generating sent_to_BUTIK...
@@ -27,33 +24,33 @@ Generating fixed_costs...
 Generating material_costs...
 Model has been successfully generated
 GLPK Integer Optimizer, v4.52
-36 rows, 81 columns, 275 non-zeros
+32 rows, 81 columns, 235 non-zeros
 8 integer variables, all of which are binary
 Preprocessing...
 8 constraint coefficient(s) were reduced
-31 rows, 78 columns, 188 non-zeros
+27 rows, 78 columns, 148 non-zeros
 8 integer variables, all of which are binary
 Scaling...
  A: min|aij| =  9.000e-01  max|aij| =  4.000e+02  ratio =  4.444e+02
-GM: min|aij| =  8.409e-01  max|aij| =  1.189e+00  ratio =  1.414e+00
-EQ: min|aij| =  7.071e-01  max|aij| =  1.000e+00  ratio =  1.414e+00
-2N: min|aij| =  5.000e-01  max|aij| =  1.500e+00  ratio =  3.000e+00
+GM: min|aij| =  9.268e-01  max|aij| =  1.079e+00  ratio =  1.164e+00
+EQ: min|aij| =  8.589e-01  max|aij| =  1.000e+00  ratio =  1.164e+00
+2N: min|aij| =  7.812e-01  max|aij| =  1.500e+00  ratio =  1.920e+00
 Constructing initial basis...
-Size of triangular part is 29
+Size of triangular part is 26
 Solving LP relaxation...
 GLPK Simplex Optimizer, v4.52
-31 rows, 78 columns, 188 non-zeros
-      0: obj =   4.516800000e+04  infeas =  1.352e+03 (2)
-*    12: obj =   1.404626667e+05  infeas =  0.000e+00 (1)
-*    34: obj =   1.045846667e+05  infeas =  0.000e+00 (1)
+27 rows, 78 columns, 148 non-zeros
+      0: obj =   4.516800000e+04  infeas =  1.352e+03 (1)
+*    12: obj =   1.404626667e+05  infeas =  0.000e+00 (0)
+*    35: obj =   1.045846667e+05  infeas =  0.000e+00 (0)
 OPTIMAL LP SOLUTION FOUND
 Integer optimization begins...
-+    34: mip =     not found yet >=              -inf        (1; 0)
-+    36: >>>>>   1.053346667e+05 >=   1.053346667e+05   0.0% (2; 0)
-+    36: mip =   1.053346667e+05 >=     tree is empty   0.0% (0; 3)
++    35: mip =     not found yet >=              -inf        (1; 0)
++    37: >>>>>   1.053346667e+05 >=   1.053346667e+05   0.0% (2; 0)
++    37: mip =   1.053346667e+05 >=     tree is empty   0.0% (0; 3)
 INTEGER OPTIMAL SOLUTION FOUND
 Time used:   0.0 secs
-Memory used: 0.3 Mb (296723 bytes)
+Memory used: 0.3 Mb (293883 bytes)
 Display statement at line 199
 bin_GR[1].val = 0
 bin_GR[2].val = 0

@@ -15,9 +15,6 @@ Generating bought_matr...
 Generating sent_RM...
 Generating sent_MT...
 Generating sent_TB...
-Generating sent_BG...
-Generating sent_GBu...
-Generating sent_BBu...
 Generating from_B...
 Generating from_G...
 Generating sent_to_BUTIK...
@@ -26,48 +23,50 @@ Generating fixed_costs...
 Generating material_costs...
 Model has been successfully generated
 GLPK Integer Optimizer, v4.52
-2192 rows, 170334 columns, 546314 non-zeros
+2185 rows, 170334 columns, 510964 non-zeros
 135 integer variables, all of which are binary
 Preprocessing...
-2188 rows, 170331 columns, 375977 non-zeros
+2181 rows, 170331 columns, 340627 non-zeros
 135 integer variables, all of which are binary
 Scaling...
  A: min|aij| =  9.000e-01  max|aij| =  5.440e+04  ratio =  6.044e+04
-GM: min|aij| =  6.687e-01  max|aij| =  1.495e+00  ratio =  2.236e+00
-EQ: min|aij| =  4.472e-01  max|aij| =  1.000e+00  ratio =  2.236e+00
-2N: min|aij| =  4.530e-01  max|aij| =  1.706e+00  ratio =  3.765e+00
+GM: min|aij| =  7.397e-01  max|aij| =  1.352e+00  ratio =  1.828e+00
+EQ: min|aij| =  5.525e-01  max|aij| =  1.000e+00  ratio =  1.810e+00
+2N: min|aij| =  5.000e-01  max|aij| =  1.660e+00  ratio =  3.320e+00
 Constructing initial basis...
-Size of triangular part is 2187
+Size of triangular part is 2180
 Solving LP relaxation...
 GLPK Simplex Optimizer, v4.52
-2188 rows, 170331 columns, 375977 non-zeros
-      0: obj =   1.087804900e+07  infeas =  2.186e+05 (1)
-    500: obj =   3.695502678e+07  infeas =  4.792e+03 (0)
-   1000: obj =   3.684424021e+07  infeas =  3.202e+03 (0)
-   1500: obj =   3.550784980e+07  infeas =  1.213e+03 (0)
-*  1814: obj =   3.482645696e+07  infeas =  0.000e+00 (0)
-*  2000: obj =   3.467931492e+07  infeas =  0.000e+00 (0)
-*  2500: obj =   3.403163011e+07  infeas =  0.000e+00 (0)
-*  3000: obj =   3.325211817e+07  infeas =  0.000e+00 (0)
-*  3500: obj =   2.153409528e+07  infeas =  2.356e-14 (0)
-*  4000: obj =   1.990680613e+07  infeas =  0.000e+00 (0)
-*  4500: obj =   1.906681662e+07  infeas =  1.490e-14 (0)
-*  5000: obj =   1.847604357e+07  infeas =  3.553e-15 (0)
-*  5500: obj =   1.818525566e+07  infeas =  8.882e-16 (0)
-*  6000: obj =   1.797512520e+07  infeas =  2.833e-13 (0)
-*  6500: obj =   1.791481225e+07  infeas =  6.704e-13 (0)
-*  6943: obj =   1.788608103e+07  infeas =  2.538e-26 (0)
+2181 rows, 170331 columns, 340627 non-zeros
+      0: obj =   1.087804900e+07  infeas =  1.669e+05 (1)
+    500: obj =   3.695433815e+07  infeas =  9.579e+03 (0)
+   1000: obj =   3.684424021e+07  infeas =  6.404e+03 (0)
+   1500: obj =   3.550319807e+07  infeas =  2.407e+03 (0)
+*  1813: obj =   3.482645696e+07  infeas =  0.000e+00 (0)
+*  2000: obj =   3.467904687e+07  infeas =  0.000e+00 (0)
+*  2500: obj =   3.407395854e+07  infeas =  0.000e+00 (0)
+*  3000: obj =   3.246821084e+07  infeas =  0.000e+00 (0)
+*  3500: obj =   2.100584135e+07  infeas =  0.000e+00 (0)
+*  4000: obj =   1.970743862e+07  infeas =  1.024e-14 (0)
+*  4500: obj =   1.891328076e+07  infeas =  0.000e+00 (0)
+*  5000: obj =   1.848128341e+07  infeas =  0.000e+00 (0)
+*  5500: obj =   1.824945203e+07  infeas =  0.000e+00 (0)
+*  6000: obj =   1.806621879e+07  infeas =  1.492e-13 (0)
+*  6500: obj =   1.796082673e+07  infeas =  8.882e-16 (0)
+*  7000: obj =   1.788990030e+07  infeas =  2.359e-15 (0)
+*  7500: obj =   1.786948731e+07  infeas =  2.854e-13 (0)
+*  7556: obj =   1.786935303e+07  infeas =  2.814e-26 (0)
 OPTIMAL LP SOLUTION FOUND
 Integer optimization begins...
-+  6943: mip =     not found yet >=              -inf        (1; 0)
-+  7304: mip =     not found yet >=   1.788802025e+07        (18; 0)
-+  8810: mip =     not found yet >=   1.788852459e+07        (35; 0)
-+ 10591: mip =     not found yet >=   1.788852459e+07        (53; 0)
-+ 12796: >>>>>   1.797872087e+07 >=   1.788852459e+07   0.5% (64; 0)
-+ 12796: mip =   1.797872087e+07 >=   1.788852459e+07   0.5% (59; 9)
++  7556: mip =     not found yet >=              -inf        (1; 0)
++  8055: mip =     not found yet >=   1.787193728e+07        (20; 0)
++  9718: mip =     not found yet >=   1.787193728e+07        (38; 0)
++ 11789: mip =     not found yet >=   1.787193728e+07        (57; 0)
++ 12757: >>>>>   1.795925687e+07 >=   1.787193728e+07   0.5% (61; 0)
++ 12757: mip =   1.795925687e+07 >=   1.787193728e+07   0.5% (58; 5)
 RELATIVE MIP GAP TOLERANCE REACHED; SEARCH TERMINATED
-Time used:   34.9 secs
-Memory used: 258.0 Mb (270481257 bytes)
+Time used:   26.3 secs
+Memory used: 250.4 Mb (262585717 bytes)
 Display statement at line 199
 bin_GR[1].val = 0
 bin_GR[2].val = 0
@@ -124,7 +123,7 @@ bin_LR[15].val = 0
 bin_LR[16].val = 0
 bin_LR[17].val = 0
 bin_LR[18].val = 0
-bin_LR[19].val = 0
+bin_LR[19].val = 1
 bin_LR[20].val = 0
 bin_LR[21].val = 0
 bin_LR[22].val = 0
@@ -132,10 +131,10 @@ bin_LR[23].val = 0
 bin_LR[24].val = 0
 bin_LR[25].val = 0
 bin_LR[26].val = 0
-bin_LR[27].val = 1
+bin_LR[27].val = 0
 bin_LR[28].val = 0
 bin_LR[29].val = 0
-bin_LR[30].val = 1
+bin_LR[30].val = 0
 bin_LR[31].val = 0
 bin_LR[32].val = 0
 bin_LR[33].val = 0
@@ -169,7 +168,7 @@ bin_LR[60].val = 0
 bin_LR[61].val = 0
 bin_LR[62].val = 0
 bin_LR[63].val = 0
-bin_LR[64].val = 0
+bin_LR[64].val = 1
 bin_LR[65].val = 0
 bin_LR[66].val = 0
 bin_LR[67].val = 0
@@ -207,13 +206,13 @@ bin_LR[98].val = 0
 bin_LR[99].val = 0
 bin_LR[100].val = 0
 Display statement at line 203
-f_cost.val = 94253
+f_cost.val = 93463
 Display statement at line 204
 m_cost.val = 367996.666666666
 Display statement at line 205
-v_cost.val = 17516471.2
+v_cost.val = 17497797.2
 Display statement at line 206
-cost.val = 17978720.8666667
+cost.val = 17959256.8666667
 1000 butiker, 30 grossister, 5 bryggerier, 100 lager.
 3 matr, 5 fpack.
 Totalt behov 58714, spill 2424.

@@ -2,11 +2,14 @@ GLPSOL: GLPK LP/MIP Solver, v4.52
 Parameter(s) specified in the command line:
  -m standard.mod -d ex3/ex3.dat -o ex3/standard.txt
 Reading model section from standard.mod...
-215 lines were read
+239 lines were read
 Reading data section from ex3/ex3.dat...
 209 lines were read
 Generating cost...
 Generating pant_tot...
+Generating sent_BuG...
+Generating sent_BuB...
+Generating sent_BuL...
 Generating sent_GR...
 Generating sent_BR...
 Generating sent_LR...
@@ -15,9 +18,6 @@ Generating bought_matr...
 Generating sent_RM...
 Generating sent_MT...
 Generating sent_TB...
-Generating sent_BG...
-Generating sent_GBu...
-Generating sent_BBu...
 Generating from_B...
 Generating from_G...
 Generating sent_to_BUTIK...
@@ -26,52 +26,164 @@ Generating fixed_costs...
 Generating material_costs...
 Model has been successfully generated
 GLPK Integer Optimizer, v4.52
-39 rows, 100 columns, 337 non-zeros
+44 rows, 109 columns, 355 non-zeros
 9 integer variables, all of which are binary
 Preprocessing...
 7 constraint coefficient(s) were reduced
-34 rows, 97 columns, 230 non-zeros
+30 rows, 97 columns, 185 non-zeros
 9 integer variables, all of which are binary
 Scaling...
  A: min|aij| =  9.000e-01  max|aij| =  2.290e+02  ratio =  2.544e+02
-GM: min|aij| =  8.409e-01  max|aij| =  1.189e+00  ratio =  1.414e+00
-EQ: min|aij| =  7.071e-01  max|aij| =  1.000e+00  ratio =  1.414e+00
-2N: min|aij| =  5.000e-01  max|aij| =  1.500e+00  ratio =  3.000e+00
+GM: min|aij| =  9.268e-01  max|aij| =  1.079e+00  ratio =  1.164e+00
+EQ: min|aij| =  8.589e-01  max|aij| =  1.000e+00  ratio =  1.164e+00
+2N: min|aij| =  8.867e-01  max|aij| =  1.500e+00  ratio =  1.692e+00
 Constructing initial basis...
-Size of triangular part is 32
+Size of triangular part is 29
 Solving LP relaxation...
 GLPK Simplex Optimizer, v4.52
-34 rows, 97 columns, 230 non-zeros
-      0: obj =   4.282183000e+04  infeas =  7.683e+02 (2)
-*    12: obj =   1.402294133e+05  infeas =  0.000e+00 (2)
-*    33: obj =   1.133119633e+05  infeas =  0.000e+00 (1)
+30 rows, 97 columns, 185 non-zeros
+      0: obj =   4.282183000e+04  infeas =  7.683e+02 (1)
+*    12: obj =   1.402294133e+05  infeas =  0.000e+00 (1)
+*    34: obj =   1.133119633e+05  infeas =  0.000e+00 (0)
 OPTIMAL LP SOLUTION FOUND
 Integer optimization begins...
-+    33: mip =     not found yet >=              -inf        (1; 0)
-+    33: >>>>>   1.133119633e+05 >=   1.133119633e+05   0.0% (1; 0)
-+    33: mip =   1.133119633e+05 >=     tree is empty   0.0% (0; 1)
++    34: mip =     not found yet >=              -inf        (1; 0)
++    34: >>>>>   1.133119633e+05 >=   1.133119633e+05   0.0% (1; 0)
++    34: mip =   1.133119633e+05 >=     tree is empty   0.0% (0; 1)
 INTEGER OPTIMAL SOLUTION FOUND
 Time used:   0.0 secs
-Memory used: 0.3 Mb (319828 bytes)
-Display statement at line 199
+Memory used: 0.3 Mb (325188 bytes)
+Display statement at line 207
+nburk_BuG[1,1].val = 0
+nburk_BuG[1,2].val = 0
+nburk_BuG[1,3].val = 0
+nburk_BuG[2,1].val = 0
+nburk_BuG[2,2].val = 0
+nburk_BuG[2,3].val = 0
+nburk_BuG[3,1].val = 0
+nburk_BuG[3,2].val = 0
+nburk_BuG[3,3].val = 0
+nburk_BuG[4,1].val = 0
+nburk_BuG[4,2].val = 0
+nburk_BuG[4,3].val = 0
+nburk_BuG[5,1].val = 0
+nburk_BuG[5,2].val = 0
+nburk_BuG[5,3].val = 0
+Display statement at line 208
+nburk_BuB[1,1].val = 0
+nburk_BuB[1,2].val = 0
+nburk_BuB[2,1].val = 0
+nburk_BuB[2,2].val = 0
+nburk_BuB[3,1].val = 0
+nburk_BuB[3,2].val = 0
+nburk_BuB[4,1].val = 0
+nburk_BuB[4,2].val = 0
+nburk_BuB[5,1].val = 0
+nburk_BuB[5,2].val = 0
+Display statement at line 209
+nburk_BuL[1,1].val = 0
+nburk_BuL[1,2].val = 0
+nburk_BuL[1,3].val = 23
+nburk_BuL[1,4].val = 0
+nburk_BuL[2,1].val = 0
+nburk_BuL[2,2].val = 0
+nburk_BuL[2,3].val = 35
+nburk_BuL[2,4].val = 0
+nburk_BuL[3,1].val = 0
+nburk_BuL[3,2].val = 0
+nburk_BuL[3,3].val = 20
+nburk_BuL[3,4].val = 0
+nburk_BuL[4,1].val = 0
+nburk_BuL[4,2].val = 0
+nburk_BuL[4,3].val = 68
+nburk_BuL[4,4].val = 0
+nburk_BuL[5,1].val = 0
+nburk_BuL[5,2].val = 0
+nburk_BuL[5,3].val = 83
+nburk_BuL[5,4].val = 0
+Display statement at line 210
+nburk_GR[1].val = 0
+nburk_GR[2].val = 0
+nburk_GR[3].val = 0
+Display statement at line 211
+nburk_BR[1].val = 0
+nburk_BR[2].val = 0
+Display statement at line 212
+nburk_LR[1].val = 0
+nburk_LR[2].val = 0
+nburk_LR[3].val = 229
+nburk_LR[4].val = 0
+Display statement at line 213
+nburk_RM[1].val = 160.3
+nburk_RM[2].val = 0
+Display statement at line 214
+nburk_MT[1,1].val = 161.333333333333
+nburk_MT[1,2].val = 0
+nburk_MT[2,1].val = 0
+nburk_MT[2,2].val = 0
+Display statement at line 215
+nburk_TB[1,1].val = 20
+nburk_TB[1,2].val = 222
+nburk_TB[2,1].val = 0
+nburk_TB[2,2].val = 0
+Display statement at line 216
+nburk_BG[1,1].val = 0
+nburk_BG[1,2].val = 0
+nburk_BG[1,3].val = 0
+nburk_BG[2,1].val = 0
+nburk_BG[2,2].val = 0
+nburk_BG[2,3].val = 0
+Display statement at line 217
+nburk_GBu[1,1].val = 0
+nburk_GBu[1,2].val = 0
+nburk_GBu[1,3].val = 0
+nburk_GBu[1,4].val = 0
+nburk_GBu[1,5].val = 0
+nburk_GBu[2,1].val = 0
+nburk_GBu[2,2].val = 0
+nburk_GBu[2,3].val = 0
+nburk_GBu[2,4].val = 0
+nburk_GBu[2,5].val = 0
+nburk_GBu[3,1].val = 0
+nburk_GBu[3,2].val = 0
+nburk_GBu[3,3].val = 0
+nburk_GBu[3,4].val = 0
+nburk_GBu[3,5].val = 0
+Display statement at line 218
+nburk_BBu[1,1].val = 0
+nburk_BBu[1,2].val = 0
+nburk_BBu[1,3].val = 20
+nburk_BBu[1,4].val = 0
+nburk_BBu[1,5].val = 0
+nburk_BBu[2,1].val = 25
+nburk_BBu[2,2].val = 35
+nburk_BBu[2,3].val = 0
+nburk_BBu[2,4].val = 73
+nburk_BBu[2,5].val = 89
+Display statement at line 219
+nnytt_matr[1].val = 17.0633333333334
+nnytt_matr[2].val = 0
+Display statement at line 220
+tot_nytt_matr = 18.9592592592593
+Display statement at line 223
 bin_GR[1].val = 0
 bin_GR[2].val = 0
 bin_GR[3].val = 0
-Display statement at line 200
+Display statement at line 224
 bin_BR[1].val = 0
 bin_BR[2].val = 0
-Display statement at line 201
+Display statement at line 225
 bin_LR[1].val = 0
 bin_LR[2].val = 0
 bin_LR[3].val = 1
 bin_LR[4].val = 0
-Display statement at line 203
+Display statement at line 227
 f_cost.val = 1710
-Display statement at line 204
+Display statement at line 228
 m_cost.val = 17.0633333333334
-Display statement at line 205
+Display statement at line 229
 v_cost.val = 111584.9
-Display statement at line 206
+Display statement at line 230
 cost.val = 113311.963333333
 5 butiker, 3 grossister, 2 bryggerier, 4 lager.
 2 matr, 2 fpack.

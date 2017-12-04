@@ -1,7 +1,7 @@
 Problem:    spill_noll
-Rows:       78
+Rows:       73
 Columns:    454 (12 integer, 12 binary)
-Non-zeros:  1559
+Non-zeros:  1351
 Status:     INTEGER OPTIMAL
 Objective:  cost = 362777.0433 (MINimum)
 
@@ -49,63 +49,58 @@ Objective:  cost = 362777.0433 (MINimum)
     40 sent_TB[1]                  0            -0             = 
     41 sent_TB[2]                  0            -0             = 
     42 sent_TB[3]                  0            -0             = 
-    43 sent_BG[1]                973            -0               
-    44 sent_BG[2]                 30            -0               
-    45 sent_BG[3]                100            -0               
-    46 sent_GBu[1]                 0            -0             = 
-    47 sent_GBu[2]                 0            -0             = 
-    48 sent_GBu[3]                 0            -0             = 
-    49 sent_GBu[4]                 0            -0             = 
-    50 sent_GBu[5]                 0            -0             = 
-    51 sent_BBu[1]                 0            -0               
-    52 sent_BBu[2]                 0            -0               
-    53 sent_BBu[3]                 0            -0               
-    54 from_B                      0            -0             = 
-    55 from_G                      0            -0             = 
-    56 sent_to_BUTIK[1]
+    43 from_B[1]                   0            -0             = 
+    44 from_B[2]                   0            -0             = 
+    45 from_B[3]                   0            -0             = 
+    46 from_G[1]                   0            -0             = 
+    47 from_G[2]                   0            -0             = 
+    48 from_G[3]                   0            -0             = 
+    49 from_G[4]                   0            -0             = 
+    50 from_G[5]                   0            -0             = 
+    51 sent_to_BUTIK[1]
                                   44            44             = 
-    57 sent_to_BUTIK[2]
+    52 sent_to_BUTIK[2]
                                   85            85             = 
-    58 sent_to_BUTIK[3]
+    53 sent_to_BUTIK[3]
                                   43            43             = 
-    59 sent_to_BUTIK[4]
+    54 sent_to_BUTIK[4]
                                   67            67             = 
-    60 sent_to_BUTIK[5]
+    55 sent_to_BUTIK[5]
                                   30            30             = 
-    61 sent_to_BUTIK[6]
+    56 sent_to_BUTIK[6]
                                  107           107             = 
-    62 sent_to_BUTIK[7]
+    57 sent_to_BUTIK[7]
                                   59            59             = 
-    63 sent_to_BUTIK[8]
+    58 sent_to_BUTIK[8]
                                   90            90             = 
-    64 sent_to_BUTIK[9]
+    59 sent_to_BUTIK[9]
                                   25            25             = 
-    65 sent_to_BUTIK[10]
+    60 sent_to_BUTIK[10]
                                   24            24             = 
-    66 sent_to_BUTIK[11]
+    61 sent_to_BUTIK[11]
                                   48            48             = 
-    67 sent_to_BUTIK[12]
+    62 sent_to_BUTIK[12]
                                   52            52             = 
-    68 sent_to_BUTIK[13]
+    63 sent_to_BUTIK[13]
                                   75            75             = 
-    69 sent_to_BUTIK[14]
+    64 sent_to_BUTIK[14]
                                   16            16             = 
-    70 sent_to_BUTIK[15]
+    65 sent_to_BUTIK[15]
                                   99            99             = 
-    71 sent_to_BUTIK[16]
+    66 sent_to_BUTIK[16]
                                  100           100             = 
-    72 sent_to_BUTIK[17]
+    67 sent_to_BUTIK[17]
                                   27            27             = 
-    73 sent_to_BUTIK[18]
+    68 sent_to_BUTIK[18]
                                   13            13             = 
-    74 sent_to_BUTIK[19]
+    69 sent_to_BUTIK[19]
                                   62            62             = 
-    75 sent_to_BUTIK[20]
+    70 sent_to_BUTIK[20]
                                   37            37             = 
-    76 variable_costs
+    71 variable_costs
                                    0            -0             = 
-    77 fixed_costs                 0            -0             = 
-    78 material_costs
+    72 fixed_costs                 0            -0             = 
+    73 material_costs
                                    0            -0             = 
 
    No. Column name       Activity     Lower bound   Upper bound

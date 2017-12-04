@@ -1,7 +1,7 @@
 Problem:    standard_100
-Rows:       39
+Rows:       35
 Columns:    100 (9 integer, 9 binary)
-Non-zeros:  337
+Non-zeros:  292
 Status:     INTEGER OPTIMAL
 Objective:  cost = 115001.2333 (MINimum)
 
@@ -29,29 +29,25 @@ Objective:  cost = 115001.2333 (MINimum)
     20 sent_MT[2]                  0            -0             = 
     21 sent_TB[1]                  0            -0             = 
     22 sent_TB[2]                  0            -0             = 
-    23 sent_BG[1]                 20            -0               
-    24 sent_BG[2]                222            -0               
-    25 sent_GBu[1]                 0            -0               
-    26 sent_GBu[2]                 0            -0               
-    27 sent_GBu[3]                 0            -0               
-    28 sent_BBu[1]                 0            -0               
-    29 sent_BBu[2]                 0            -0               
-    30 from_B                      0            -0             = 
-    31 from_G                      0            -0             = 
-    32 sent_to_BUTIK[1]
+    23 from_B[1]                   0            -0             = 
+    24 from_B[2]                   0            -0             = 
+    25 from_G[1]                   0            -0             = 
+    26 from_G[2]                   0            -0             = 
+    27 from_G[3]                   0            -0             = 
+    28 sent_to_BUTIK[1]
                                   25            25             = 
-    33 sent_to_BUTIK[2]
+    29 sent_to_BUTIK[2]
                                   35            35             = 
-    34 sent_to_BUTIK[3]
+    30 sent_to_BUTIK[3]
                                   20            20             = 
-    35 sent_to_BUTIK[4]
+    31 sent_to_BUTIK[4]
                                   73            73             = 
-    36 sent_to_BUTIK[5]
+    32 sent_to_BUTIK[5]
                                   89            89             = 
-    37 variable_costs
+    33 variable_costs
                                    0            -0             = 
-    38 fixed_costs                 0            -0             = 
-    39 material_costs
+    34 fixed_costs                 0            -0             = 
+    35 material_costs
                                    0            -0             = 
 
    No. Column name       Activity     Lower bound   Upper bound

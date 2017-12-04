@@ -15,9 +15,6 @@ Generating bought_matr...
 Generating sent_RM...
 Generating sent_MT...
 Generating sent_TB...
-Generating sent_BG...
-Generating sent_GBu...
-Generating sent_BBu...
 Generating from_B...
 Generating from_G...
 Generating sent_to_BUTIK...
@@ -26,43 +23,42 @@ Generating fixed_costs...
 Generating material_costs...
 Model has been successfully generated
 GLPK Integer Optimizer, v4.52
-1112 rows, 45254 columns, 153574 non-zeros
+1105 rows, 45254 columns, 135724 non-zeros
 55 integer variables, all of which are binary
 Preprocessing...
-1108 rows, 45251 columns, 108317 non-zeros
+1101 rows, 45251 columns, 90467 non-zeros
 55 integer variables, all of which are binary
 Scaling...
  A: min|aij| =  9.000e-01  max|aij| =  1.685e+03  ratio =  1.872e+03
-GM: min|aij| =  6.687e-01  max|aij| =  1.495e+00  ratio =  2.236e+00
-EQ: min|aij| =  4.472e-01  max|aij| =  1.000e+00  ratio =  2.236e+00
-2N: min|aij| =  5.000e-01  max|aij| =  1.500e+00  ratio =  3.000e+00
+GM: min|aij| =  7.764e-01  max|aij| =  1.288e+00  ratio =  1.659e+00
+EQ: min|aij| =  6.036e-01  max|aij| =  1.000e+00  ratio =  1.657e+00
+2N: min|aij| =  5.000e-01  max|aij| =  1.613e+00  ratio =  3.227e+00
 Constructing initial basis...
-Size of triangular part is 1107
+Size of triangular part is 1100
 Solving LP relaxation...
 GLPK Simplex Optimizer, v4.52
-1108 rows, 45251 columns, 108317 non-zeros
-      0: obj =   5.863027200e+06  infeas =  1.085e+05 (1)
-    500: obj =   2.258260020e+07  infeas =  1.825e+03 (0)
-   1000: obj =   2.381637520e+07  infeas =  9.825e+01 (0)
-*  1033: obj =   2.388670788e+07  infeas =  0.000e+00 (0)
-*  1500: obj =   1.484033683e+07  infeas =  0.000e+00 (0)
-*  2000: obj =   1.426696450e+07  infeas =  0.000e+00 (0)
-*  2500: obj =   1.225674630e+07  infeas =  0.000e+00 (0)
-*  3000: obj =   1.174515576e+07  infeas =  3.763e-15 (0)
-*  3500: obj =   1.067950718e+07  infeas =  4.451e-14 (0)
-*  4000: obj =   1.044925235e+07  infeas =  3.553e-15 (0)
-*  4500: obj =   1.034979158e+07  infeas =  1.814e-14 (0)
-*  4561: obj =   1.034911075e+07  infeas =  0.000e+00 (0)
+1101 rows, 45251 columns, 90467 non-zeros
+      0: obj =   5.863027200e+06  infeas =  8.287e+04 (1)
+    500: obj =   2.258943423e+07  infeas =  3.764e+03 (0)
+   1000: obj =   2.382499221e+07  infeas =  3.525e+02 (0)
+*  1028: obj =   2.388602497e+07  infeas =  0.000e+00 (0)
+*  1500: obj =   1.387911117e+07  infeas =  0.000e+00 (0)
+*  2000: obj =   1.258141470e+07  infeas =  6.225e-14 (0)
+*  2500: obj =   1.152411809e+07  infeas =  1.588e-14 (0)
+*  3000: obj =   1.112929545e+07  infeas =  1.129e-13 (0)
+*  3500: obj =   1.062632931e+07  infeas =  6.795e-13 (0)
+*  4000: obj =   1.041248898e+07  infeas =  1.987e-14 (0)
+*  4500: obj =   1.030881786e+07  infeas =  0.000e+00 (0)
+*  4660: obj =   1.030257997e+07  infeas =  0.000e+00 (0)
 OPTIMAL LP SOLUTION FOUND
 Integer optimization begins...
-+  4561: mip =     not found yet >=              -inf        (1; 0)
-+  5439: >>>>>   1.035920620e+07 >=   1.034935988e+07 < 0.1% (18; 0)
-+  9641: >>>>>   1.035394820e+07 >=   1.035097220e+07 < 0.1% (89; 11)
-+  9694: >>>>>   1.035097220e+07 >=   1.035097220e+07   0.0% (37; 110)
-+  9694: mip =   1.035097220e+07 >=     tree is empty   0.0% (0; 197)
++  4660: mip =     not found yet >=              -inf        (1; 0)
++  5105: >>>>>   1.030961842e+07 >=   1.030283458e+07 < 0.1% (17; 0)
++  8811: >>>>>   1.030444142e+07 >=   1.030444142e+07   0.0% (99; 17)
++  8811: mip =   1.030444142e+07 >=     tree is empty   0.0% (0; 227)
 INTEGER OPTIMAL SOLUTION FOUND
-Time used:   7.1 secs
-Memory used: 69.1 Mb (72473530 bytes)
+Time used:   6.6 secs
+Memory used: 65.4 Mb (68561464 bytes)
 Display statement at line 199
 bin_GR[1].val = 0
 bin_GR[2].val = 1
@@ -126,9 +122,9 @@ f_cost.val = 82638
 Display statement at line 204
 m_cost.val = 186084
 Display statement at line 205
-v_cost.val = 10082250.2
+v_cost.val = 10035719.4222222
 Display statement at line 206
-cost.val = 10350972.2
+cost.val = 10304441.4222222
 500 butiker, 30 grossister, 5 bryggerier, 20 lager.
 3 matr, 5 fpack.
 Totalt behov 29187, spill 1255.
