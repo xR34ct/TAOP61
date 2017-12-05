@@ -1,0 +1,19 @@
+Total cost: 72.802
+Link flow:
+Link: (1,4): 	Flow: 1
+Link: (1,23): 	Flow: 1
+Link: (4,5): 	Flow: 1
+Link: (5,8): 	Flow: 2
+Link: (5,24): 	Flow: 1
+Link: (8,15): 	Flow: 1
+Link: (8,23): 	Flow: 1
+Link: (9,10): 	Flow: 2
+Link: (9,14): 	Flow: 1
+Link: (9,18): 	Flow: 1
+Link: (12,15): 	Flow: 1
+Link: (12,18): 	Flow: 1
+Link: (14,18): 	Flow: 2
+Link: (14,24): 	Flow: 1
+Link: (15,24): 	Flow: 2
+
+

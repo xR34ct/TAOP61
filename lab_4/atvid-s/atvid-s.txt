@@ -1,0 +1,100 @@
+From OSM-file listba1: probb1/atvid_010+types_all
+Created 2013-10-10
+Number of nodes: 237, number of links: 309
+Saved under name: atvid_010+types_all-c.
+
+Problem saved Thu Oct 10 20:45:05 CEST 2013 with 224 nodes and 300 links.
+
+Problem saved Wed Oct 16 11:35:38 CEST 2013 with 224 nodes and 300 links.
+
+Problem saved Wed Oct 16 11:35:38 CEST 2013 with 224 nodes and 300 links.
+
+Saved under name: atvid.
+
+Problem saved Sun Nov 03 18:31:08 CET 2013 with 224 nodes and 300 links.
+
+Problem saved Sun Nov 03 18:31:08 CET 2013 with 224 nodes and 300 links.
+
+
+Problem saved Sun Nov 03 18:46:25 CET 2013 with 224 nodes and 300 links.
+
+Problem saved Sun Nov 03 18:46:25 CET 2013 with 224 nodes and 300 links.
+
+
+Problem saved Sun Nov 03 18:57:22 CET 2013 with 224 nodes and 300 links.
+
+Problem saved Sun Nov 03 18:57:22 CET 2013 with 224 nodes and 300 links.
+
+
+Problem saved Sun Nov 03 19:10:25 CET 2013 with 224 nodes and 300 links.
+
+Problem saved Sun Nov 03 19:10:25 CET 2013 with 224 nodes and 300 links.
+
+
+Problem saved Mon Nov 11 17:01:39 CET 2013 with 224 nodes and 300 links.
+
+Problem saved Mon Nov 11 17:01:39 CET 2013 with 224 nodes and 300 links.
+
+
+Problem saved Mon Nov 11 17:19:51 CET 2013 with 224 nodes and 294 links.
+
+Problem saved Mon Nov 11 17:19:51 CET 2013 with 224 nodes and 294 links.
+
+Problem saved Mon Nov 11 17:20:58 CET 2013 with 221 nodes and 291 links.
+
+Problem saved Mon Nov 11 17:20:58 CET 2013 with 221 nodes and 291 links.
+
+Problem saved Mon Nov 11 17:23:18 CET 2013 with 221 nodes and 290 links.
+
+Problem saved Mon Nov 11 17:23:18 CET 2013 with 221 nodes and 290 links.
+
+Problem saved Mon Nov 11 17:24:04 CET 2013 with 221 nodes and 290 links.
+
+Problem saved Mon Nov 11 17:24:04 CET 2013 with 221 nodes and 290 links.
+
+
+Problem saved Mon Nov 11 17:51:41 CET 2013 with 220 nodes and 290 links.
+
+Problem saved Mon Nov 11 17:51:41 CET 2013 with 220 nodes and 290 links.
+
+Problem saved Mon Nov 11 17:51:47 CET 2013 with 220 nodes and 290 links.
+
+Problem saved Mon Nov 11 17:51:47 CET 2013 with 220 nodes and 290 links.
+
+Saved under name: atvid-c.
+
+Problem saved Tue Nov 12 12:04:26 CET 2013 with 220 nodes and 290 links.
+
+Problem saved Tue Nov 12 12:04:26 CET 2013 with 220 nodes and 290 links.
+
+Problem saved Tue Nov 12 12:05:02 CET 2013 with 220 nodes and 290 links.
+
+Problem saved Tue Nov 12 12:05:02 CET 2013 with 220 nodes and 290 links.
+
+Saved under name: atvid-s.
+
+Problem saved Tue Nov 12 12:17:56 CET 2013 with 68 nodes and 95 links.
+
+Problem saved Tue Nov 12 12:17:56 CET 2013 with 68 nodes and 95 links.
+
+
+Problem saved Sun Nov 17 16:16:28 CET 2013 with 68 nodes and 95 links.
+
+Problem saved Sun Nov 17 16:16:28 CET 2013 with 68 nodes and 95 links.
+
+
+Problem saved Sun Nov 17 16:34:46 CET 2013 with 68 nodes and 95 links.
+
+Problem saved Sun Nov 17 16:34:46 CET 2013 with 68 nodes and 95 links.
+
+
+Problem saved Tue Dec 09 17:20:22 CET 2014 with 68 nodes and 95 links.
+
+Problem saved Tue Dec 09 17:20:22 CET 2014 with 68 nodes and 95 links.
+
+Saved under name: atvid-s.
+
+Problem saved Fri Nov 27 14:02:09 CET 2015 with 68 nodes and 95 links.
+
+Problem saved Fri Nov 27 14:02:09 CET 2015 with 68 nodes and 95 links.
+

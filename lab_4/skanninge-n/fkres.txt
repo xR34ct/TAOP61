@@ -1,0 +1,4 @@
+/home/adnav613/TAOP61/lab_4/skanninge-n/skanninge-n spar-def.par 0 2017-12-05 n:62 m:80 q:2 o:2188.14 t:8.03
+/home/adnav613/TAOP61/lab_4/skanninge-n/skanninge-n spar-def.par 0 2017-12-05 n:62 m:80 q:3 o:2222.16 t:13.65
+/home/adnav613/TAOP61/lab_4/skanninge-n/skanninge-n spar-def.par 0 2017-12-05 n:62 m:80 q:3 o:2648.06 t:29.32
+/home/adnav613/TAOP61/lab_4/skanninge-n/skanninge-n spar-def.par 0 2017-12-05 n:62 m:80 q:3 o:2648.06 t:55.18

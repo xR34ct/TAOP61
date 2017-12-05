@@ -1,0 +1,4 @@
+3
+/home/adnav613/TAOP61/lab_4/colonia/colonia.net
+/home/adnav613/TAOP61/lab_4/skanninge-s/skanninge-n.net
+/home/adnav613/TAOP61/lab_4/åtvidabarg-n/skanninge-n.net

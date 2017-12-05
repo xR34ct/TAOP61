@@ -1,0 +1,25 @@
+4   # (nov) number of vehicles (1, )
+200   # (fixvehcost) fixed cost for each vehicle
+1.0   # (wcost) weight of cost
+1.0   # (wtime) weight of time
+30   # (maxiter) how many iterations?
+15   # (startvar) variant for starting solution (1,,15)
+1   # (markdone) 1: mark all passed links done, dep on seq (0/1)
+1   # (dorevsol) 1: revise allocation after solution (0/1)
+3   # (movevar) variant for moves (1,,7)
+0   # (moalloc) how much to move alloc? (1, )
+5   # (chordvar) variant for change of order (1,,5)
+0   # (moord) how much to move order? (1, )
+3   # (impvar) variant for moving a cycle for improvement (1,,3)
+4   # (cymvar) variant for moving cycles (1,,4)
+1   # (cymimp) 1: move cycles only if improvement (0/1)
+0   # (tcymvar) 0: try once, 1: try all twocycle swaps
+0.0   # (targetcost) stop when cost is less than this
+0.0   # (targettime) stop when time is less than this
+1000.0   # (starttemp) start temperature for simulated annealing
+7   # (intiter) number if iterations with the same temp in sim ann
+0.3   # (rcold) cooling parameter for simulated annealing: (0< <1)
+0   # (pri) 0: less output, 1: more output
+0   # (logfil) output from rupov put on 0: screen, 1: file rupov.log
+2.0   # (avsweep) average number of sweeps
+2.0   # (vspeed) vehicle speed (m/s)

@@ -1,0 +1,22 @@
+a. tot: 358,806
+   tid: 158,806
+
+b.
+  set 1:
+        tot: 288.239
+        tid: 88,239
+  set 2:
+        tot: 272,802
+        tid: 72,802
+  #Fasta kostnader med 2 fordon 400 > möjligt för 1 fordon
+
+c.
+  set 1:
+        tot: 256,811
+        tid: 56,811
+  set 2:
+        tot: 251,662
+        tid: 51,662
+  set 3:
+        tot: 262,848
+        tid: 62,848

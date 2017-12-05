@@ -1,0 +1,13 @@
+/home/adnav613/TAOP61/lab_4/colonia/colonia /home/adnav613/TAOP61/lab_4/colonia/spar-def.par 0 2017-12-05 n:24 m:36 q:4 o:1006.35 t:4.35
+/home/adnav613/TAOP61/lab_4/colonia/colonia /home/adnav613/TAOP61/lab_4/colonia/spar-def.par 0 2017-12-05 n:24 m:36 q:2 o:619.55 t:2.55
+/home/adnav613/TAOP61/lab_4/colonia/colonia /home/adnav613/TAOP61/lab_4/colonia/spar-def.par 0 2017-12-05 n:24 m:36 q:2 o:619.55 t:37.19
+/home/adnav613/TAOP61/lab_4/colonia/colonia /home/adnav613/TAOP61/lab_4/colonia/spar-def.par 0 2017-12-05 n:24 m:36 q:2 o:625.28 t:2.37
+/home/adnav613/TAOP61/lab_4/colonia/colonia /home/adnav613/TAOP61/lab_4/colonia/spar-def.par 0 2017-12-05 n:24 m:36 q:2 o:623.23 t:2.63
+/home/adnav613/TAOP61/lab_4/colonia/colonia /home/adnav613/TAOP61/lab_4/colonia/spar-def.par 0 2017-12-05 n:24 m:36 q:2 o:619.33 t:2.58
+/home/adnav613/TAOP61/lab_4/colonia/colonia /home/adnav613/TAOP61/lab_4/colonia/spar-def.par 0 2017-12-05 n:24 m:36 q:2 o:617.65 t:7.93
+/home/adnav613/TAOP61/lab_4/colonia/colonia /home/adnav613/TAOP61/lab_4/colonia/spar-def.par 0 2017-12-05 n:24 m:36 q:2 o:620.17 t:42.24
+/home/adnav613/TAOP61/lab_4/colonia/colonia /home/adnav613/TAOP61/lab_4/colonia/spar-def.par 0 2017-12-05 n:24 m:36 q:2 o:618.78 t:4.80
+/home/adnav613/TAOP61/lab_4/colonia/colonia /home/adnav613/TAOP61/lab_4/colonia/spar-def.par 0 2017-12-05 n:24 m:36 q:2 o:621.45 t:7.78
+/home/adnav613/TAOP61/lab_4/colonia/colonia /home/adnav613/TAOP61/lab_4/colonia/spar-def.par 0 2017-12-05 n:24 m:36 q:2 o:620.00 t:7.84
+/home/adnav613/TAOP61/lab_4/colonia/colonia spar-def.par 0 2017-12-05 n:24 m:36 q:3 o:799.99 t:2.98
+/home/adnav613/TAOP61/lab_4/colonia/colonia spar-def.par 0 2017-12-05 n:24 m:36 q:3 o:806.58 t:11.24
