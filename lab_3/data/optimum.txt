@@ -1,0 +1,78 @@
+Electricity network of Sweden
+
+Created by Kaj Holmberg
+
+
+Saved under name: sweden6-el_fc.
+
+Problem saved Tue Oct 09 14:28:03 CEST 2012 with 54 nodes and 143 links.
+Saved under name: sweden7-el_fc.
+
+Problem saved Tue Oct 09 17:03:21 CEST 2012 with 54 nodes and 143 links.
+Saved under name: sweden8-el_fc.
+Saved under name: sweden9-el_fc.
+
+Problem saved Tue Oct 09 21:56:05 CEST 2012 with 54 nodes and 142 links.
+
+Problem saved Tue Oct 09 21:57:56 CEST 2012 with 54 nodes and 141 links.
+
+Problem saved Tue Oct 09 22:04:44 CEST 2012 with 54 nodes and 141 links.
+Saved under name: sweden-el.
+
+Problem saved Mon Oct 15 21:10:36 CEST 2012 with 54 nodes and 141 links.
+
+Problem saved Mon Oct 15 21:19:55 CEST 2012 with 54 nodes and 141 links.
+
+
+
+Problem saved Sun Nov 03 18:59:23 CET 2013 with 54 nodes and 141 links.
+
+Problem saved Sun Nov 03 18:59:23 CET 2013 with 54 nodes and 141 links.
+
+
+Problem saved Wed Nov 06 13:07:10 CET 2013 with 54 nodes and 141 links.
+
+Problem saved Wed Nov 06 13:07:10 CET 2013 with 54 nodes and 141 links.
+
+Saved under name: sweden-el2.
+
+Problem saved Fri Oct 30 13:04:46 CET 2015 with 54 nodes and 141 links.
+
+Problem saved Fri Oct 30 13:04:46 CET 2015 with 54 nodes and 141 links.
+
+Problem saved Fri Oct 30 14:38:16 CET 2015 with 54 nodes and 141 links.
+
+Problem saved Fri Oct 30 14:38:16 CET 2015 with 54 nodes and 141 links.
+
+
+Problem saved Fri Oct 30 14:39:49 CET 2015 with 54 nodes and 141 links.
+
+Problem saved Fri Oct 30 14:39:49 CET 2015 with 54 nodes and 141 links.
+
+Saved under name: sweden-elnet.
+
+Problem saved Tue Nov 03 12:57:37 CET 2015 with 54 nodes and 141 links.
+
+Problem saved Tue Nov 03 12:57:37 CET 2015 with 54 nodes and 141 links.
+Saved under name: sweden-elnet.
+
+Problem saved Tue Nov 03 12:57:52 CET 2015 with 54 nodes and 141 links.
+
+Problem saved Tue Nov 03 12:57:52 CET 2015 with 54 nodes and 141 links.
+
+Problem saved Tue Nov 03 12:58:02 CET 2015 with 54 nodes and 141 links.
+
+Problem saved Tue Nov 03 12:58:02 CET 2015 with 54 nodes and 141 links.
+
+Saved under name: sweden-elnet.
+
+Problem saved Fri Nov 27 14:00:12 CET 2015 with 54 nodes and 141 links.
+
+Problem saved Fri Nov 27 14:00:12 CET 2015 with 54 nodes and 141 links.
+
+Saved under name: optimum.
+
+Problem saved Wed Dec 06 21:30:52 CET 2017 with 54 nodes and 141 links.
+
+Problem saved Wed Dec 06 21:30:52 CET 2017 with 54 nodes and 141 links.
+

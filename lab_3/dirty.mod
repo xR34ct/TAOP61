@@ -24,10 +24,10 @@ s.t. nasty{j in cuts}:
 
 solve;
 
-display q;
-display nasty;
+#display q;
+#display nasty;
 display bin;
-display dc;
+#display dc;
 display master;
 
 
