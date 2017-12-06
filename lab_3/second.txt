@@ -1,0 +1,51 @@
+GLPSOL: GLPK LP/MIP Solver, v4.52
+Parameter(s) specified in the command line:
+ -m dirty.mod -d dat.dat
+Reading model section from dirty.mod...
+32 lines were read
+Reading data section from dat.dat...
+26 lines were read
+Generating master...
+Generating nasty...
+Model has been successfully generated
+GLPK Integer Optimizer, v4.52
+3 rows, 8 columns, 16 non-zeros
+7 integer variables, all of which are binary
+Preprocessing...
+2 rows, 6 columns, 8 non-zeros
+5 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  3.000e+03  ratio =  3.000e+03
+GM: min|aij| =  8.113e-01  max|aij| =  1.233e+00  ratio =  1.519e+00
+EQ: min|aij| =  6.583e-01  max|aij| =  1.000e+00  ratio =  1.519e+00
+2N: min|aij| =  5.000e-01  max|aij| =  1.270e+00  ratio =  2.539e+00
+Constructing initial basis...
+Size of triangular part is 2
+Solving LP relaxation...
+GLPK Simplex Optimizer, v4.52
+2 rows, 6 columns, 8 non-zeros
+      0: obj =   1.247250000e+05  infeas =  9.440e+03 (0)
+*     3: obj =   1.307482000e+05  infeas =  0.000e+00 (0)
+*     7: obj =   1.290922000e+05  infeas =  0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
++     7: mip =     not found yet >=              -inf        (1; 0)
++     9: >>>>>   1.292650000e+05 >=   1.292650000e+05   0.0% (3; 0)
++     9: mip =   1.292650000e+05 >=     tree is empty   0.0% (0; 5)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.1 Mb (129296 bytes)
+Display statement at line 27
+bin[1].val = 0
+bin[2].val = 1
+bin[3].val = 1
+bin[4].val = 0
+bin[5].val = 0
+bin[6].val = 1
+bin[7].val = 0
+Display statement at line 28
+dc[1] = 132425
+dc[2] = 129015
+Display statement at line 29
+master.val = 129265
+Model has been successfully processed

@@ -1,0 +1,4 @@
+3.50
+/home/adnav613/TAOP61/lab_3
+2
+Wed Dec  6 14:20:10 2017
