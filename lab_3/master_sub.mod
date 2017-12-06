@@ -20,20 +20,20 @@ var bin{i in nod,j in nod} binary;
 
 var q >= 0;
 
-#printf{i in nod,j in nod} "b[%g,%g] = %g\n", i, j, beta[i,j];
-#printf{i in nod} "a[%g] = %g\n",i,a[i];
+printf{i in nod,j in nod} "b[%g,%g] = %g\n", i, j, beta[i,j];
+printf{i in nod} "a[%g] = %g\n",i,a[i];
 #printf{i in nod,j in nod} "f[%g,%g] = %g \n",i ,j, f[i,j];
 
 #Masterproblemet
 
-minimize master: q + sum{i in nod,j in nod} bin[i,j] * f[i,j];
+/*minimize master: q + sum{i in nod,j in nod} bin[i,j] * f[i,j];
 
 s.t. nasty{l in P}:
-		q >= sum{i in nod} b[i]a[i] - sum{i in nod,j in nod} cap[i,j]bin[i,j]beta[i,j];
+		q >= sum{i in nod} b[i]a[i](l) - sum{i in nod,j in nod} cap[i,j]bin[i,j]beta[i,j](l);
 
 s.t. dirty{l in R}:
-		0 >= sum{i in nod} b[i]a_t[i] - sum{i in nod,j in nod} cap[i,j]bin[i,j]beta_t[i,j];
-
+		0 >= sum{i in nod} b[i]a_t[i](l) - sum{i in nod,j in nod} cap[i,j]bin[i,j]beta_t[i,j](l);
+*/
 solve;
 
 
