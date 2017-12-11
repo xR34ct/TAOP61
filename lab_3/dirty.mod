@@ -22,10 +22,13 @@ minimize master:
 s.t. nasty{j in cuts}:
     q >= dc[j] + sum{i in bows} (50 * u[i,j] * beta[i,j] ) - sum{i in bows} (50 * beta[i,j] * bin[i]);
 
+s.t. dirty{j in cuts}:
+	sum{i in bows} bin[i] <= 2;
 solve;
 
-#display q;
-#display nasty;
+display q;
+display nasty;
+display dirty;
 display bin;
 #display dc;
 display master;
