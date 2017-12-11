@@ -1,0 +1,10 @@
+/home/adnav613/TAOP61/lab_4/Vadstena/vadstena 100:11:1:3135140000.5:01.2:71000.00.3 0  n:581 m:778 q:6 o:15464.88 t:114.23
+/home/adnav613/TAOP61/lab_4/Vadstena/vadstena 100:11:13:6133140000.5:01.2:71000.00.3 0  n:581 m:778 q:6 o:12372.95 t:741.31
+/home/adnav613/TAOP61/lab_4/Vadstena/vadstena 100:11:2:6133140000.5:01.2:71000.00.3 0  n:581 m:778 q:6 o:12203.55 t:738.37
+/home/adnav613/TAOP61/lab_4/Vadstena/vadstena 100:11:2:6133140000.5:01.2:71000.00.3 0  n:581 m:778 q:6 o:12161.71 t:741.75
+/home/adnav613/TAOP61/lab_4/Vadstena/vadstena 30:11:2:3130140000.5:01.2:71000.00.3 0  n:581 m:778 q:6 o:12098.84 t:235.62
+/home/adnav613/TAOP61/lab_4/Vadstena/vadstena 30:11:2:3130140000.5:01.2:71000.00.3 0  n:581 m:778 q:6 o:11991.52 t:234.45
+/home/adnav613/TAOP61/lab_4/Vadstena/vadstena 30:11:2:3130140000.5:01.2:71000.00.3 0  n:581 m:778 q:6 o:11968.01 t:247.96
+/home/adnav613/TAOP61/lab_4/Vadstena/vadstena 30:11:2:1130110000.5:01.2:71000.00.3 0  n:581 m:778 q:6 o:11968.01 t:215.32
+/home/adnav613/TAOP61/lab_4/Vadstena/vadstena 30:11:2:1132110000.5:01.2:71000.00.3 0  n:581 m:778 q:6 o:11968.01 t:212.22
+/home/adnav613/TAOP61/lab_4/Vadstena/vadstena 500:11:2:1132110000.5:01.2:71000.00.3 0  n:581 m:778 q:6 o:11961.11 t:1725.93

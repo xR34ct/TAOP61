@@ -1,0 +1,80 @@
+From OSM-file listba1: probb1/vadstena_010+types_all
+Created 2013-10-10
+Number of nodes: 606, number of links: 813
+Saved under name: vadstena_010+types_all-c.
+
+Problem saved Thu Oct 10 22:10:55 CEST 2013 with 595 nodes and 802 links.
+
+Problem saved Fri Oct 11 18:51:17 CEST 2013 with 581 nodes and 785 links.
+
+Problem saved Fri Oct 11 18:51:17 CEST 2013 with 581 nodes and 785 links.
+
+
+Problem saved Tue Oct 22 18:40:29 CEST 2013 with 581 nodes and 785 links.
+
+Problem saved Tue Oct 22 18:40:29 CEST 2013 with 581 nodes and 785 links.
+
+Saved under name: vadstena_010+types_all-c.
+
+Problem saved Sun Nov 03 18:42:17 CET 2013 with 581 nodes and 785 links.
+
+Problem saved Sun Nov 03 18:42:17 CET 2013 with 581 nodes and 785 links.
+
+
+Problem saved Sun Nov 03 18:54:56 CET 2013 with 581 nodes and 785 links.
+
+Problem saved Sun Nov 03 18:54:56 CET 2013 with 581 nodes and 785 links.
+
+
+Problem saved Sun Nov 03 18:59:36 CET 2013 with 581 nodes and 785 links.
+
+Problem saved Sun Nov 03 18:59:36 CET 2013 with 581 nodes and 785 links.
+
+
+Problem saved Sun Nov 03 19:02:50 CET 2013 with 581 nodes and 785 links.
+
+Problem saved Sun Nov 03 19:02:50 CET 2013 with 581 nodes and 785 links.
+
+
+Problem saved Mon Nov 11 17:42:35 CET 2013 with 581 nodes and 778 links.
+
+Problem saved Mon Nov 11 17:42:35 CET 2013 with 581 nodes and 778 links.
+
+
+Problem saved Mon Nov 11 17:43:02 CET 2013 with 581 nodes and 778 links.
+
+Problem saved Mon Nov 11 17:43:02 CET 2013 with 581 nodes and 778 links.
+
+Problem saved Mon Nov 11 17:43:12 CET 2013 with 581 nodes and 778 links.
+
+Problem saved Mon Nov 11 17:43:12 CET 2013 with 581 nodes and 778 links.
+
+Problem saved Mon Nov 11 17:43:39 CET 2013 with 581 nodes and 778 links.
+
+Problem saved Mon Nov 11 17:43:39 CET 2013 with 581 nodes and 778 links.
+
+
+Problem saved Mon Nov 11 17:46:59 CET 2013 with 581 nodes and 778 links.
+
+Problem saved Mon Nov 11 17:47:00 CET 2013 with 581 nodes and 778 links.
+
+
+Problem saved Sun Nov 17 16:38:55 CET 2013 with 581 nodes and 778 links.
+
+Problem saved Sun Nov 17 16:38:55 CET 2013 with 581 nodes and 778 links.
+
+Problem saved Sun Nov 17 16:39:05 CET 2013 with 581 nodes and 778 links.
+
+Problem saved Sun Nov 17 16:39:05 CET 2013 with 581 nodes and 778 links.
+
+
+Problem saved Tue Dec 09 17:22:56 CET 2014 with 581 nodes and 778 links.
+
+Problem saved Tue Dec 09 17:22:56 CET 2014 with 581 nodes and 778 links.
+
+Saved under name: vadstena.
+
+Problem saved Fri Nov 27 14:03:47 CET 2015 with 581 nodes and 778 links.
+
+Problem saved Fri Nov 27 14:03:47 CET 2015 with 581 nodes and 778 links.
+
