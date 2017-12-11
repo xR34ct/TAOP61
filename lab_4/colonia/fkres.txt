@@ -11,3 +11,12 @@
 /home/adnav613/TAOP61/lab_4/colonia/colonia /home/adnav613/TAOP61/lab_4/colonia/spar-def.par 0 2017-12-05 n:24 m:36 q:2 o:620.00 t:7.84
 /home/adnav613/TAOP61/lab_4/colonia/colonia spar-def.par 0 2017-12-05 n:24 m:36 q:3 o:799.99 t:2.98
 /home/adnav613/TAOP61/lab_4/colonia/colonia spar-def.par 0 2017-12-05 n:24 m:36 q:3 o:806.58 t:11.24
+/home/adnav613/TAOP61/lab_4/colonia/colonia spar-def.par 0 2017-12-11 n:24 m:36 q:1 o:490.08 t:2.52
+/home/adnav613/TAOP61/lab_4/colonia/colonia spar-def.par 0 2017-12-11 n:24 m:36 q:2 o:623.03 t:3.12
+/home/adnav613/TAOP61/lab_4/colonia/colonia spar-def.par 0 2017-12-11 n:24 m:36 q:2 o:620.51 t:3.05
+/home/adnav613/TAOP61/lab_4/colonia/colonia spar-def.par 0 2017-12-11 n:24 m:36 q:2 o:639.23 t:3.32
+/home/adnav613/TAOP61/lab_4/colonia/colonia spar-def.par 0 2017-12-11 n:24 m:36 q:2 o:625.88 t:3.30
+/home/adnav613/TAOP61/lab_4/colonia/colonia spar-def.par 0 2017-12-11 n:24 m:36 q:2 o:639.54 t:11.46
+/home/adnav613/TAOP61/lab_4/colonia/colonia spar-def.par 0 2017-12-11 n:24 m:36 q:2 o:640.50 t:11.26
+/home/adnav613/TAOP61/lab_4/colonia/colonia spar-def.par 0 2017-12-11 n:24 m:36 q:2 o:635.85 t:11.22
+/home/adnav613/TAOP61/lab_4/colonia/colonia spar-def.par 0 2017-12-11 n:24 m:36 q:3 o:819.33 t:14.43

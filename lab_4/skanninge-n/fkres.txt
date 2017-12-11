@@ -2,3 +2,8 @@
 /home/adnav613/TAOP61/lab_4/skanninge-n/skanninge-n spar-def.par 0 2017-12-05 n:62 m:80 q:3 o:2222.16 t:13.65
 /home/adnav613/TAOP61/lab_4/skanninge-n/skanninge-n spar-def.par 0 2017-12-05 n:62 m:80 q:3 o:2648.06 t:29.32
 /home/adnav613/TAOP61/lab_4/skanninge-n/skanninge-n spar-def.par 0 2017-12-05 n:62 m:80 q:3 o:2648.06 t:55.18
+/home/adnav613/TAOP61/lab_4/skanninge-n/skanninge-n spar-def.par 0 2017-12-11 n:62 m:80 q:2 o:2289.37 t:3.33
+/home/adnav613/TAOP61/lab_4/skanninge-n/skanninge-n spar-def.par 0 2017-12-11 n:62 m:80 q:2 o:2391.16 t:5.47
+/home/adnav613/TAOP61/lab_4/skanninge-n/skanninge-n spar-def.par 0 2017-12-11 n:62 m:80 q:3 o:2431.25 t:7.41
+/home/adnav613/TAOP61/lab_4/skanninge-n/skanninge-n spar-def.par 0 2017-12-11 n:62 m:80 q:2 o:2309.09 t:5.54
+/home/adnav613/TAOP61/lab_4/skanninge-n/skanninge-n spar-def.par 0 2017-12-11 n:62 m:80 q:3 o:2440.78 t:7.73
